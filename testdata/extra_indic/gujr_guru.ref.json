@@ -1,0 +1,716 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 28,
+        "y": 55,
+        "width": 26,
+        "height": 31,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ગુ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 54,
+        "y": 49,
+        "width": 21,
+        "height": 26,
+        "angle": -0.43553996
+       },
+       "utf8_string": "જ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 75,
+        "y": 55,
+        "width": 26,
+        "height": 26,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ર",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 75,
+        "y": 55,
+        "width": 21,
+        "height": 26,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ા",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 101,
+        "y": 43,
+        "width": 26,
+        "height": 42,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ત",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 101,
+        "y": 43,
+        "width": 26,
+        "height": 42,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ી",
+       "confidence": 0.4999646
+      }
+     ],
+     "bounding_box": {
+      "x": 28,
+      "y": 44,
+      "width": 99,
+      "height": 42,
+      "angle": -0.43553993
+     },
+     "utf8_string": "ગુજરાતી",
+     "language": "gu",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9165034,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 127,
+      "y": 54,
+      "width": 10,
+      "height": 31,
+      "angle": -0.43553996
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 137,
+        "y": 48,
+        "width": 37,
+        "height": 32,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ભ",
+       "confidence": 0.99931467
+      },
+      {
+       "bounding_box": {
+        "x": 137,
+        "y": 54,
+        "width": 37,
+        "height": 26,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ા",
+       "confidence": 0.4999646
+      },
+      {
+       "bounding_box": {
+        "x": 174,
+        "y": 54,
+        "width": 26,
+        "height": 26,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ષ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 174,
+        "y": 54,
+        "width": 26,
+        "height": 26,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ા",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 137,
+      "y": 48,
+      "width": 63,
+      "height": 32,
+      "angle": -0.43553993
+     },
+     "utf8_string": "ભાષા",
+     "language": "gu",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.87472546,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 200,
+      "y": 54,
+      "width": 15,
+      "height": 31,
+      "angle": -0.43553996
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 215,
+        "y": 43,
+        "width": 26,
+        "height": 37,
+        "angle": -0.43553996
+       },
+       "utf8_string": "કિં",
+       "confidence": 0.98920774
+      },
+      {
+       "bounding_box": {
+        "x": 242,
+        "y": 47,
+        "width": 21,
+        "height": 26,
+        "angle": -0.43553996
+       },
+       "utf8_string": "મ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 262,
+        "y": 53,
+        "width": 21,
+        "height": 26,
+        "angle": -0.43553996
+       },
+       "utf8_string": "ત",
+       "confidence": 0.99973744
+      }
+     ],
+     "bounding_box": {
+      "x": 215,
+      "y": 43,
+      "width": 68,
+      "height": 37,
+      "angle": -0.43553993
+     },
+     "utf8_string": "કિંમત",
+     "language": "gu",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9962521,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 28,
+    "y": 44,
+    "width": 255,
+    "height": 43,
+    "angle": -0.43553993
+   },
+   "utf8_string": "ગુજરાતી ભાષા કિંમત",
+   "language": "gu",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9220522
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 31,
+        "y": 115,
+        "width": 21,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "અ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 56,
+        "y": 115,
+        "width": 17,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "મ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 72,
+        "y": 115,
+        "width": 21,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "દ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 76,
+        "y": 115,
+        "width": 21,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "ા",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 96,
+        "y": 115,
+        "width": 25,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "વ",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 100,
+        "y": 115,
+        "width": 21,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "ા",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 125,
+        "y": 118,
+        "width": 12,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "દ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 31,
+      "y": 115,
+      "width": 106,
+      "height": 24,
+      "angle": -0.29615334
+     },
+     "utf8_string": "અમદાવાદ",
+     "language": "gu",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9998072,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 137,
+      "y": 114,
+      "width": 13,
+      "height": 21,
+      "angle": -0.29615334
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 150,
+        "y": 114,
+        "width": 17,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "શ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 170,
+        "y": 106,
+        "width": 17,
+        "height": 33,
+        "angle": -0.29615334
+       },
+       "utf8_string": "હે",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 186,
+        "y": 114,
+        "width": 17,
+        "height": 21,
+        "angle": -0.29615334
+       },
+       "utf8_string": "ર",
+       "confidence": 0.9930816
+      },
+      {
+       "bounding_box": {
+        "x": 203,
+        "y": 110,
+        "width": 25,
+        "height": 29,
+        "angle": -0.29615334
+       },
+       "utf8_string": "ન",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 202,
+        "y": 106,
+        "width": 29,
+        "height": 33,
+        "angle": -0.29615334
+       },
+       "utf8_string": "ી",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 150,
+      "y": 106,
+      "width": 81,
+      "height": 33,
+      "angle": -0.29615334
+     },
+     "utf8_string": "શહેરની",
+     "language": "gu",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9984653,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 231,
+      "y": 114,
+      "width": 8,
+      "height": 21,
+      "angle": -0.29615334
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 239,
+        "y": 106,
+        "width": 46,
+        "height": 33,
+        "angle": -0.29615334
+       },
+       "utf8_string": "સ્થિ",
+       "confidence": 0.9996225
+      },
+      {
+       "bounding_box": {
+        "x": 243,
+        "y": 106,
+        "width": 66,
+        "height": 33,
+        "angle": -0.29615334
+       },
+       "utf8_string": "તિ",
+       "confidence": 0.9996225
+      }
+     ],
+     "bounding_box": {
+      "x": 239,
+      "y": 106,
+      "width": 70,
+      "height": 33,
+      "angle": -0.29615334
+     },
+     "utf8_string": "સ્થિતિ",
+     "language": "gu",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996225,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 31,
+    "y": 107,
+    "width": 278,
+    "height": 33,
+    "angle": -0.29615334
+   },
+   "utf8_string": "અમદાવાદ શહેરની સ્થિતિ",
+   "language": "gu",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99930155
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 36,
+        "y": 172,
+        "width": 16,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਪੰ",
+       "confidence": 0.99977034
+      },
+      {
+       "bounding_box": {
+        "x": 54,
+        "y": 172,
+        "width": 17,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਜਾ",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 82,
+        "y": 172,
+        "width": 19,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਬੀ",
+       "confidence": 0.998097
+      }
+     ],
+     "bounding_box": {
+      "x": 36,
+      "y": 172,
+      "width": 65,
+      "height": 30,
+      "angle": -0.008229072
+     },
+     "utf8_string": "ਪੰਜਾਬੀ",
+     "language": "pa",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9992249,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 101,
+      "y": 172,
+      "width": 16,
+      "height": 30,
+      "angle": -0.008229073
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 117,
+        "y": 172,
+        "width": 18,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਭਾ",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 142,
+        "y": 172,
+        "width": 12,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਸ਼ਾ",
+       "confidence": 0.9997228
+      }
+     ],
+     "bounding_box": {
+      "x": 117,
+      "y": 172,
+      "width": 37,
+      "height": 30,
+      "angle": -0.008229072
+     },
+     "utf8_string": "ਭਾਸ਼ਾ",
+     "language": "pa",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997528,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 156,
+      "y": 172,
+      "width": 26,
+      "height": 30,
+      "angle": -0.008229073
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 180,
+        "y": 172,
+        "width": 18,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਕਿ",
+       "confidence": 0.9993305
+      },
+      {
+       "bounding_box": {
+        "x": 203,
+        "y": 172,
+        "width": 15,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਤਾ",
+       "confidence": 0.99951315
+      },
+      {
+       "bounding_box": {
+        "x": 226,
+        "y": 172,
+        "width": 14,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਬ",
+       "confidence": 0.99849117
+      }
+     ],
+     "bounding_box": {
+      "x": 180,
+      "y": 172,
+      "width": 60,
+      "height": 30,
+      "angle": -0.008229072
+     },
+     "utf8_string": "ਕਿਤਾਬ",
+     "language": "pa",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9991116,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 241,
+      "y": 172,
+      "width": 22,
+      "height": 30,
+      "angle": -0.008229073
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 262,
+        "y": 172,
+        "width": 16,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਦਿੱ",
+       "confidence": 0.9884701
+      },
+      {
+       "bounding_box": {
+        "x": 285,
+        "y": 172,
+        "width": 8,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ਲੀ",
+       "confidence": 0.93572575
+      },
+      {
+       "bounding_box": {
+        "x": 294,
+        "y": 172,
+        "width": 4,
+        "height": 30,
+        "angle": -0.008229073
+       },
+       "utf8_string": "ी",
+       "confidence": 0.8881266
+      }
+     ],
+     "bounding_box": {
+      "x": 262,
+      "y": 172,
+      "width": 36,
+      "height": 30,
+      "angle": -0.008229072
+     },
+     "utf8_string": "ਦਿੱਲੀी",
+     "language": "pa",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9374408,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 36,
+    "y": 172,
+    "width": 262,
+    "height": 30,
+    "angle": -0.008229072
+   },
+   "utf8_string": "ਪੰਜਾਬੀ ਭਾਸ਼ਾ ਕਿਤਾਬ ਦਿੱਲੀी",
+   "language": "pa",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9824398
+  }
+ ]
+}

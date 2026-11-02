@@ -1,0 +1,61 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 1,
+        "y": 2,
+        "width": 10,
+        "height": 10,
+        "angle": 0.22461033
+       },
+       "utf8_string": "H",
+       "confidence": 0.99685353
+      },
+      {
+       "bounding_box": {
+        "x": 10,
+        "y": 3,
+        "width": 2,
+        "height": 10,
+        "angle": 0.22461033
+       },
+       "utf8_string": "i",
+       "confidence": 0.9972606
+      }
+     ],
+     "bounding_box": {
+      "x": 1,
+      "y": 2,
+      "width": 11,
+      "height": 11,
+      "angle": 0.2246103
+     },
+     "utf8_string": "Hi",
+     "estimate_color_success": true,
+     "foreground_gray_value": 75,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 1263225600,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9970571,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 1,
+    "y": 2,
+    "width": 11,
+    "height": 11,
+    "angle": 0.2246103
+   },
+   "utf8_string": "Hi",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9970571
+  }
+ ]
+}

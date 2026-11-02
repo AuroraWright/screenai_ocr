@@ -1,0 +1,110 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 433,
+        "y": 385,
+        "width": 25,
+        "height": 31,
+        "angle": 46.39718
+       },
+       "utf8_string": "8",
+       "confidence": 0.8488882
+      }
+     ],
+     "bounding_box": {
+      "x": 433,
+      "y": 385,
+      "width": 25,
+      "height": 31,
+      "angle": 46.397175
+     },
+     "utf8_string": "8",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+     "confidence": 0.8488882,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 433,
+    "y": 385,
+    "width": 25,
+    "height": 31,
+    "angle": 46.397175
+   },
+   "utf8_string": "8",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+   "confidence": 0.8488882
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 905,
+        "y": 321,
+        "width": 24,
+        "height": 29,
+        "angle": 46.39718
+       },
+       "utf8_string": "8",
+       "confidence": 0.9025486
+      },
+      {
+       "bounding_box": {
+        "x": 917,
+        "y": 327,
+        "width": 24,
+        "height": 24,
+        "angle": 46.39718
+       },
+       "utf8_string": "0",
+       "confidence": 0.5269471
+      }
+     ],
+     "bounding_box": {
+      "x": 909,
+      "y": 318,
+      "width": 37,
+      "height": 34,
+      "angle": 46.397175
+     },
+     "utf8_string": "80",
+     "estimate_color_success": true,
+     "foreground_gray_value": 5,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 84215040,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+     "confidence": 0.71474785,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 909,
+    "y": 318,
+    "width": 37,
+    "height": 34,
+    "angle": 46.397175
+   },
+   "utf8_string": "80",
+   "block_id": 1,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+   "confidence": 0.71474785
+  }
+ ]
+}

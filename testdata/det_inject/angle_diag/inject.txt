@@ -1,0 +1,11 @@
+pass 0 tensor 0 shape (1, 4, 4, 7) edited 16
+pass 0 tensor 1 shape (1, 1, 1, 7) edited 1
+pass 0 tensor 2 shape (1, 120, 160, 7) edited 134400
+pass 0 tensor 3 shape (1, 30, 40, 7) edited 1200
+pass 0 tensor 4 shape (1, 15, 20, 7) edited 300
+pass 0 tensor 5 shape (1, 4, 5, 7) edited 20
+pass 1 tensor 0 shape (1, 4, 4, 7) edited 16
+pass 1 tensor 1 shape (1, 1, 1, 7) edited 1
+pass 1 tensor 2 shape (1, 120, 160, 7) edited 19200
+pass 1 tensor 3 shape (1, 30, 40, 7) edited 1200
+pass 1 tensor 4 shape (1, 15, 20, 7) edited 300

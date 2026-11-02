@@ -1,0 +1,5 @@
+base testdata/stages_extra_indic/telu2
+del_symbol 13
+move_line 1 -> 27
+hyphen_symbol 14
+curve 13 n=5 bend=-31.1

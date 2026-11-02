@@ -1,0 +1,211 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 331,
+        "y": 421,
+        "width": 19,
+        "height": 32,
+        "angle": -5.04025
+       },
+       "utf8_string": "O",
+       "confidence": 0.47193566
+      },
+      {
+       "bounding_box": {
+        "x": 350,
+        "y": 407,
+        "width": 32,
+        "height": 44,
+        "angle": 4.4868097
+       },
+       "utf8_string": "L",
+       "confidence": 0.5500606
+      },
+      {
+       "bounding_box": {
+        "x": 379,
+        "y": 415,
+        "width": 32,
+        "height": 44,
+        "angle": 6.510214
+       },
+       "utf8_string": "B",
+       "confidence": 0.8129569
+      },
+      {
+       "bounding_box": {
+        "x": 413,
+        "y": 417,
+        "width": 25,
+        "height": 32,
+        "angle": -10.000579
+       },
+       "utf8_string": "O",
+       "confidence": 0.9879704
+      },
+      {
+       "bounding_box": {
+        "x": 438,
+        "y": 407,
+        "width": 25,
+        "height": 38,
+        "angle": -10.330971
+       },
+       "utf8_string": "N",
+       "confidence": 0.9756315
+      },
+      {
+       "bounding_box": {
+        "x": 470,
+        "y": 401,
+        "width": 19,
+        "height": 44,
+        "angle": -5.379392
+       },
+       "utf8_string": "R",
+       "confidence": 0.7699389
+      }
+     ],
+     "bounding_box": {
+      "x": 330,
+      "y": 409,
+      "width": 159,
+      "height": 60,
+      "angle": -5.2098207
+     },
+     "utf8_string": "OLBONR",
+     "language": "da",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 160,
+     "background_gray_value": 255,
+     "foreground_rgb_value": -1600086016,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.76141566,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 490,
+      "y": 411,
+      "width": 11,
+      "height": 32,
+      "angle": -2.346182
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 499,
+        "y": 392,
+        "width": 32,
+        "height": 44,
+        "angle": 1.1088896
+       },
+       "utf8_string": "S",
+       "confidence": 0.9216202
+      },
+      {
+       "bounding_box": {
+        "x": 533,
+        "y": 392,
+        "width": 32,
+        "height": 50,
+        "angle": 3.5010633
+       },
+       "utf8_string": "T",
+       "confidence": 0.9642187
+      },
+      {
+       "bounding_box": {
+        "x": 553,
+        "y": 388,
+        "width": 32,
+        "height": 50,
+        "angle": 1.5652509
+       },
+       "utf8_string": "A",
+       "confidence": 0.99662906
+      },
+      {
+       "bounding_box": {
+        "x": 585,
+        "y": 389,
+        "width": 32,
+        "height": 57,
+        "angle": 1.7507162
+       },
+       "utf8_string": "M",
+       "confidence": 0.9060923
+      },
+      {
+       "bounding_box": {
+        "x": 607,
+        "y": 395,
+        "width": 44,
+        "height": 50,
+        "angle": 2.0780354
+       },
+       "utf8_string": "M",
+       "confidence": 0.7952338
+      },
+      {
+       "bounding_box": {
+        "x": 653,
+        "y": 391,
+        "width": 32,
+        "height": 44,
+        "angle": 2.0785313
+       },
+       "utf8_string": "B",
+       "confidence": 0.62379444
+      },
+      {
+       "bounding_box": {
+        "x": 672,
+        "y": 398,
+        "width": 38,
+        "height": 44,
+        "angle": 2.078533
+       },
+       "utf8_string": "E",
+       "confidence": 0.901512
+      }
+     ],
+     "bounding_box": {
+      "x": 499,
+      "y": 385,
+      "width": 211,
+      "height": 58,
+      "angle": 2.078035
+     },
+     "utf8_string": "STAMMBE",
+     "language": "da",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.87272865,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 331,
+    "y": 382,
+    "width": 379,
+    "height": 79,
+    "angle": 1.6579835
+   },
+   "utf8_string": "OLBONR STAMMBE",
+   "language": "da",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.82135344
+  }
+ ]
+}

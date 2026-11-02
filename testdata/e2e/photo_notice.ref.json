@@ -1,0 +1,899 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 91,
+        "y": 188,
+        "width": 44,
+        "height": 50,
+        "angle": 5.7898903
+       },
+       "utf8_string": "N",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 142,
+        "y": 193,
+        "width": 50,
+        "height": 54,
+        "angle": 5.7898903
+       },
+       "utf8_string": "O",
+       "confidence": 0.9994338
+      },
+      {
+       "bounding_box": {
+        "x": 192,
+        "y": 198,
+        "width": 39,
+        "height": 50,
+        "angle": 5.7898903
+       },
+       "utf8_string": "T",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 237,
+        "y": 208,
+        "width": 11,
+        "height": 49,
+        "angle": 5.7898903
+       },
+       "utf8_string": "I",
+       "confidence": 0.999796
+      },
+      {
+       "bounding_box": {
+        "x": 253,
+        "y": 205,
+        "width": 50,
+        "height": 50,
+        "angle": 5.7898903
+       },
+       "utf8_string": "C",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 302,
+        "y": 210,
+        "width": 44,
+        "height": 50,
+        "angle": 5.7898903
+       },
+       "utf8_string": "E",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 91,
+      "y": 188,
+      "width": 256,
+      "height": 54,
+      "angle": 5.78989
+     },
+     "utf8_string": "NOTICE",
+     "language": "ro",
+     "estimate_color_success": true,
+     "foreground_gray_value": 56,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 943208448,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99974513,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 91,
+    "y": 188,
+    "width": 256,
+    "height": 54,
+    "angle": 5.78989
+   },
+   "utf8_string": "NOTICE",
+   "language": "ro",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99974513
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 79,
+        "y": 281,
+        "width": 26,
+        "height": 33,
+        "angle": 6.0346723
+       },
+       "utf8_string": "P",
+       "confidence": 0.99917954
+      },
+      {
+       "bounding_box": {
+        "x": 108,
+        "y": 284,
+        "width": 7,
+        "height": 30,
+        "angle": 6.0346723
+       },
+       "utf8_string": "l",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 115,
+        "y": 292,
+        "width": 19,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "e",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 135,
+        "y": 294,
+        "width": 19,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "a",
+       "confidence": 0.9995943
+      },
+      {
+       "bounding_box": {
+        "x": 155,
+        "y": 296,
+        "width": 19,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "s",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 175,
+        "y": 298,
+        "width": 22,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "e",
+       "confidence": 0.9997793
+      }
+     ],
+     "bounding_box": {
+      "x": 79,
+      "y": 281,
+      "width": 119,
+      "height": 33,
+      "angle": 6.0346723
+     },
+     "utf8_string": "Please",
+     "language": "en",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 98,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1650614784,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99965286,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 198,
+      "y": 294,
+      "width": 12,
+      "height": 33,
+      "angle": 6.0346723
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 210,
+        "y": 295,
+        "width": 22,
+        "height": 30,
+        "angle": 6.0346723
+       },
+       "utf8_string": "k",
+       "confidence": 0.9993475
+      },
+      {
+       "bounding_box": {
+        "x": 229,
+        "y": 304,
+        "width": 22,
+        "height": 19,
+        "angle": 6.0346723
+       },
+       "utf8_string": "e",
+       "confidence": 0.99966955
+      },
+      {
+       "bounding_box": {
+        "x": 250,
+        "y": 306,
+        "width": 22,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "e",
+       "confidence": 0.9995695
+      },
+      {
+       "bounding_box": {
+        "x": 274,
+        "y": 309,
+        "width": 19,
+        "height": 29,
+        "angle": 6.0346723
+       },
+       "utf8_string": "p",
+       "confidence": 0.99955887
+      }
+     ],
+     "bounding_box": {
+      "x": 210,
+      "y": 295,
+      "width": 84,
+      "height": 36,
+      "angle": 6.0346723
+     },
+     "utf8_string": "keep",
+     "language": "en",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 97,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1633771776,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99953634,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 293,
+      "y": 304,
+      "width": 13,
+      "height": 33,
+      "angle": 6.0346723
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 307,
+        "y": 305,
+        "width": 11,
+        "height": 30,
+        "angle": 6.0346723
+       },
+       "utf8_string": "t",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 318,
+        "y": 306,
+        "width": 19,
+        "height": 30,
+        "angle": 6.0346723
+       },
+       "utf8_string": "h",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 341,
+        "y": 309,
+        "width": 7,
+        "height": 30,
+        "angle": 6.0346723
+       },
+       "utf8_string": "i",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 347,
+        "y": 316,
+        "width": 19,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "s",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 307,
+      "y": 305,
+      "width": 60,
+      "height": 30,
+      "angle": 6.0346723
+     },
+     "utf8_string": "this",
+     "language": "en",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 95,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1600085760,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997748,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 367,
+      "y": 311,
+      "width": 13,
+      "height": 33,
+      "angle": 6.0346723
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 379,
+        "y": 313,
+        "width": 19,
+        "height": 30,
+        "angle": 6.0346723
+       },
+       "utf8_string": "d",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 398,
+        "y": 322,
+        "width": 22,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "o",
+       "confidence": 0.9996929
+      },
+      {
+       "bounding_box": {
+        "x": 422,
+        "y": 324,
+        "width": 19,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "o",
+       "confidence": 0.99977666
+      },
+      {
+       "bounding_box": {
+        "x": 446,
+        "y": 327,
+        "width": 11,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "r",
+       "confidence": 0.9996891
+      }
+     ],
+     "bounding_box": {
+      "x": 379,
+      "y": 313,
+      "width": 79,
+      "height": 30,
+      "angle": 6.0346723
+     },
+     "utf8_string": "door",
+     "language": "en",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 98,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1650614784,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997425,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 457,
+      "y": 321,
+      "width": 11,
+      "height": 33,
+      "angle": 6.0346723
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 468,
+        "y": 329,
+        "width": 19,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "c",
+       "confidence": 0.99908173
+      },
+      {
+       "bounding_box": {
+        "x": 489,
+        "y": 324,
+        "width": 7,
+        "height": 30,
+        "angle": 6.0346723
+       },
+       "utf8_string": "l",
+       "confidence": 0.99980325
+      },
+      {
+       "bounding_box": {
+        "x": 496,
+        "y": 332,
+        "width": 19,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "o",
+       "confidence": 0.99975497
+      },
+      {
+       "bounding_box": {
+        "x": 519,
+        "y": 335,
+        "width": 15,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "s",
+       "confidence": 0.9996489
+      },
+      {
+       "bounding_box": {
+        "x": 537,
+        "y": 336,
+        "width": 22,
+        "height": 22,
+        "angle": 6.0346723
+       },
+       "utf8_string": "e",
+       "confidence": 0.99975497
+      },
+      {
+       "bounding_box": {
+        "x": 558,
+        "y": 328,
+        "width": 22,
+        "height": 30,
+        "angle": 6.0346723
+       },
+       "utf8_string": "d",
+       "confidence": 0.99950576
+      }
+     ],
+     "bounding_box": {
+      "x": 469,
+      "y": 319,
+      "width": 111,
+      "height": 33,
+      "angle": 6.0346723
+     },
+     "utf8_string": "closed",
+     "language": "en",
+     "estimate_color_success": true,
+     "foreground_gray_value": 91,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1532713728,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995916,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 79,
+    "y": 277,
+    "width": 503,
+    "height": 40,
+    "angle": 6.0346723
+   },
+   "utf8_string": "Please keep this door closed",
+   "language": "en",
+   "block_id": 1,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9996534
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 70,
+        "y": 357,
+        "width": 22,
+        "height": 22,
+        "angle": 6.1053843
+       },
+       "utf8_string": "a",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 92,
+        "y": 355,
+        "width": 11,
+        "height": 30,
+        "angle": 6.1053843
+       },
+       "utf8_string": "t",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 70,
+      "y": 353,
+      "width": 33,
+      "height": 30,
+      "angle": 6.105384
+     },
+     "utf8_string": "at",
+     "language": "en",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 90,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1515870720,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999805,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 103,
+      "y": 360,
+      "width": 12,
+      "height": 22,
+      "angle": 6.1053843
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 114,
+        "y": 361,
+        "width": 22,
+        "height": 22,
+        "angle": 6.1053843
+       },
+       "utf8_string": "a",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 135,
+        "y": 357,
+        "width": 7,
+        "height": 30,
+        "angle": 6.1053843
+       },
+       "utf8_string": "l",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 150,
+        "y": 358,
+        "width": 7,
+        "height": 30,
+        "angle": 6.1053843
+       },
+       "utf8_string": "l",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 115,
+      "y": 354,
+      "width": 42,
+      "height": 31,
+      "angle": 6.105384
+     },
+     "utf8_string": "all",
+     "language": "en",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 80,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1347440640,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 156,
+      "y": 366,
+      "width": 9,
+      "height": 22,
+      "angle": 6.1053843
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 166,
+        "y": 363,
+        "width": 11,
+        "height": 30,
+        "angle": 6.1053843
+       },
+       "utf8_string": "t",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 176,
+        "y": 364,
+        "width": 11,
+        "height": 30,
+        "angle": 6.1053843
+       },
+       "utf8_string": "i",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 185,
+        "y": 369,
+        "width": 30,
+        "height": 22,
+        "angle": 6.1053843
+       },
+       "utf8_string": "m",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 216,
+        "y": 372,
+        "width": 22,
+        "height": 19,
+        "angle": 6.1053843
+       },
+       "utf8_string": "e",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 236,
+        "y": 379,
+        "width": 19,
+        "height": 19,
+        "angle": 6.1053843
+       },
+       "utf8_string": "s",
+       "confidence": 0.9997054
+      },
+      {
+       "bounding_box": {
+        "x": 258,
+        "y": 392,
+        "width": 7,
+        "height": 7,
+        "angle": 6.1053843
+       },
+       "utf8_string": ".",
+       "confidence": 0.9989907
+      }
+     ],
+     "bounding_box": {
+      "x": 166,
+      "y": 363,
+      "width": 102,
+      "height": 30,
+      "angle": 6.105384
+     },
+     "utf8_string": "times.",
+     "language": "en",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 102,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1717986816,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996369,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 267,
+      "y": 378,
+      "width": 15,
+      "height": 22,
+      "angle": 6.1053843
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 283,
+        "y": 369,
+        "width": 22,
+        "height": 30,
+        "angle": 6.1053843
+       },
+       "utf8_string": "T",
+       "confidence": 0.9996871
+      },
+      {
+       "bounding_box": {
+        "x": 306,
+        "y": 375,
+        "width": 19,
+        "height": 30,
+        "angle": 6.1053843
+       },
+       "utf8_string": "h",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 326,
+        "y": 384,
+        "width": 19,
+        "height": 22,
+        "angle": 6.1053843
+       },
+       "utf8_string": "a",
+       "confidence": 0.99976593
+      },
+      {
+       "bounding_box": {
+        "x": 349,
+        "y": 387,
+        "width": 19,
+        "height": 22,
+        "angle": 6.1053843
+       },
+       "utf8_string": "n",
+       "confidence": 0.99965966
+      },
+      {
+       "bounding_box": {
+        "x": 370,
+        "y": 382,
+        "width": 19,
+        "height": 30,
+        "angle": 6.1053843
+       },
+       "utf8_string": "k",
+       "confidence": 0.99980325
+      }
+     ],
+     "bounding_box": {
+      "x": 283,
+      "y": 369,
+      "width": 107,
+      "height": 34,
+      "angle": 6.105384
+     },
+     "utf8_string": "Thank",
+     "language": "en",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 103,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1734829824,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997454,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 388,
+      "y": 391,
+      "width": 12,
+      "height": 22,
+      "angle": 6.1053843
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 400,
+        "y": 392,
+        "width": 22,
+        "height": 29,
+        "angle": 6.1053843
+       },
+       "utf8_string": "y",
+       "confidence": 0.99552274
+      },
+      {
+       "bounding_box": {
+        "x": 420,
+        "y": 394,
+        "width": 22,
+        "height": 22,
+        "angle": 6.1053843
+       },
+       "utf8_string": "o",
+       "confidence": 0.99863404
+      },
+      {
+       "bounding_box": {
+        "x": 444,
+        "y": 393,
+        "width": 19,
+        "height": 22,
+        "angle": 6.1053843
+       },
+       "utf8_string": "u",
+       "confidence": 0.9973109
+      },
+      {
+       "bounding_box": {
+        "x": 466,
+        "y": 392,
+        "width": 4,
+        "height": 33,
+        "angle": 6.1053843
+       },
+       "utf8_string": "!",
+       "confidence": 0.9974261
+      }
+     ],
+     "bounding_box": {
+      "x": 400,
+      "y": 385,
+      "width": 70,
+      "height": 36,
+      "angle": 6.105384
+     },
+     "utf8_string": "you!",
+     "language": "en",
+     "estimate_color_success": true,
+     "foreground_gray_value": 95,
+     "background_gray_value": 209,
+     "foreground_rgb_value": 1600085760,
+     "background_rgb_value": -774778624,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99722344,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 70,
+    "y": 346,
+    "width": 403,
+    "height": 40,
+    "angle": 6.105384
+   },
+   "utf8_string": "at all times. Thank you!",
+   "language": "en",
+   "block_id": 2,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9992243
+  }
+ ]
+}

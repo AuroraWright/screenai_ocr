@@ -1,0 +1,738 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 26,
+        "y": 55,
+        "width": 19,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ภ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 48,
+        "y": 55,
+        "width": 15,
+        "height": 22,
+        "angle": 0.049099486
+       },
+       "utf8_string": "า",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 69,
+        "y": 55,
+        "width": 19,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ษ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 87,
+        "y": 51,
+        "width": 15,
+        "height": 22,
+        "angle": 0.049099486
+       },
+       "utf8_string": "า",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 110,
+        "y": 47,
+        "width": 15,
+        "height": 30,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ไ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 119,
+        "y": 55,
+        "width": 19,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ท",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 142,
+        "y": 55,
+        "width": 19,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ย",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 168,
+        "y": 44,
+        "width": 19,
+        "height": 30,
+        "angle": 0.049099486
+       },
+       "utf8_string": "เ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 172,
+        "y": 44,
+        "width": 19,
+        "height": 30,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ป็",
+       "confidence": 0.99975497
+      },
+      {
+       "bounding_box": {
+        "x": 195,
+        "y": 55,
+        "width": 15,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "น",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 216,
+        "y": 55,
+        "width": 19,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ภ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 238,
+        "y": 55,
+        "width": 15,
+        "height": 22,
+        "angle": 0.049099486
+       },
+       "utf8_string": "า",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 258,
+        "y": 55,
+        "width": 19,
+        "height": 22,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ษ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 277,
+        "y": 55,
+        "width": 15,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "า",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 296,
+        "y": 55,
+        "width": 15,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ร",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 311,
+        "y": 55,
+        "width": 11,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "า",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 339,
+        "y": 55,
+        "width": 22,
+        "height": 22,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ช",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 346,
+        "y": 51,
+        "width": 19,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ก",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 369,
+        "y": 55,
+        "width": 11,
+        "height": 22,
+        "angle": 0.049099486
+       },
+       "utf8_string": "า",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 396,
+        "y": 55,
+        "width": 15,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ร",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 403,
+        "y": 55,
+        "width": 15,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ข",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 438,
+        "y": 55,
+        "width": 11,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "อ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 442,
+        "y": 55,
+        "width": 15,
+        "height": 22,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ง",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 457,
+        "y": 47,
+        "width": 19,
+        "height": 26,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ป",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 481,
+        "y": 55,
+        "width": 15,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ร",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 495,
+        "y": 59,
+        "width": 11,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ะ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 525,
+        "y": 55,
+        "width": 15,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "เ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 521,
+        "y": 55,
+        "width": 19,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ท",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 556,
+        "y": 44,
+        "width": 19,
+        "height": 30,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ศ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 563,
+        "y": 44,
+        "width": 15,
+        "height": 30,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ไ",
+       "confidence": 0.9997205
+      },
+      {
+       "bounding_box": {
+        "x": 575,
+        "y": 55,
+        "width": 22,
+        "height": 22,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ท",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 598,
+        "y": 55,
+        "width": 19,
+        "height": 19,
+        "angle": 0.049099486
+       },
+       "utf8_string": "ย",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 26,
+      "y": 44,
+      "width": 591,
+      "height": 34,
+      "angle": 0.049099483
+     },
+     "utf8_string": "ภาษาไทยเป็นภาษาราชการของประเทศไทย",
+     "language": "th",
+     "estimate_color_success": true,
+     "foreground_gray_value": 23,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 387389184,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99980664,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 26,
+    "y": 44,
+    "width": 591,
+    "height": 34,
+    "angle": 0.049099483
+   },
+   "utf8_string": "ภาษาไทยเป็นภาษาราชการของประเทศไทย",
+   "language": "th",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99980664
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 35,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ก",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 59,
+        "y": 119,
+        "width": 10,
+        "height": 20,
+        "angle": -0.007985564
+       },
+       "utf8_string": "รุ",
+       "confidence": 0.99972755
+      },
+      {
+       "bounding_box": {
+        "x": 58,
+        "y": 119,
+        "width": 10,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ง",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 81,
+        "y": 115,
+        "width": 17,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "เ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 80,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ท",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 98,
+        "y": 119,
+        "width": 17,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "พ",
+       "confidence": 0.99977916
+      },
+      {
+       "bounding_box": {
+        "x": 118,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ม",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 136,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ห",
+       "confidence": 0.9992694
+      },
+      {
+       "bounding_box": {
+        "x": 149,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "า",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 177,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "น",
+       "confidence": 0.99966145
+      },
+      {
+       "bounding_box": {
+        "x": 198,
+        "y": 119,
+        "width": 13,
+        "height": 20,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ค",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 197,
+        "y": 119,
+        "width": 17,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ร",
+       "confidence": 0.99922574
+      }
+     ],
+     "bounding_box": {
+      "x": 35,
+      "y": 115,
+      "width": 179,
+      "height": 24,
+      "angle": -0.007985564
+     },
+     "utf8_string": "กรุงเทพมหานคร",
+     "language": "th",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99968904,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 214,
+      "y": 119,
+      "width": 16,
+      "height": 17,
+      "angle": -0.007985564
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 230,
+        "y": 122,
+        "width": 17,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "๑",
+       "confidence": 0.9989517
+      },
+      {
+       "bounding_box": {
+        "x": 241,
+        "y": 122,
+        "width": 17,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "๒",
+       "confidence": 0.99775875
+      },
+      {
+       "bounding_box": {
+        "x": 258,
+        "y": 122,
+        "width": 13,
+        "height": 13,
+        "angle": -0.007985564
+       },
+       "utf8_string": "๓",
+       "confidence": 0.9717594
+      }
+     ],
+     "bounding_box": {
+      "x": 230,
+      "y": 122,
+      "width": 41,
+      "height": 17,
+      "angle": -0.007985564
+     },
+     "utf8_string": "๑๒๓",
+     "language": "th",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 28,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 471604224,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9894899,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 271,
+      "y": 119,
+      "width": 17,
+      "height": 17,
+      "angle": -0.007985564
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 288,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ถ",
+       "confidence": 0.9995983
+      },
+      {
+       "bounding_box": {
+        "x": 302,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "น",
+       "confidence": 0.99973637
+      },
+      {
+       "bounding_box": {
+        "x": 319,
+        "y": 119,
+        "width": 17,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "น",
+       "confidence": 0.99979585
+      },
+      {
+       "bounding_box": {
+        "x": 357,
+        "y": 119,
+        "width": 13,
+        "height": 20,
+        "angle": -0.007985564
+       },
+       "utf8_string": "สุ",
+       "confidence": 0.99932206
+      },
+      {
+       "bounding_box": {
+        "x": 357,
+        "y": 119,
+        "width": 13,
+        "height": 20,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ขุ",
+       "confidence": 0.9969854
+      },
+      {
+       "bounding_box": {
+        "x": 370,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ม",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 384,
+        "y": 115,
+        "width": 13,
+        "height": 23,
+        "angle": -0.007985564
+       },
+       "utf8_string": "วิ",
+       "confidence": 0.99979585
+      },
+      {
+       "bounding_box": {
+        "x": 401,
+        "y": 119,
+        "width": 13,
+        "height": 17,
+        "angle": -0.007985564
+       },
+       "utf8_string": "ท",
+       "confidence": 0.9997632
+      }
+     ],
+     "bounding_box": {
+      "x": 288,
+      "y": 115,
+      "width": 126,
+      "height": 24,
+      "angle": -0.007985564
+     },
+     "utf8_string": "ถนนสุขุมวิท",
+     "language": "th",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999351,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 35,
+    "y": 115,
+    "width": 379,
+    "height": 24,
+    "angle": -0.007985564
+   },
+   "utf8_string": "กรุงเทพมหานคร ๑๒๓ ถนนสุขุมวิท",
+   "language": "th",
+   "block_id": 1,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9982411
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{
+  global:
+    SetFileContentFunctions; InitOCRUsingCallback; SetOCRLightMode; GetMaxImageDimension; UninitializeOCR;
+    PerformOCR; FreeLibraryAllocatedCharArray; FreeLibraryAllocatedInt32Array; GetLibraryVersion; EnableDebugMode;
+  local: *;
+};

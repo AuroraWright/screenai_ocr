@@ -1,0 +1,480 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 41,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ಕ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 62,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ನ್ನ",
+       "confidence": 0.9996891
+      },
+      {
+       "bounding_box": {
+        "x": 93,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ಡ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 41,
+      "y": 46,
+      "width": 57,
+      "height": 41,
+      "angle": 0.071338505
+     },
+     "utf8_string": "ಕನ್ನಡ",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997705,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 98,
+      "y": 46,
+      "width": 30,
+      "height": 41,
+      "angle": 0.07133851
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 128,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ಭ",
+       "confidence": 0.9994342
+      },
+      {
+       "bounding_box": {
+        "x": 144,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ಾ",
+       "confidence": 0.99975497
+      },
+      {
+       "bounding_box": {
+        "x": 169,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ಷೆ",
+       "confidence": 0.99962544
+      },
+      {
+       "bounding_box": {
+        "x": 205,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ಯ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 128,
+      "y": 46,
+      "width": 82,
+      "height": 41,
+      "angle": 0.071338505
+     },
+     "utf8_string": "ಭಾಷೆಯ",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99965644,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 210,
+      "y": 46,
+      "width": 46,
+      "height": 41,
+      "angle": 0.07133851
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 256,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ಪ",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 277,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ರೀ",
+       "confidence": 0.99853337
+      },
+      {
+       "bounding_box": {
+        "x": 313,
+        "y": 46,
+        "width": 5,
+        "height": 41,
+        "angle": 0.07133851
+       },
+       "utf8_string": "ಕ್ಷೆ",
+       "confidence": 0.9967103
+      }
+     ],
+     "bounding_box": {
+      "x": 256,
+      "y": 46,
+      "width": 62,
+      "height": 41,
+      "angle": 0.071338505
+     },
+     "utf8_string": "ಪರೀಕ್ಷೆ",
+     "language": "kn",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99833494,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 41,
+    "y": 46,
+    "width": 277,
+    "height": 41,
+    "angle": 0.071338505
+   },
+   "utf8_string": "ಕನ್ನಡ ಭಾಷೆಯ ಪರೀಕ್ಷೆ",
+   "language": "kn",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9992942
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 44,
+        "y": 110,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಬೆ",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 58,
+        "y": 110,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಂ",
+       "confidence": 0.9996463
+      },
+      {
+       "bounding_box": {
+        "x": 80,
+        "y": 110,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಗ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 102,
+        "y": 110,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಳೂ",
+       "confidence": 0.99973744
+      },
+      {
+       "bounding_box": {
+        "x": 138,
+        "y": 110,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ರ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 142,
+        "y": 110,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ು",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 44,
+      "y": 110,
+      "width": 102,
+      "height": 29,
+      "angle": 0.14200456
+     },
+     "utf8_string": "ಬೆಂಗಳೂರು",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99976766,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 146,
+      "y": 110,
+      "width": 32,
+      "height": 29,
+      "angle": 0.14200456
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 178,
+        "y": 110,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಕ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 196,
+        "y": 110,
+        "width": 29,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ರ್ನಾ",
+       "confidence": 0.9990107
+      },
+      {
+       "bounding_box": {
+        "x": 239,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಟ",
+       "confidence": 0.99977905
+      },
+      {
+       "bounding_box": {
+        "x": 261,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಕ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 279,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ದ",
+       "confidence": 0.99976283
+      }
+     ],
+     "bounding_box": {
+      "x": 178,
+      "y": 110,
+      "width": 105,
+      "height": 30,
+      "angle": 0.14200456
+     },
+     "utf8_string": "ಕರ್ನಾಟಕದ",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999635,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 283,
+      "y": 111,
+      "width": 33,
+      "height": 29,
+      "angle": 0.14200456
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 316,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ರ",
+       "confidence": 0.99946624
+      },
+      {
+       "bounding_box": {
+        "x": 323,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಾ",
+       "confidence": 0.9996319
+      },
+      {
+       "bounding_box": {
+        "x": 345,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಜ",
+       "confidence": 0.9997402
+      },
+      {
+       "bounding_box": {
+        "x": 370,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಧ",
+       "confidence": 0.9994898
+      },
+      {
+       "bounding_box": {
+        "x": 377,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ಾ",
+       "confidence": 0.99825114
+      },
+      {
+       "bounding_box": {
+        "x": 403,
+        "y": 111,
+        "width": 4,
+        "height": 29,
+        "angle": 0.14200456
+       },
+       "utf8_string": "ನಿ",
+       "confidence": 0.99152255
+      }
+     ],
+     "bounding_box": {
+      "x": 316,
+      "y": 111,
+      "width": 91,
+      "height": 29,
+      "angle": 0.14200456
+     },
+     "utf8_string": "ರಾಜಧಾನಿ",
+     "language": "kn",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99801695,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 44,
+    "y": 110,
+    "width": 363,
+    "height": 30,
+    "angle": 0.14200456
+   },
+   "utf8_string": "ಬೆಂಗಳೂರು ಕರ್ನಾಟಕದ ರಾಜಧಾನಿ",
+   "language": "kn",
+   "block_id": 1,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99911076
+  }
+ ]
+}

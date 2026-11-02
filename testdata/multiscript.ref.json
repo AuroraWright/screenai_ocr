@@ -1,0 +1,3183 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 30,
+        "y": 31,
+        "width": 17,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": "Б",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 49,
+        "y": 35,
+        "width": 20,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "ы",
+       "confidence": 0.9996929
+      },
+      {
+       "bounding_box": {
+        "x": 71,
+        "y": 35,
+        "width": 10,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "с",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 82,
+        "y": 35,
+        "width": 10,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "т",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 97,
+        "y": 35,
+        "width": 10,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": "р",
+       "confidence": 0.99979585
+      },
+      {
+       "bounding_box": {
+        "x": 112,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "а",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 127,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "я",
+       "confidence": 0.99976116
+      }
+     ],
+     "bounding_box": {
+      "x": 30,
+      "y": 31,
+      "width": 110,
+      "height": 24,
+      "angle": 0.012350958
+     },
+     "utf8_string": "Быстрая",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997688,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 140,
+      "y": 31,
+      "width": 10,
+      "height": 20,
+      "angle": 0.012350959
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 150,
+        "y": 35,
+        "width": 10,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "к",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 161,
+        "y": 35,
+        "width": 17,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "о",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 180,
+        "y": 35,
+        "width": 13,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": "р",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 195,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "и",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 210,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "ч",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 225,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "н",
+       "confidence": 0.9997205
+      },
+      {
+       "bounding_box": {
+        "x": 240,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "е",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 258,
+        "y": 35,
+        "width": 10,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "в",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 273,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "а",
+       "confidence": 0.9997205
+      },
+      {
+       "bounding_box": {
+        "x": 288,
+        "y": 35,
+        "width": 10,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "я",
+       "confidence": 0.9996176
+      }
+     ],
+     "bounding_box": {
+      "x": 150,
+      "y": 35,
+      "width": 148,
+      "height": 20,
+      "angle": 0.012350958
+     },
+     "utf8_string": "коричневая",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997583,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 298,
+      "y": 31,
+      "width": 13,
+      "height": 20,
+      "angle": 0.012350959
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 311,
+        "y": 35,
+        "width": 13,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "л",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 316,
+        "y": 35,
+        "width": 17,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "и",
+       "confidence": 0.99977
+      },
+      {
+       "bounding_box": {
+        "x": 345,
+        "y": 35,
+        "width": 10,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "с",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 346,
+        "y": 35,
+        "width": 17,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "а",
+       "confidence": 0.999673
+      }
+     ],
+     "bounding_box": {
+      "x": 311,
+      "y": 35,
+      "width": 52,
+      "height": 17,
+      "angle": 0.012350958
+     },
+     "utf8_string": "лиса",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997324,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 363,
+      "y": 31,
+      "width": 19,
+      "height": 20,
+      "angle": 0.012350959
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 382,
+        "y": 35,
+        "width": 10,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "п",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 397,
+        "y": 35,
+        "width": 10,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": "р",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 412,
+        "y": 35,
+        "width": 17,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "ы",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 417,
+        "y": 38,
+        "width": 17,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "г",
+       "confidence": 0.99830496
+      },
+      {
+       "bounding_box": {
+        "x": 435,
+        "y": 38,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "а",
+       "confidence": 0.99947673
+      },
+      {
+       "bounding_box": {
+        "x": 457,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "е",
+       "confidence": 0.99902046
+      },
+      {
+       "bounding_box": {
+        "x": 476,
+        "y": 35,
+        "width": 10,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "т",
+       "confidence": 0.99955255
+      }
+     ],
+     "bounding_box": {
+      "x": 382,
+      "y": 35,
+      "width": 104,
+      "height": 20,
+      "angle": 0.012350958
+     },
+     "utf8_string": "прыгает",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9993912,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 486,
+      "y": 31,
+      "width": 9,
+      "height": 20,
+      "angle": 0.012350959
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 495,
+        "y": 35,
+        "width": 13,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "ч",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 510,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "е",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 528,
+        "y": 35,
+        "width": 13,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": "р",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 543,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "е",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 558,
+        "y": 35,
+        "width": 10,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "з",
+       "confidence": 0.9993475
+      }
+     ],
+     "bounding_box": {
+      "x": 495,
+      "y": 35,
+      "width": 73,
+      "height": 20,
+      "angle": 0.012350958
+     },
+     "utf8_string": "через",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99970454,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 568,
+      "y": 31,
+      "width": 13,
+      "height": 20,
+      "angle": 0.012350959
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 581,
+        "y": 35,
+        "width": 10,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "л",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 596,
+        "y": 35,
+        "width": 13,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "е",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 597,
+        "y": 35,
+        "width": 17,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "н",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 612,
+        "y": 35,
+        "width": 17,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "и",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 644,
+        "y": 35,
+        "width": 10,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "в",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 656,
+        "y": 35,
+        "width": 13,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": "у",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 672,
+        "y": 35,
+        "width": 20,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "ю",
+       "confidence": 0.9996978
+      }
+     ],
+     "bounding_box": {
+      "x": 581,
+      "y": 35,
+      "width": 111,
+      "height": 20,
+      "angle": 0.012350958
+     },
+     "utf8_string": "ленивую",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99975836,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 692,
+      "y": 31,
+      "width": 9,
+      "height": 20,
+      "angle": 0.012350959
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 701,
+        "y": 35,
+        "width": 13,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "с",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 716,
+        "y": 35,
+        "width": 13,
+        "height": 13,
+        "angle": 0.012350959
+       },
+       "utf8_string": "о",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 731,
+        "y": 28,
+        "width": 13,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": "б",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 746,
+        "y": 35,
+        "width": 17,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "а",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 764,
+        "y": 35,
+        "width": 10,
+        "height": 17,
+        "angle": 0.012350959
+       },
+       "utf8_string": "к",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 772,
+        "y": 35,
+        "width": 13,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": "у",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 774,
+        "y": 35,
+        "width": 17,
+        "height": 20,
+        "angle": 0.012350959
+       },
+       "utf8_string": ".",
+       "confidence": 0.99679667
+      }
+     ],
+     "bounding_box": {
+      "x": 701,
+      "y": 28,
+      "width": 90,
+      "height": 27,
+      "angle": 0.012350958
+     },
+     "utf8_string": "собаку.",
+     "language": "ru",
+     "estimate_color_success": true,
+     "foreground_gray_value": 5,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 84215040,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9993626,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 30,
+    "y": 28,
+    "width": 761,
+    "height": 27,
+    "angle": 0.012350958
+   },
+   "utf8_string": "Быстрая коричневая лиса прыгает через ленивую собаку.",
+   "language": "ru",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9996383
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 29,
+        "y": 98,
+        "width": 19,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "Η",
+       "confidence": 0.9997168
+      }
+     ],
+     "bounding_box": {
+      "x": 29,
+      "y": 98,
+      "width": 19,
+      "height": 22,
+      "angle": -0.063099116
+     },
+     "utf8_string": "Η",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 27,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 454761216,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997168,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 48,
+      "y": 98,
+      "width": 11,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 59,
+        "y": 105,
+        "width": 15,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "γ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 74,
+        "y": 105,
+        "width": 15,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ρ",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 89,
+        "y": 98,
+        "width": 15,
+        "height": 26,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ή",
+       "confidence": 0.9993881
+      },
+      {
+       "bounding_box": {
+        "x": 104,
+        "y": 105,
+        "width": 15,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "γ",
+       "confidence": 0.99972063
+      },
+      {
+       "bounding_box": {
+        "x": 119,
+        "y": 105,
+        "width": 15,
+        "height": 19,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ο",
+       "confidence": 0.9995524
+      },
+      {
+       "bounding_box": {
+        "x": 134,
+        "y": 105,
+        "width": 15,
+        "height": 19,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ρ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 152,
+        "y": 105,
+        "width": 11,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "η",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 59,
+      "y": 98,
+      "width": 104,
+      "height": 29,
+      "angle": -0.063099116
+     },
+     "utf8_string": "γρήγορη",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997003,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 163,
+      "y": 98,
+      "width": 12,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 175,
+        "y": 105,
+        "width": 11,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "κ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 190,
+        "y": 105,
+        "width": 15,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "α",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 205,
+        "y": 105,
+        "width": 15,
+        "height": 19,
+        "angle": -0.06309912
+       },
+       "utf8_string": "φ",
+       "confidence": 0.999673
+      },
+      {
+       "bounding_box": {
+        "x": 223,
+        "y": 98,
+        "width": 11,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "έ",
+       "confidence": 0.9995863
+      }
+     ],
+     "bounding_box": {
+      "x": 175,
+      "y": 98,
+      "width": 59,
+      "height": 26,
+      "angle": -0.063099116
+     },
+     "utf8_string": "καφέ",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 1,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 16843008,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99972045,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 234,
+      "y": 98,
+      "width": 8,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 242,
+        "y": 105,
+        "width": 15,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "α",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 257,
+        "y": 102,
+        "width": 15,
+        "height": 19,
+        "angle": -0.06309912
+       },
+       "utf8_string": "λ",
+       "confidence": 0.9996463
+      },
+      {
+       "bounding_box": {
+        "x": 272,
+        "y": 105,
+        "width": 11,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ε",
+       "confidence": 0.99941957
+      },
+      {
+       "bounding_box": {
+        "x": 283,
+        "y": 105,
+        "width": 19,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "π",
+       "confidence": 0.9996679
+      },
+      {
+       "bounding_box": {
+        "x": 302,
+        "y": 105,
+        "width": 15,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ο",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 317,
+        "y": 102,
+        "width": 15,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ύ",
+       "confidence": 0.9995778
+      }
+     ],
+     "bounding_box": {
+      "x": 242,
+      "y": 102,
+      "width": 90,
+      "height": 22,
+      "angle": -0.063099116
+     },
+     "utf8_string": "αλεπού",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 8,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 134744064,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99964404,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 332,
+      "y": 98,
+      "width": 8,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 340,
+        "y": 105,
+        "width": 19,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "π",
+       "confidence": 0.99909437
+      },
+      {
+       "bounding_box": {
+        "x": 362,
+        "y": 105,
+        "width": 11,
+        "height": 19,
+        "angle": -0.06309912
+       },
+       "utf8_string": "η",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 377,
+        "y": 102,
+        "width": 15,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "δ",
+       "confidence": 0.99972063
+      },
+      {
+       "bounding_box": {
+        "x": 396,
+        "y": 98,
+        "width": 11,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ά",
+       "confidence": 0.99944836
+      },
+      {
+       "bounding_box": {
+        "x": 411,
+        "y": 105,
+        "width": 7,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ε",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 422,
+        "y": 105,
+        "width": 4,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ι",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 340,
+      "y": 98,
+      "width": 86,
+      "height": 26,
+      "angle": -0.063099116
+     },
+     "utf8_string": "πηδάει",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 3,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 50529024,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99961615,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 426,
+      "y": 98,
+      "width": 7,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 433,
+        "y": 105,
+        "width": 19,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "π",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 456,
+        "y": 98,
+        "width": 11,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ά",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 471,
+        "y": 105,
+        "width": 11,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ν",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 482,
+        "y": 104,
+        "width": 22,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ω",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 433,
+      "y": 98,
+      "width": 71,
+      "height": 22,
+      "angle": -0.063099116
+     },
+     "utf8_string": "πάνω",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99980414,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 504,
+      "y": 97,
+      "width": 8,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 512,
+        "y": 104,
+        "width": 15,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "α",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 531,
+        "y": 104,
+        "width": 15,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "π",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 549,
+        "y": 97,
+        "width": 11,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ό",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 512,
+      "y": 97,
+      "width": 48,
+      "height": 22,
+      "angle": -0.063099116
+     },
+     "utf8_string": "από",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 3,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 50529024,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 560,
+      "y": 97,
+      "width": 12,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 572,
+        "y": 104,
+        "width": 7,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "τ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 583,
+        "y": 104,
+        "width": 15,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ο",
+       "confidence": 0.99924505
+      },
+      {
+       "bounding_box": {
+        "x": 598,
+        "y": 104,
+        "width": 15,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ν",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 572,
+      "y": 104,
+      "width": 41,
+      "height": 15,
+      "angle": -0.063099116
+     },
+     "utf8_string": "τον",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996225,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 613,
+      "y": 97,
+      "width": 7,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 620,
+        "y": 104,
+        "width": 11,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "τ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 632,
+        "y": 104,
+        "width": 7,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ε",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 647,
+        "y": 104,
+        "width": 7,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "μ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 658,
+        "y": 104,
+        "width": 19,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "π",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 677,
+        "y": 97,
+        "width": 11,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "έ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 688,
+        "y": 101,
+        "width": 15,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "λ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 707,
+        "y": 104,
+        "width": 11,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "η",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 620,
+      "y": 97,
+      "width": 98,
+      "height": 29,
+      "angle": -0.063099116
+     },
+     "utf8_string": "τεμπέλη",
+     "language": "el",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 3,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 50529024,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9998055,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 718,
+      "y": 97,
+      "width": 7,
+      "height": 22,
+      "angle": -0.06309912
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 725,
+        "y": 104,
+        "width": 19,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "σ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 744,
+        "y": 104,
+        "width": 15,
+        "height": 19,
+        "angle": -0.06309912
+       },
+       "utf8_string": "κ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 759,
+        "y": 97,
+        "width": 15,
+        "height": 22,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ύ",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 770,
+        "y": 101,
+        "width": 15,
+        "height": 19,
+        "angle": -0.06309912
+       },
+       "utf8_string": "λ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 789,
+        "y": 104,
+        "width": 15,
+        "height": 15,
+        "angle": -0.06309912
+       },
+       "utf8_string": "ο",
+       "confidence": 0.9995484
+      },
+      {
+       "bounding_box": {
+        "x": 804,
+        "y": 112,
+        "width": 4,
+        "height": 7,
+        "angle": -0.06309912
+       },
+       "utf8_string": ".",
+       "confidence": 0.99961346
+      }
+     ],
+     "bounding_box": {
+      "x": 725,
+      "y": 97,
+      "width": 83,
+      "height": 26,
+      "angle": -0.063099116
+     },
+     "utf8_string": "σκύλο.",
+     "language": "el",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99972975,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 29,
+    "y": 98,
+    "width": 779,
+    "height": 29,
+    "angle": -0.063099116
+   },
+   "utf8_string": "Η γρήγορη καφέ αλεπού πηδάει πάνω από τον τεμπέλη σκύλο.",
+   "language": "el",
+   "block_id": 1,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99971485
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 31,
+        "y": 160,
+        "width": 32,
+        "height": 32,
+        "angle": -0.011998293
+       },
+       "utf8_string": "敏",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 65,
+        "y": 165,
+        "width": 27,
+        "height": 29,
+        "angle": -0.011998293
+       },
+       "utf8_string": "捷",
+       "confidence": 0.9996319
+      },
+      {
+       "bounding_box": {
+        "x": 94,
+        "y": 165,
+        "width": 27,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "的",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 124,
+        "y": 165,
+        "width": 32,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "棕",
+       "confidence": 0.9976681
+      },
+      {
+       "bounding_box": {
+        "x": 158,
+        "y": 165,
+        "width": 27,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "色",
+       "confidence": 0.999734
+      },
+      {
+       "bounding_box": {
+        "x": 192,
+        "y": 165,
+        "width": 27,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "狐",
+       "confidence": 0.99746335
+      },
+      {
+       "bounding_box": {
+        "x": 221,
+        "y": 165,
+        "width": 27,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "狸",
+       "confidence": 0.9985905
+      },
+      {
+       "bounding_box": {
+        "x": 255,
+        "y": 160,
+        "width": 27,
+        "height": 32,
+        "angle": -0.011998293
+       },
+       "utf8_string": "跳",
+       "confidence": 0.99755704
+      },
+      {
+       "bounding_box": {
+        "x": 285,
+        "y": 160,
+        "width": 32,
+        "height": 32,
+        "angle": -0.011998293
+       },
+       "utf8_string": "过",
+       "confidence": 0.99947673
+      },
+      {
+       "bounding_box": {
+        "x": 319,
+        "y": 165,
+        "width": 23,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "了",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 348,
+        "y": 160,
+        "width": 32,
+        "height": 32,
+        "angle": -0.011998293
+       },
+       "utf8_string": "懒",
+       "confidence": 0.99825114
+      },
+      {
+       "bounding_box": {
+        "x": 382,
+        "y": 165,
+        "width": 27,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "狗",
+       "confidence": 0.9997205
+      },
+      {
+       "bounding_box": {
+        "x": 417,
+        "y": 183,
+        "width": 5,
+        "height": 9,
+        "angle": -0.011998293
+       },
+       "utf8_string": "。",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 446,
+        "y": 160,
+        "width": 32,
+        "height": 32,
+        "angle": -0.011998293
+       },
+       "utf8_string": "今",
+       "confidence": 0.99949574
+      },
+      {
+       "bounding_box": {
+        "x": 475,
+        "y": 165,
+        "width": 32,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "天",
+       "confidence": 0.99940455
+      },
+      {
+       "bounding_box": {
+        "x": 509,
+        "y": 165,
+        "width": 32,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "天",
+       "confidence": 0.9985877
+      },
+      {
+       "bounding_box": {
+        "x": 538,
+        "y": 165,
+        "width": 36,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "气",
+       "confidence": 0.99943167
+      },
+      {
+       "bounding_box": {
+        "x": 573,
+        "y": 165,
+        "width": 32,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "很",
+       "confidence": 0.99979526
+      },
+      {
+       "bounding_box": {
+        "x": 606,
+        "y": 165,
+        "width": 27,
+        "height": 27,
+        "angle": -0.011998293
+       },
+       "utf8_string": "好",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 637,
+        "y": 178,
+        "width": 9,
+        "height": 9,
+        "angle": -0.011998293
+       },
+       "utf8_string": "。",
+       "confidence": 0.99978286
+      }
+     ],
+     "bounding_box": {
+      "x": 31,
+      "y": 160,
+      "width": 615,
+      "height": 34,
+      "angle": -0.011998292
+     },
+     "utf8_string": "敏捷的棕色狐狸跳过了懒狗。今天天气很好。",
+     "language": "zh",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9991791,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 31,
+    "y": 160,
+    "width": 615,
+    "height": 34,
+    "angle": -0.011998292
+   },
+   "utf8_string": "敏捷的棕色狐狸跳过了懒狗。今天天气很好。",
+   "language": "zh",
+   "block_id": 2,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9991791
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 31,
+        "y": 236,
+        "width": 29,
+        "height": 24,
+        "angle": 0.032830693
+       },
+       "utf8_string": "빠",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 58,
+        "y": 236,
+        "width": 29,
+        "height": 24,
+        "angle": 0.032830693
+       },
+       "utf8_string": "른",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 31,
+      "y": 236,
+      "width": 56,
+      "height": 24,
+      "angle": 0.03283069
+     },
+     "utf8_string": "빠른",
+     "language": "ko",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 56,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 943208448,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 87,
+      "y": 236,
+      "width": 6,
+      "height": 24,
+      "angle": 0.032830693
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 93,
+        "y": 232,
+        "width": 29,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "갈",
+       "confidence": 0.999673
+      },
+      {
+       "bounding_box": {
+        "x": 119,
+        "y": 232,
+        "width": 29,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "색",
+       "confidence": 0.99973446
+      }
+     ],
+     "bounding_box": {
+      "x": 93,
+      "y": 232,
+      "width": 55,
+      "height": 29,
+      "angle": 0.03283069
+     },
+     "utf8_string": "갈색",
+     "language": "ko",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 120,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 2021160960,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99970376,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 148,
+      "y": 236,
+      "width": 10,
+      "height": 24,
+      "angle": 0.032830693
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 158,
+        "y": 232,
+        "width": 24,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "여",
+       "confidence": 0.99955255
+      },
+      {
+       "bounding_box": {
+        "x": 185,
+        "y": 236,
+        "width": 29,
+        "height": 27,
+        "angle": 0.032830693
+       },
+       "utf8_string": "우",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 212,
+        "y": 232,
+        "width": 29,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "가",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 158,
+      "y": 232,
+      "width": 83,
+      "height": 31,
+      "angle": 0.03283069
+     },
+     "utf8_string": "여우가",
+     "language": "ko",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997018,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 241,
+      "y": 236,
+      "width": 10,
+      "height": 24,
+      "angle": 0.032830693
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 251,
+        "y": 232,
+        "width": 24,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "게",
+       "confidence": 0.99865997
+      },
+      {
+       "bounding_box": {
+        "x": 274,
+        "y": 236,
+        "width": 29,
+        "height": 24,
+        "angle": 0.032830693
+       },
+       "utf8_string": "으",
+       "confidence": 0.99902046
+      },
+      {
+       "bounding_box": {
+        "x": 305,
+        "y": 236,
+        "width": 29,
+        "height": 24,
+        "angle": 0.032830693
+       },
+       "utf8_string": "른",
+       "confidence": 0.99885416
+      }
+     ],
+     "bounding_box": {
+      "x": 251,
+      "y": 232,
+      "width": 83,
+      "height": 29,
+      "angle": 0.03283069
+     },
+     "utf8_string": "게으른",
+     "language": "ko",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 4,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 67372032,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99884486,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 334,
+      "y": 236,
+      "width": 5,
+      "height": 24,
+      "angle": 0.032830693
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 339,
+        "y": 232,
+        "width": 24,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "개",
+       "confidence": 0.9980178
+      },
+      {
+       "bounding_box": {
+        "x": 366,
+        "y": 236,
+        "width": 29,
+        "height": 27,
+        "angle": 0.032830693
+       },
+       "utf8_string": "를",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 339,
+      "y": 232,
+      "width": 56,
+      "height": 31,
+      "angle": 0.03283069
+     },
+     "utf8_string": "개를",
+     "language": "ko",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 68,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 1145324544,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9989145,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 395,
+      "y": 236,
+      "width": 10,
+      "height": 24,
+      "angle": 0.032830693
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 405,
+        "y": 232,
+        "width": 24,
+        "height": 31,
+        "angle": 0.032830693
+       },
+       "utf8_string": "뛰",
+       "confidence": 0.99972755
+      },
+      {
+       "bounding_box": {
+        "x": 432,
+        "y": 232,
+        "width": 24,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "어",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 459,
+        "y": 232,
+        "width": 24,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "넘",
+       "confidence": 0.9987608
+      },
+      {
+       "bounding_box": {
+        "x": 490,
+        "y": 232,
+        "width": 24,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "습",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 521,
+        "y": 232,
+        "width": 16,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "니",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 544,
+        "y": 232,
+        "width": 24,
+        "height": 29,
+        "angle": 0.032830693
+       },
+       "utf8_string": "다",
+       "confidence": 0.99957174
+      },
+      {
+       "bounding_box": {
+        "x": 571,
+        "y": 252,
+        "width": 4,
+        "height": 4,
+        "angle": 0.032830693
+       },
+       "utf8_string": ".",
+       "confidence": 0.99797875
+      }
+     ],
+     "bounding_box": {
+      "x": 405,
+      "y": 232,
+      "width": 170,
+      "height": 31,
+      "angle": 0.03283069
+     },
+     "utf8_string": "뛰어넘습니다.",
+     "language": "ko",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9993507,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 31,
+    "y": 232,
+    "width": 544,
+    "height": 31,
+    "angle": 0.03283069
+   },
+   "utf8_string": "빠른 갈색 여우가 게으른 개를 뛰어넘습니다.",
+   "language": "ko",
+   "block_id": 3,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.999366
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 29,
+        "y": 305,
+        "width": 25,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "त",
+       "confidence": 0.48765
+      },
+      {
+       "bounding_box": {
+        "x": 35,
+        "y": 305,
+        "width": 30,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ो",
+       "confidence": 0.24250458
+      },
+      {
+       "bounding_box": {
+        "x": 56,
+        "y": 310,
+        "width": 25,
+        "height": 20,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ज",
+       "confidence": 0.9966949
+      },
+      {
+       "bounding_box": {
+        "x": 76,
+        "y": 330,
+        "width": 10,
+        "height": 5,
+        "angle": -0.030038306
+       },
+       "utf8_string": ".",
+       "confidence": 0.897597
+      }
+     ],
+     "bounding_box": {
+      "x": 29,
+      "y": 305,
+      "width": 57,
+      "height": 30,
+      "angle": -0.030038303
+     },
+     "utf8_string": "तोज.",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 32,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 538976256,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.65611166,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 86,
+      "y": 305,
+      "width": 12,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 98,
+        "y": 310,
+        "width": 35,
+        "height": 25,
+        "angle": -0.030038306
+       },
+       "utf8_string": "भू",
+       "confidence": 0.9938433
+      },
+      {
+       "bounding_box": {
+        "x": 129,
+        "y": 305,
+        "width": 25,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "री",
+       "confidence": 0.99871457
+      }
+     ],
+     "bounding_box": {
+      "x": 98,
+      "y": 305,
+      "width": 56,
+      "height": 30,
+      "angle": -0.030038303
+     },
+     "utf8_string": "भूरी",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 18,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 303174144,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99627894,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 154,
+      "y": 305,
+      "width": 12,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 166,
+        "y": 305,
+        "width": 30,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ल",
+       "confidence": 0.9995376
+      },
+      {
+       "bounding_box": {
+        "x": 161,
+        "y": 305,
+        "width": 35,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ो",
+       "confidence": 0.9992169
+      },
+      {
+       "bounding_box": {
+        "x": 197,
+        "y": 315,
+        "width": 25,
+        "height": 20,
+        "angle": -0.030038306
+       },
+       "utf8_string": "म",
+       "confidence": 0.99887365
+      },
+      {
+       "bounding_box": {
+        "x": 218,
+        "y": 305,
+        "width": 25,
+        "height": 25,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ड",
+       "confidence": 0.82233876
+      },
+      {
+       "bounding_box": {
+        "x": 224,
+        "y": 305,
+        "width": 30,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ी",
+       "confidence": 0.85596424
+      }
+     ],
+     "bounding_box": {
+      "x": 161,
+      "y": 305,
+      "width": 93,
+      "height": 30,
+      "angle": -0.030038303
+     },
+     "utf8_string": "लोमडी",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 18,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 303174144,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9351862,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 254,
+      "y": 305,
+      "width": 11,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 265,
+        "y": 310,
+        "width": 25,
+        "height": 20,
+        "angle": -0.030038306
+       },
+       "utf8_string": "आ",
+       "confidence": 0.9994368
+      },
+      {
+       "bounding_box": {
+        "x": 291,
+        "y": 310,
+        "width": 25,
+        "height": 20,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ल",
+       "confidence": 0.99931
+      },
+      {
+       "bounding_box": {
+        "x": 312,
+        "y": 305,
+        "width": 30,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "स",
+       "confidence": 0.9984459
+      },
+      {
+       "bounding_box": {
+        "x": 313,
+        "y": 300,
+        "width": 35,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ी",
+       "confidence": 0.9996319
+      }
+     ],
+     "bounding_box": {
+      "x": 265,
+      "y": 300,
+      "width": 83,
+      "height": 35,
+      "angle": -0.030038303
+     },
+     "utf8_string": "आलसी",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9992062,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 348,
+      "y": 305,
+      "width": 6,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 354,
+        "y": 310,
+        "width": 30,
+        "height": 25,
+        "angle": -0.030038306
+       },
+       "utf8_string": "कु",
+       "confidence": 0.8770191
+      },
+      {
+       "bounding_box": {
+        "x": 385,
+        "y": 305,
+        "width": 40,
+        "height": 35,
+        "angle": -0.030038306
+       },
+       "utf8_string": "त्",
+       "confidence": 0.9934721
+      },
+      {
+       "bounding_box": {
+        "x": 391,
+        "y": 305,
+        "width": 35,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "त",
+       "confidence": 0.8254703
+      }
+     ],
+     "bounding_box": {
+      "x": 354,
+      "y": 305,
+      "width": 72,
+      "height": 35,
+      "angle": -0.030038303
+     },
+     "utf8_string": "कुत्त",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.89865386,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 426,
+      "y": 305,
+      "width": 17,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 443,
+        "y": 305,
+        "width": 25,
+        "height": 25,
+        "angle": -0.030038306
+       },
+       "utf8_string": "क",
+       "confidence": 0.051946733
+      }
+     ],
+     "bounding_box": {
+      "x": 443,
+      "y": 305,
+      "width": 25,
+      "height": 25,
+      "angle": -0.030038303
+     },
+     "utf8_string": "क",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 31,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 522133248,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.051946733,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 468,
+      "y": 305,
+      "width": 17,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 485,
+        "y": 310,
+        "width": 20,
+        "height": 20,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ऊ",
+       "confidence": 0.9991622
+      },
+      {
+       "bounding_box": {
+        "x": 511,
+        "y": 310,
+        "width": 20,
+        "height": 20,
+        "angle": -0.030038306
+       },
+       "utf8_string": "प",
+       "confidence": 0.99946123
+      },
+      {
+       "bounding_box": {
+        "x": 521,
+        "y": 315,
+        "width": 20,
+        "height": 20,
+        "angle": -0.030038306
+       },
+       "utf8_string": "र",
+       "confidence": 0.99899167
+      }
+     ],
+     "bounding_box": {
+      "x": 485,
+      "y": 310,
+      "width": 56,
+      "height": 25,
+      "angle": -0.030038303
+     },
+     "utf8_string": "ऊपर",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 38,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 640034304,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99920505,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 541,
+      "y": 305,
+      "width": 6,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 547,
+        "y": 310,
+        "width": 35,
+        "height": 25,
+        "angle": -0.030038306
+       },
+       "utf8_string": "क",
+       "confidence": 0.10262884
+      }
+     ],
+     "bounding_box": {
+      "x": 547,
+      "y": 310,
+      "width": 35,
+      "height": 25,
+      "angle": -0.030038303
+     },
+     "utf8_string": "क",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 21,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 353703168,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.10262884,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 583,
+      "y": 305,
+      "width": 1,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 579,
+        "y": 305,
+        "width": 25,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "द",
+       "confidence": 0.99841344
+      },
+      {
+       "bounding_box": {
+        "x": 595,
+        "y": 305,
+        "width": 30,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "त",
+       "confidence": 0.99890816
+      },
+      {
+       "bounding_box": {
+        "x": 595,
+        "y": 305,
+        "width": 30,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "ी",
+       "confidence": 0.99923074
+      }
+     ],
+     "bounding_box": {
+      "x": 579,
+      "y": 305,
+      "width": 46,
+      "height": 30,
+      "angle": -0.030038303
+     },
+     "utf8_string": "दती",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99885076,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 625,
+      "y": 305,
+      "width": 11,
+      "height": 30,
+      "angle": -0.030038306
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 636,
+        "y": 305,
+        "width": 20,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "है",
+       "confidence": 0.6391746
+      },
+      {
+       "bounding_box": {
+        "x": 667,
+        "y": 305,
+        "width": 1,
+        "height": 30,
+        "angle": -0.030038306
+       },
+       "utf8_string": "।",
+       "confidence": 0.973643
+      }
+     ],
+     "bounding_box": {
+      "x": 636,
+      "y": 305,
+      "width": 32,
+      "height": 30,
+      "angle": -0.030038303
+     },
+     "utf8_string": "है।",
+     "language": "hi",
+     "estimate_color_success": true,
+     "foreground_gray_value": 18,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 303174144,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.80640876,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 29,
+    "y": 300,
+    "width": 639,
+    "height": 40,
+    "angle": -0.030038303
+   },
+   "utf8_string": "तोज. भूरी लोमडी आलसी कुत्त क ऊपर क दती है।",
+   "language": "hi",
+   "block_id": 4,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.84811723
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 30,
+        "y": 386,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ส",
+       "confidence": 0.9963511
+      },
+      {
+       "bounding_box": {
+        "x": 63,
+        "y": 386,
+        "width": 20,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "รุ",
+       "confidence": 0.86227006
+      },
+      {
+       "bounding_box": {
+        "x": 63,
+        "y": 386,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "น",
+       "confidence": 0.9995034
+      },
+      {
+       "bounding_box": {
+        "x": 120,
+        "y": 386,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ข",
+       "confidence": 0.99807477
+      },
+      {
+       "bounding_box": {
+        "x": 131,
+        "y": 378,
+        "width": 16,
+        "height": 28,
+        "angle": -0.0818971
+       },
+       "utf8_string": "จ",
+       "confidence": 0.99857414
+      },
+      {
+       "bounding_box": {
+        "x": 171,
+        "y": 390,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ง",
+       "confidence": 0.99920815
+      },
+      {
+       "bounding_box": {
+        "x": 182,
+        "y": 390,
+        "width": 16,
+        "height": 16,
+        "angle": -0.0818971
+       },
+       "utf8_string": "จ",
+       "confidence": 0.99977666
+      },
+      {
+       "bounding_box": {
+        "x": 211,
+        "y": 386,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "อ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 215,
+        "y": 390,
+        "width": 20,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ก",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 240,
+        "y": 386,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ส",
+       "confidence": 0.99694127
+      },
+      {
+       "bounding_box": {
+        "x": 272,
+        "y": 386,
+        "width": 20,
+        "height": 24,
+        "angle": -0.0818971
+       },
+       "utf8_string": "น",
+       "confidence": 0.99609405
+      },
+      {
+       "bounding_box": {
+        "x": 362,
+        "y": 386,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ต",
+       "confidence": 0.99969923
+      },
+      {
+       "bounding_box": {
+        "x": 360,
+        "y": 386,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "า",
+       "confidence": 0.9997465
+      },
+      {
+       "bounding_box": {
+        "x": 381,
+        "y": 385,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ล",
+       "confidence": 0.9995778
+      },
+      {
+       "bounding_box": {
+        "x": 418,
+        "y": 385,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ก",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 430,
+        "y": 385,
+        "width": 12,
+        "height": 16,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ร",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 432,
+        "y": 389,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ะ",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 461,
+        "y": 381,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "โ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 461,
+        "y": 385,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ด",
+       "confidence": 0.99952424
+      },
+      {
+       "bounding_box": {
+        "x": 482,
+        "y": 389,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ด",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 501,
+        "y": 385,
+        "width": 16,
+        "height": 24,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ข",
+       "confidence": 0.9935011
+      },
+      {
+       "bounding_box": {
+        "x": 546,
+        "y": 385,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "า",
+       "confidence": 0.9885981
+      },
+      {
+       "bounding_box": {
+        "x": 558,
+        "y": 385,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ม",
+       "confidence": 0.999663
+      },
+      {
+       "bounding_box": {
+        "x": 575,
+        "y": 385,
+        "width": 16,
+        "height": 16,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ส",
+       "confidence": 0.99663395
+      },
+      {
+       "bounding_box": {
+        "x": 612,
+        "y": 389,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ว",
+       "confidence": 0.23485126
+      },
+      {
+       "bounding_box": {
+        "x": 611,
+        "y": 385,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "น",
+       "confidence": 0.99864846
+      },
+      {
+       "bounding_box": {
+        "x": 648,
+        "y": 385,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ะ",
+       "confidence": 0.16750112
+      },
+      {
+       "bounding_box": {
+        "x": 656,
+        "y": 385,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ข",
+       "confidence": 0.9319374
+      },
+      {
+       "bounding_box": {
+        "x": 664,
+        "y": 385,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ข",
+       "confidence": 0.93020105
+      },
+      {
+       "bounding_box": {
+        "x": 712,
+        "y": 385,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ว",
+       "confidence": 0.1716743
+      },
+      {
+       "bounding_box": {
+        "x": 723,
+        "y": 381,
+        "width": 12,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "เ",
+       "confidence": 0.9484354
+      },
+      {
+       "bounding_box": {
+        "x": 722,
+        "y": 385,
+        "width": 20,
+        "height": 16,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ก",
+       "confidence": 0.9976299
+      },
+      {
+       "bounding_box": {
+        "x": 763,
+        "y": 389,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "ย",
+       "confidence": 0.99969995
+      },
+      {
+       "bounding_box": {
+        "x": 779,
+        "y": 389,
+        "width": 16,
+        "height": 20,
+        "angle": -0.0818971
+       },
+       "utf8_string": "จ",
+       "confidence": 0.9995859
+      }
+     ],
+     "bounding_box": {
+      "x": 30,
+      "y": 378,
+      "width": 765,
+      "height": 32,
+      "angle": -0.0818971
+     },
+     "utf8_string": "สรุนขจงจอกสนตาลกระโดดขามสวนะขขวเกยจ",
+     "language": "th",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.91772044,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 30,
+    "y": 378,
+    "width": 765,
+    "height": 32,
+    "angle": -0.0818971
+   },
+   "utf8_string": "สรุนขจงจอกสนตาลกระโดดขามสวนะขขวเกยจ",
+   "language": "th",
+   "block_id": 5,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.91772044
+  }
+ ]
+}

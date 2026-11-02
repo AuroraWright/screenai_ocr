@@ -1,0 +1,816 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 289,
+        "y": 49,
+        "width": 5,
+        "height": 27,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ا",
+       "confidence": 0.99946624
+      },
+      {
+       "bounding_box": {
+        "x": 280,
+        "y": 54,
+        "width": 5,
+        "height": 23,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ل",
+       "confidence": 0.9991242
+      },
+      {
+       "bounding_box": {
+        "x": 267,
+        "y": 54,
+        "width": 14,
+        "height": 23,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ل",
+       "confidence": 0.9996828
+      },
+      {
+       "bounding_box": {
+        "x": 254,
+        "y": 58,
+        "width": 18,
+        "height": 18,
+        "angle": -0.034629144
+       },
+       "utf8_string": "غ",
+       "confidence": 0.9993623
+      },
+      {
+       "bounding_box": {
+        "x": 245,
+        "y": 49,
+        "width": 14,
+        "height": 27,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ة",
+       "confidence": 0.99827814
+      }
+     ],
+     "bounding_box": {
+      "x": 245,
+      "y": 49,
+      "width": 49,
+      "height": 28,
+      "angle": -0.03462914
+     },
+     "utf8_string": "اللغة",
+     "language": "ar",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 7,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 117901056,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+     "confidence": 0.99918276,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 234,
+      "y": 49,
+      "width": 13,
+      "height": 23,
+      "angle": -0.034629144
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 223,
+        "y": 49,
+        "width": 9,
+        "height": 23,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ا",
+       "confidence": 0.99959344
+      },
+      {
+       "bounding_box": {
+        "x": 214,
+        "y": 54,
+        "width": 9,
+        "height": 23,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ل",
+       "confidence": 0.9991242
+      },
+      {
+       "bounding_box": {
+        "x": 200,
+        "y": 63,
+        "width": 14,
+        "height": 14,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ع",
+       "confidence": 0.99952316
+      },
+      {
+       "bounding_box": {
+        "x": 187,
+        "y": 63,
+        "width": 18,
+        "height": 18,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ر",
+       "confidence": 0.999278
+      },
+      {
+       "bounding_box": {
+        "x": 178,
+        "y": 63,
+        "width": 9,
+        "height": 18,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ب",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 169,
+        "y": 63,
+        "width": 14,
+        "height": 18,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ي",
+       "confidence": 0.99977916
+      },
+      {
+       "bounding_box": {
+        "x": 156,
+        "y": 49,
+        "width": 18,
+        "height": 27,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ة",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 156,
+      "y": 49,
+      "width": 76,
+      "height": 32,
+      "angle": -0.03462914
+     },
+     "utf8_string": "العربية",
+     "language": "ar",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 16,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 269488128,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+     "confidence": 0.9995595,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 147,
+      "y": 49,
+      "width": 9,
+      "height": 23,
+      "angle": -0.034629144
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 129,
+        "y": 63,
+        "width": 18,
+        "height": 18,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ج",
+       "confidence": 0.99908566
+      },
+      {
+       "bounding_box": {
+        "x": 116,
+        "y": 63,
+        "width": 14,
+        "height": 14,
+        "angle": -0.034629144
+       },
+       "utf8_string": "م",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 103,
+        "y": 63,
+        "width": 14,
+        "height": 18,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ي",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 94,
+        "y": 54,
+        "width": 14,
+        "height": 27,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ل",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 85,
+        "y": 49,
+        "width": 14,
+        "height": 27,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ة",
+       "confidence": 0.9997886
+      }
+     ],
+     "bounding_box": {
+      "x": 85,
+      "y": 49,
+      "width": 62,
+      "height": 32,
+      "angle": -0.03462914
+     },
+     "utf8_string": "جميلة",
+     "language": "ar",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 29,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 488447232,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+     "confidence": 0.99966085,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 70,
+      "y": 49,
+      "width": 13,
+      "height": 23,
+      "angle": -0.034629144
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 54,
+        "y": 63,
+        "width": 18,
+        "height": 18,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ج",
+       "confidence": 0.99965525
+      },
+      {
+       "bounding_box": {
+        "x": 40,
+        "y": 58,
+        "width": 14,
+        "height": 18,
+        "angle": -0.034629144
+       },
+       "utf8_string": "د",
+       "confidence": 0.9990274
+      },
+      {
+       "bounding_box": {
+        "x": 36,
+        "y": 49,
+        "width": 5,
+        "height": 23,
+        "angle": -0.034629144
+       },
+       "utf8_string": "ا",
+       "confidence": 0.9988392
+      }
+     ],
+     "bounding_box": {
+      "x": 36,
+      "y": 49,
+      "width": 36,
+      "height": 32,
+      "angle": -0.03462914
+     },
+     "utf8_string": "جدا",
+     "language": "ar",
+     "estimate_color_success": true,
+     "foreground_gray_value": 30,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 505290240,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+     "confidence": 0.99917394,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 36,
+    "y": 49,
+    "width": 258,
+    "height": 32,
+    "angle": -0.03462914
+   },
+   "utf8_string": "اللغة العربية جميلة جدا",
+   "language": "ar",
+   "direction": "DIRECTION_RIGHT_TO_LEFT",
+   "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+   "confidence": 0.9994328
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 352,
+        "y": 125,
+        "width": 12,
+        "height": 8,
+        "angle": 0.069413975
+       },
+       "utf8_string": "م",
+       "confidence": 0.9996793
+      },
+      {
+       "bounding_box": {
+        "x": 340,
+        "y": 125,
+        "width": 12,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ر",
+       "confidence": 0.9997168
+      },
+      {
+       "bounding_box": {
+        "x": 325,
+        "y": 125,
+        "width": 19,
+        "height": 12,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ح",
+       "confidence": 0.99969625
+      },
+      {
+       "bounding_box": {
+        "x": 317,
+        "y": 125,
+        "width": 12,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ب",
+       "confidence": 0.9994678
+      },
+      {
+       "bounding_box": {
+        "x": 313,
+        "y": 113,
+        "width": 4,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ا",
+       "confidence": 0.99851626
+      }
+     ],
+     "bounding_box": {
+      "x": 313,
+      "y": 113,
+      "width": 51,
+      "height": 28,
+      "angle": 0.06941396
+     },
+     "utf8_string": "مرحبا",
+     "language": "ar",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "confidence": 0.9994153,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 304,
+      "y": 117,
+      "width": 11,
+      "height": 19,
+      "angle": 0.069413975
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 290,
+        "y": 121,
+        "width": 12,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ب",
+       "confidence": 0.99905664
+      },
+      {
+       "bounding_box": {
+        "x": 278,
+        "y": 117,
+        "width": 16,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ك",
+       "confidence": 0.99939597
+      },
+      {
+       "bounding_box": {
+        "x": 270,
+        "y": 125,
+        "width": 12,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "م",
+       "confidence": 0.9997886
+      }
+     ],
+     "bounding_box": {
+      "x": 270,
+      "y": 117,
+      "width": 32,
+      "height": 24,
+      "angle": 0.06941396
+     },
+     "utf8_string": "بكم",
+     "language": "ar",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 68,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 1145324544,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "confidence": 0.9994137,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 263,
+      "y": 117,
+      "width": 7,
+      "height": 19,
+      "angle": 0.069413975
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 247,
+        "y": 117,
+        "width": 16,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ف",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 231,
+        "y": 129,
+        "width": 16,
+        "height": 15,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ي",
+       "confidence": 0.99972945
+      }
+     ],
+     "bounding_box": {
+      "x": 231,
+      "y": 117,
+      "width": 32,
+      "height": 27,
+      "angle": 0.06941396
+     },
+     "utf8_string": "في",
+     "language": "ar",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 1,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 16843008,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "confidence": 0.99976844,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 223,
+      "y": 117,
+      "width": 11,
+      "height": 19,
+      "angle": 0.069413975
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 212,
+        "y": 125,
+        "width": 8,
+        "height": 12,
+        "angle": 0.069413975
+       },
+       "utf8_string": "م",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 200,
+        "y": 121,
+        "width": 12,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "د",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 189,
+        "y": 125,
+        "width": 8,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ي",
+       "confidence": 0.99975497
+      },
+      {
+       "bounding_box": {
+        "x": 181,
+        "y": 117,
+        "width": 12,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ن",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 173,
+        "y": 113,
+        "width": 12,
+        "height": 23,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ة",
+       "confidence": 0.9996629
+      }
+     ],
+     "bounding_box": {
+      "x": 173,
+      "y": 113,
+      "width": 47,
+      "height": 28,
+      "angle": 0.06941396
+     },
+     "utf8_string": "مدينة",
+     "language": "ar",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "confidence": 0.99976957,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 164,
+      "y": 117,
+      "width": 11,
+      "height": 19,
+      "angle": 0.069413975
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 150,
+        "y": 113,
+        "width": 12,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ا",
+       "confidence": 0.9985096
+      },
+      {
+       "bounding_box": {
+        "x": 150,
+        "y": 117,
+        "width": 4,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ل",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 138,
+        "y": 117,
+        "width": 12,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ق",
+       "confidence": 0.9996463
+      },
+      {
+       "bounding_box": {
+        "x": 135,
+        "y": 117,
+        "width": 4,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ا",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 119,
+        "y": 125,
+        "width": 12,
+        "height": 12,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ه",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 103,
+        "y": 125,
+        "width": 16,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ر",
+       "confidence": 0.9996489
+      },
+      {
+       "bounding_box": {
+        "x": 96,
+        "y": 117,
+        "width": 12,
+        "height": 16,
+        "angle": 0.069413975
+       },
+       "utf8_string": "ة",
+       "confidence": 0.99973446
+      }
+     ],
+     "bounding_box": {
+      "x": 96,
+      "y": 113,
+      "width": 66,
+      "height": 28,
+      "angle": 0.06941396
+     },
+     "utf8_string": "القاهرة",
+     "language": "ar",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_RIGHT_TO_LEFT",
+     "confidence": 0.9995603,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 67,
+      "y": 117,
+      "width": 50,
+      "height": 19,
+      "angle": 0.069413975
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 34,
+        "y": 117,
+        "width": 12,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "٢",
+       "confidence": 0.9931126
+      },
+      {
+       "bounding_box": {
+        "x": 49,
+        "y": 125,
+        "width": 4,
+        "height": 12,
+        "angle": 0.069413975
+       },
+       "utf8_string": "٠",
+       "confidence": 0.9928162
+      },
+      {
+       "bounding_box": {
+        "x": 61,
+        "y": 117,
+        "width": 12,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "٢",
+       "confidence": 0.99362177
+      },
+      {
+       "bounding_box": {
+        "x": 76,
+        "y": 117,
+        "width": 12,
+        "height": 19,
+        "angle": 0.069413975
+       },
+       "utf8_string": "٤",
+       "confidence": 0.9986523
+      }
+     ],
+     "bounding_box": {
+      "x": 34,
+      "y": 117,
+      "width": 54,
+      "height": 20,
+      "angle": 0.06941396
+     },
+     "utf8_string": "٢٠٢٤",
+     "language": "ar",
+     "estimate_color_success": true,
+     "foreground_gray_value": 15,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 252645120,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9945507,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 34,
+    "y": 113,
+    "width": 330,
+    "height": 31,
+    "angle": 0.06941396
+   },
+   "utf8_string": "مرحبا بكم في مدينة القاهرة ٢٠٢٤",
+   "language": "ar",
+   "block_id": 1,
+   "direction": "DIRECTION_RIGHT_TO_LEFT",
+   "confidence": 0.99880105
+  }
+ ]
+}

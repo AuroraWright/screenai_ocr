@@ -1,0 +1,454 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 47,
+        "y": 44,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "తె",
+       "confidence": 0.99977607
+      },
+      {
+       "bounding_box": {
+        "x": 72,
+        "y": 44,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "ల",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 77,
+        "y": 44,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "ు",
+       "confidence": 0.978526
+      },
+      {
+       "bounding_box": {
+        "x": 107,
+        "y": 44,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "గ",
+       "confidence": 0.9996463
+      },
+      {
+       "bounding_box": {
+        "x": 112,
+        "y": 44,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "ు",
+       "confidence": 0.99946624
+      }
+     ],
+     "bounding_box": {
+      "x": 47,
+      "y": 44,
+      "width": 70,
+      "height": 40,
+      "angle": 0.15011397
+     },
+     "utf8_string": "తెలుగు",
+     "language": "te",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9954452,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 117,
+      "y": 44,
+      "width": 35,
+      "height": 40,
+      "angle": 0.15011398
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 152,
+        "y": 44,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "భా",
+       "confidence": 0.9996019
+      },
+      {
+       "bounding_box": {
+        "x": 186,
+        "y": 44,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "ష",
+       "confidence": 0.9991091
+      }
+     ],
+     "bounding_box": {
+      "x": 152,
+      "y": 44,
+      "width": 39,
+      "height": 40,
+      "angle": 0.15011397
+     },
+     "utf8_string": "భాష",
+     "language": "te",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9993555,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 191,
+      "y": 44,
+      "width": 35,
+      "height": 40,
+      "angle": 0.15011398
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 226,
+        "y": 45,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "ప",
+       "confidence": 0.999668
+      },
+      {
+       "bounding_box": {
+        "x": 251,
+        "y": 45,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "రీ",
+       "confidence": 0.99356246
+      },
+      {
+       "bounding_box": {
+        "x": 266,
+        "y": 45,
+        "width": 5,
+        "height": 40,
+        "angle": 0.15011398
+       },
+       "utf8_string": "క్ష",
+       "confidence": 0.99947125
+      }
+     ],
+     "bounding_box": {
+      "x": 226,
+      "y": 45,
+      "width": 45,
+      "height": 40,
+      "angle": 0.15011397
+     },
+     "utf8_string": "పరీక్ష",
+     "language": "te",
+     "estimate_color_success": true,
+     "foreground_gray_value": 3,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 50529024,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99756724,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 47,
+    "y": 44,
+    "width": 224,
+    "height": 41,
+    "angle": 0.15011397
+   },
+   "utf8_string": "తెలుగు భాష పరీక్ష",
+   "language": "te",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99686384
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 44,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "హై",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 77,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "ద",
+       "confidence": 0.9994648
+      },
+      {
+       "bounding_box": {
+        "x": 96,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "రా",
+       "confidence": 0.99975497
+      },
+      {
+       "bounding_box": {
+        "x": 129,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "బా",
+       "confidence": 0.9990575
+      },
+      {
+       "bounding_box": {
+        "x": 162,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "ద్",
+       "confidence": 0.9996445
+      }
+     ],
+     "bounding_box": {
+      "x": 44,
+      "y": 110,
+      "width": 123,
+      "height": 38,
+      "angle": 0.030871306
+     },
+     "utf8_string": "హైదరాబాద్",
+     "language": "te",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 8,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 134744064,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99954206,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 167,
+      "y": 110,
+      "width": 28,
+      "height": 38,
+      "angle": 0.03087131
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 195,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "తె",
+       "confidence": 0.99950707
+      },
+      {
+       "bounding_box": {
+        "x": 218,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "ల",
+       "confidence": 0.99954826
+      },
+      {
+       "bounding_box": {
+        "x": 237,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "ం",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 256,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "గా",
+       "confidence": 0.9995546
+      },
+      {
+       "bounding_box": {
+        "x": 289,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "ణ",
+       "confidence": 0.9994186
+      }
+     ],
+     "bounding_box": {
+      "x": 195,
+      "y": 110,
+      "width": 99,
+      "height": 38,
+      "angle": 0.030871306
+     },
+     "utf8_string": "తెలంగాణ",
+     "language": "te",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 8,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 134744064,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995679,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 294,
+      "y": 110,
+      "width": 28,
+      "height": 38,
+      "angle": 0.03087131
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 322,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "రా",
+       "confidence": 0.9995484
+      },
+      {
+       "bounding_box": {
+        "x": 350,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "జ",
+       "confidence": 0.99952984
+      },
+      {
+       "bounding_box": {
+        "x": 374,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "ధా",
+       "confidence": 0.99948573
+      },
+      {
+       "bounding_box": {
+        "x": 407,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 0.03087131
+       },
+       "utf8_string": "ని",
+       "confidence": 0.99203837
+      }
+     ],
+     "bounding_box": {
+      "x": 322,
+      "y": 110,
+      "width": 90,
+      "height": 38,
+      "angle": 0.030871306
+     },
+     "utf8_string": "రాజధాని",
+     "language": "te",
+     "estimate_color_success": true,
+     "foreground_gray_value": 5,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 84215040,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99765056,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 44,
+    "y": 110,
+    "width": 368,
+    "height": 38,
+    "angle": 0.030871306
+   },
+   "utf8_string": "హైదరాబాద్ తెలంగాణ రాజధాని",
+   "language": "te",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99901086
+  }
+ ]
+}

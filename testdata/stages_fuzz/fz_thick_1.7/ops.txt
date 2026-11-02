@@ -1,0 +1,2 @@
+base strip_text
+B cut to 2 words, thickness x 1.7

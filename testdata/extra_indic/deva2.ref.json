@@ -1,0 +1,658 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 32,
+        "y": 52,
+        "width": 20,
+        "height": 25,
+        "angle": 0.20380956
+       },
+       "utf8_string": "ध",
+       "confidence": 0.9979729
+      },
+      {
+       "bounding_box": {
+        "x": 48,
+        "y": 47,
+        "width": 25,
+        "height": 30,
+        "angle": 0.20380956
+       },
+       "utf8_string": "र्म",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 32,
+      "y": 47,
+      "width": 41,
+      "height": 30,
+      "angle": 0.20380956
+     },
+     "utf8_string": "धर्म",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 8,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 134744064,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99889207,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 73,
+      "y": 52,
+      "width": 6,
+      "height": 25,
+      "angle": 0.20380956
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 79,
+        "y": 52,
+        "width": 30,
+        "height": 20,
+        "angle": 0.20380956
+       },
+       "utf8_string": "क",
+       "confidence": 0.9993205
+      },
+      {
+       "bounding_box": {
+        "x": 105,
+        "y": 47,
+        "width": 25,
+        "height": 25,
+        "angle": 0.20380956
+       },
+       "utf8_string": "र्म",
+       "confidence": 0.99976116
+      }
+     ],
+     "bounding_box": {
+      "x": 79,
+      "y": 47,
+      "width": 51,
+      "height": 25,
+      "angle": 0.20380956
+     },
+     "utf8_string": "कर्म",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995408,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 130,
+      "y": 52,
+      "width": 6,
+      "height": 25,
+      "angle": 0.20380956
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 136,
+        "y": 47,
+        "width": 30,
+        "height": 35,
+        "angle": 0.20380956
+       },
+       "utf8_string": "औ",
+       "confidence": 0.9997168
+      },
+      {
+       "bounding_box": {
+        "x": 167,
+        "y": 53,
+        "width": 15,
+        "height": 25,
+        "angle": 0.20380956
+       },
+       "utf8_string": "र",
+       "confidence": 0.99972755
+      }
+     ],
+     "bounding_box": {
+      "x": 136,
+      "y": 47,
+      "width": 46,
+      "height": 35,
+      "angle": 0.20380956
+     },
+     "utf8_string": "और",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997222,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 182,
+      "y": 53,
+      "width": 6,
+      "height": 25,
+      "angle": 0.20380956
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 188,
+        "y": 48,
+        "width": 25,
+        "height": 30,
+        "angle": 0.20380956
+       },
+       "utf8_string": "सं",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 213,
+        "y": 53,
+        "width": 45,
+        "height": 30,
+        "angle": 0.20380956
+       },
+       "utf8_string": "स्",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 209,
+        "y": 53,
+        "width": 45,
+        "height": 30,
+        "angle": 0.20380956
+       },
+       "utf8_string": "कृ",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 249,
+        "y": 43,
+        "width": 31,
+        "height": 35,
+        "angle": 0.20380956
+       },
+       "utf8_string": "ति",
+       "confidence": 0.99759614
+      }
+     ],
+     "bounding_box": {
+      "x": 188,
+      "y": 43,
+      "width": 92,
+      "height": 40,
+      "angle": 0.20380956
+     },
+     "utf8_string": "संस्कृति",
+     "language": "hi",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9992447,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 32,
+    "y": 42,
+    "width": 248,
+    "height": 40,
+    "angle": 0.20380956
+   },
+   "utf8_string": "धर्म कर्म और संस्कृति",
+   "language": "hi",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9993289
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 32,
+        "y": 107,
+        "width": 29,
+        "height": 38,
+        "angle": 0.21069457
+       },
+       "utf8_string": "हिं",
+       "confidence": 0.99953955
+      },
+      {
+       "bounding_box": {
+        "x": 52,
+        "y": 107,
+        "width": 24,
+        "height": 33,
+        "angle": 0.21069457
+       },
+       "utf8_string": "द",
+       "confidence": 0.99972755
+      },
+      {
+       "bounding_box": {
+        "x": 52,
+        "y": 107,
+        "width": 24,
+        "height": 33,
+        "angle": 0.21069457
+       },
+       "utf8_string": "ी",
+       "confidence": 0.99965084
+      }
+     ],
+     "bounding_box": {
+      "x": 32,
+      "y": 107,
+      "width": 44,
+      "height": 38,
+      "angle": 0.21069454
+     },
+     "utf8_string": "हिंदी",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99963933,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 76,
+      "y": 107,
+      "width": 11,
+      "height": 33,
+      "angle": 0.21069457
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 87,
+        "y": 107,
+        "width": 30,
+        "height": 33,
+        "angle": 0.21069457
+       },
+       "utf8_string": "किं",
+       "confidence": 0.99938303
+      },
+      {
+       "bounding_box": {
+        "x": 112,
+        "y": 117,
+        "width": 19,
+        "height": 29,
+        "angle": 0.21069457
+       },
+       "utf8_string": "तु",
+       "confidence": 0.9997205
+      }
+     ],
+     "bounding_box": {
+      "x": 87,
+      "y": 107,
+      "width": 44,
+      "height": 39,
+      "angle": 0.21069454
+     },
+     "utf8_string": "किंतु",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 29,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 488447232,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995518,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 131,
+      "y": 107,
+      "width": 16,
+      "height": 33,
+      "angle": 0.21069457
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 147,
+        "y": 117,
+        "width": 19,
+        "height": 29,
+        "angle": 0.21069457
+       },
+       "utf8_string": "पु",
+       "confidence": 0.999335
+      },
+      {
+       "bounding_box": {
+        "x": 157,
+        "y": 108,
+        "width": 43,
+        "height": 34,
+        "angle": 0.21069457
+       },
+       "utf8_string": "स्ति",
+       "confidence": 0.9990709
+      },
+      {
+       "bounding_box": {
+        "x": 197,
+        "y": 118,
+        "width": 29,
+        "height": 19,
+        "angle": 0.21069457
+       },
+       "utf8_string": "क",
+       "confidence": 0.99977666
+      },
+      {
+       "bounding_box": {
+        "x": 193,
+        "y": 118,
+        "width": 33,
+        "height": 24,
+        "angle": 0.21069457
+       },
+       "utf8_string": "ा",
+       "confidence": 0.9988939
+      }
+     ],
+     "bounding_box": {
+      "x": 147,
+      "y": 108,
+      "width": 79,
+      "height": 38,
+      "angle": 0.21069454
+     },
+     "utf8_string": "पुस्तिका",
+     "language": "hi",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9992691,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 32,
+    "y": 107,
+    "width": 194,
+    "height": 39,
+    "angle": 0.21069454
+   },
+   "utf8_string": "हिंदी किंतु पुस्तिका",
+   "language": "hi",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99945533
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 28,
+        "y": 166,
+        "width": 29,
+        "height": 34,
+        "angle": 0.3778962
+       },
+       "utf8_string": "प्रि",
+       "confidence": 0.9987132
+      },
+      {
+       "bounding_box": {
+        "x": 53,
+        "y": 176,
+        "width": 19,
+        "height": 19,
+        "angle": 0.3778962
+       },
+       "utf8_string": "य",
+       "confidence": 0.9994898
+      }
+     ],
+     "bounding_box": {
+      "x": 28,
+      "y": 166,
+      "width": 44,
+      "height": 34,
+      "angle": 0.3778962
+     },
+     "utf8_string": "प्रिय",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 3,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 50529024,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9991015,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 72,
+      "y": 166,
+      "width": 6,
+      "height": 29,
+      "angle": 0.3778962
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 78,
+        "y": 171,
+        "width": 24,
+        "height": 29,
+        "angle": 0.3778962
+       },
+       "utf8_string": "मि",
+       "confidence": 0.9991355
+      },
+      {
+       "bounding_box": {
+        "x": 103,
+        "y": 181,
+        "width": 19,
+        "height": 24,
+        "angle": 0.3778962
+       },
+       "utf8_string": "त्र",
+       "confidence": 0.99833775
+      },
+      {
+       "bounding_box": {
+        "x": 118,
+        "y": 186,
+        "width": 14,
+        "height": 19,
+        "angle": 0.3778962
+       },
+       "utf8_string": ",",
+       "confidence": 0.998926
+      }
+     ],
+     "bounding_box": {
+      "x": 78,
+      "y": 171,
+      "width": 54,
+      "height": 34,
+      "angle": 0.3778962
+     },
+     "utf8_string": "मित्र,",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99879974,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 132,
+      "y": 167,
+      "width": 1,
+      "height": 29,
+      "angle": 0.3778962
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 133,
+        "y": 177,
+        "width": 24,
+        "height": 29,
+        "angle": 0.3778962
+       },
+       "utf8_string": "शु",
+       "confidence": 0.99972945
+      },
+      {
+       "bounding_box": {
+        "x": 153,
+        "y": 177,
+        "width": 19,
+        "height": 19,
+        "angle": 0.3778962
+       },
+       "utf8_string": "भ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 172,
+        "y": 181,
+        "width": 29,
+        "height": 19,
+        "angle": 0.3778962
+       },
+       "utf8_string": "क",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 187,
+        "y": 177,
+        "width": 24,
+        "height": 19,
+        "angle": 0.3778962
+       },
+       "utf8_string": "ा",
+       "confidence": 0.99973744
+      },
+      {
+       "bounding_box": {
+        "x": 202,
+        "y": 177,
+        "width": 19,
+        "height": 19,
+        "angle": 0.3778962
+       },
+       "utf8_string": "म",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 217,
+        "y": 177,
+        "width": 29,
+        "height": 19,
+        "angle": 0.3778962
+       },
+       "utf8_string": "न",
+       "confidence": 0.99972755
+      },
+      {
+       "bounding_box": {
+        "x": 218,
+        "y": 177,
+        "width": 29,
+        "height": 24,
+        "angle": 0.3778962
+       },
+       "utf8_string": "ा",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 242,
+        "y": 172,
+        "width": 19,
+        "height": 29,
+        "angle": 0.3778962
+       },
+       "utf8_string": "एँ",
+       "confidence": 0.9997987
+      }
+     ],
+     "bounding_box": {
+      "x": 133,
+      "y": 171,
+      "width": 128,
+      "height": 35,
+      "angle": 0.3778962
+     },
+     "utf8_string": "शुभकामनाएँ",
+     "language": "hi",
+     "estimate_color_success": true,
+     "foreground_gray_value": 12,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 202116096,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997731,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 28,
+    "y": 166,
+    "width": 233,
+    "height": 39,
+    "angle": 0.3778962
+   },
+   "utf8_string": "प्रिय मित्र, शुभकामनाएँ",
+   "language": "hi",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99944514
+  }
+ ]
+}

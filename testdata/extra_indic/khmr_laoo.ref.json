@@ -1,0 +1,509 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 25,
+        "y": 54,
+        "width": 32,
+        "height": 21,
+        "angle": 0.24844985
+       },
+       "utf8_string": "ភា",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 45,
+        "y": 54,
+        "width": 56,
+        "height": 26,
+        "angle": 0.24844985
+       },
+       "utf8_string": "សា",
+       "confidence": 0.9996619
+      },
+      {
+       "bounding_box": {
+        "x": 132,
+        "y": 48,
+        "width": 26,
+        "height": 32,
+        "angle": 0.24844985
+       },
+       "utf8_string": "ខ្មែ",
+       "confidence": 0.9987478
+      },
+      {
+       "bounding_box": {
+        "x": 138,
+        "y": 55,
+        "width": 11,
+        "height": 26,
+        "angle": 0.24844985
+       },
+       "utf8_string": "រ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 25,
+      "y": 48,
+      "width": 133,
+      "height": 33,
+      "angle": 0.24844983
+     },
+     "utf8_string": "ភាសាខ្មែរ",
+     "language": "km",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999508,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 151,
+      "y": 55,
+      "width": 14,
+      "height": 21,
+      "angle": 0.24844985
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 163,
+        "y": 49,
+        "width": 32,
+        "height": 32,
+        "angle": 0.24844985
+       },
+       "utf8_string": "ប្រ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 190,
+        "y": 49,
+        "width": 36,
+        "height": 26,
+        "angle": 0.24844985
+       },
+       "utf8_string": "ទេ",
+       "confidence": 0.9995876
+      },
+      {
+       "bounding_box": {
+        "x": 229,
+        "y": 55,
+        "width": 36,
+        "height": 21,
+        "angle": 0.24844985
+       },
+       "utf8_string": "ស",
+       "confidence": 0.9985367
+      },
+      {
+       "bounding_box": {
+        "x": 275,
+        "y": 49,
+        "width": 28,
+        "height": 37,
+        "angle": 0.24844985
+       },
+       "utf8_string": "ក",
+       "confidence": 0.99972063
+      },
+      {
+       "bounding_box": {
+        "x": 304,
+        "y": 55,
+        "width": 21,
+        "height": 26,
+        "angle": 0.24844985
+       },
+       "utf8_string": "ម្ពុ",
+       "confidence": 0.9981925
+      },
+      {
+       "bounding_box": {
+        "x": 299,
+        "y": 55,
+        "width": 32,
+        "height": 32,
+        "angle": 0.24844985
+       },
+       "utf8_string": "ជា",
+       "confidence": 0.99924743
+      }
+     ],
+     "bounding_box": {
+      "x": 163,
+      "y": 49,
+      "width": 168,
+      "height": 37,
+      "angle": 0.24844983
+     },
+     "utf8_string": "ប្រទេសកម្ពុជា",
+     "language": "km",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9991827,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 25,
+    "y": 48,
+    "width": 306,
+    "height": 38,
+    "angle": 0.24844983
+   },
+   "utf8_string": "ភាសាខ្មែរ ប្រទេសកម្ពុជា",
+   "language": "km",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9993128
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 41,
+        "y": 122,
+        "width": 11,
+        "height": 15,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ພ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 46,
+        "y": 122,
+        "width": 13,
+        "height": 15,
+        "angle": -0.010113103
+       },
+       "utf8_string": "າ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 59,
+        "y": 122,
+        "width": 22,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ສ",
+       "confidence": 0.99977666
+      },
+      {
+       "bounding_box": {
+        "x": 90,
+        "y": 122,
+        "width": 19,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "າ",
+       "confidence": 0.99925464
+      },
+      {
+       "bounding_box": {
+        "x": 89,
+        "y": 122,
+        "width": 20,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ລ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 119,
+        "y": 126,
+        "width": 11,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "າ",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 121,
+        "y": 122,
+        "width": 11,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ວ",
+       "confidence": 0.99977034
+      }
+     ],
+     "bounding_box": {
+      "x": 41,
+      "y": 122,
+      "width": 91,
+      "height": 23,
+      "angle": -0.010113102
+     },
+     "utf8_string": "ພາສາລາວ",
+     "language": "lo",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 17,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 286331136,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997138,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 132,
+      "y": 122,
+      "width": 23,
+      "height": 15,
+      "angle": -0.010113103
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 155,
+        "y": 115,
+        "width": 15,
+        "height": 26,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ເ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 151,
+        "y": 115,
+        "width": 19,
+        "height": 22,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ມື",
+       "confidence": 0.99902964
+      },
+      {
+       "bounding_box": {
+        "x": 166,
+        "y": 122,
+        "width": 21,
+        "height": 15,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ອ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 197,
+        "y": 122,
+        "width": 15,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ງ",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 210,
+        "y": 118,
+        "width": 15,
+        "height": 22,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ວ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 221,
+        "y": 118,
+        "width": 15,
+        "height": 26,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ຽ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 232,
+        "y": 115,
+        "width": 21,
+        "height": 26,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ງ",
+       "confidence": 0.99972063
+      },
+      {
+       "bounding_box": {
+        "x": 263,
+        "y": 122,
+        "width": 20,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ຈັ",
+       "confidence": 0.9991003
+      },
+      {
+       "bounding_box": {
+        "x": 262,
+        "y": 118,
+        "width": 15,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ນ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 151,
+      "y": 115,
+      "width": 132,
+      "height": 29,
+      "angle": -0.010113102
+     },
+     "utf8_string": "ເມືອງວຽງຈັນ",
+     "language": "lo",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996227,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 281,
+      "y": 122,
+      "width": 19,
+      "height": 15,
+      "angle": -0.010113103
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 296,
+        "y": 115,
+        "width": 15,
+        "height": 22,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ໂ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 303,
+        "y": 122,
+        "width": 15,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ຮ",
+       "confidence": 0.99972063
+      },
+      {
+       "bounding_box": {
+        "x": 310,
+        "y": 122,
+        "width": 22,
+        "height": 22,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ງ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 345,
+        "y": 118,
+        "width": 17,
+        "height": 26,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ຮ",
+       "confidence": 0.99925643
+      },
+      {
+       "bounding_box": {
+        "x": 343,
+        "y": 118,
+        "width": 15,
+        "height": 26,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ຽ",
+       "confidence": 0.99975497
+      },
+      {
+       "bounding_box": {
+        "x": 358,
+        "y": 118,
+        "width": 15,
+        "height": 19,
+        "angle": -0.010113103
+       },
+       "utf8_string": "ນ",
+       "confidence": 0.99977
+      }
+     ],
+     "bounding_box": {
+      "x": 296,
+      "y": 115,
+      "width": 77,
+      "height": 29,
+      "angle": -0.010113102
+     },
+     "utf8_string": "ໂຮງຮຽນ",
+     "language": "lo",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99968743,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 41,
+    "y": 115,
+    "width": 332,
+    "height": 30,
+    "angle": -0.010113102
+   },
+   "utf8_string": "ພາສາລາວ ເມືອງວຽງຈັນ ໂຮງຮຽນ",
+   "language": "lo",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9996693
+  }
+ ]
+}

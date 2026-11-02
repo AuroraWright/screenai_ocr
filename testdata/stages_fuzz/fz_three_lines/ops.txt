@@ -1,0 +1,2 @@
+base strip_text
+B copied 700 px right

@@ -1,0 +1,2 @@
+base strip_text
+B last word break SOFT_HYPHEN

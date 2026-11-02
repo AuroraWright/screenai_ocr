@@ -1,0 +1,10 @@
+_SetFileContentFunctions
+_InitOCRUsingCallback
+_SetOCRLightMode
+_GetMaxImageDimension
+_UninitializeOCR
+_PerformOCR
+_FreeLibraryAllocatedCharArray
+_FreeLibraryAllocatedInt32Array
+_GetLibraryVersion
+_EnableDebugMode

@@ -1,0 +1,492 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 27,
+        "y": 56,
+        "width": 64,
+        "height": 18,
+        "angle": -0.105676204
+       },
+       "utf8_string": "കെ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 30,
+        "y": 56,
+        "width": 60,
+        "height": 18,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ാ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 89,
+        "y": 51,
+        "width": 37,
+        "height": 32,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ച്ച",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 97,
+        "y": 51,
+        "width": 27,
+        "height": 32,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ി",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 27,
+      "y": 51,
+      "width": 99,
+      "height": 32,
+      "angle": -0.1056762
+     },
+     "utf8_string": "കൊച്ചി",
+     "language": "ml",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 31,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 522133248,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 126,
+      "y": 56,
+      "width": 11,
+      "height": 18,
+      "angle": -0.105676204
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 135,
+        "y": 56,
+        "width": 64,
+        "height": 18,
+        "angle": -0.105676204
+       },
+       "utf8_string": "കേ",
+       "confidence": 0.9908179
+      },
+      {
+       "bounding_box": {
+        "x": 139,
+        "y": 56,
+        "width": 55,
+        "height": 18,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ാ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 198,
+        "y": 56,
+        "width": 18,
+        "height": 27,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ട്ട",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 214,
+        "y": 56,
+        "width": 41,
+        "height": 18,
+        "angle": -0.105676204
+       },
+       "utf8_string": "യ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 214,
+        "y": 56,
+        "width": 41,
+        "height": 18,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ം",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 135,
+      "y": 56,
+      "width": 120,
+      "height": 27,
+      "angle": -0.1056762
+     },
+     "utf8_string": "കോട്ടയം",
+     "language": "ml",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99801254,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 255,
+      "y": 56,
+      "width": 10,
+      "height": 18,
+      "angle": -0.105676204
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 265,
+        "y": 60,
+        "width": 69,
+        "height": 18,
+        "angle": -0.105676204
+       },
+       "utf8_string": "കൈ",
+       "confidence": 0.9994399
+      },
+      {
+       "bounding_box": {
+        "x": 332,
+        "y": 55,
+        "width": 18,
+        "height": 18,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ര",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 354,
+        "y": 50,
+        "width": 27,
+        "height": 32,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ള",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 353,
+        "y": 50,
+        "width": 27,
+        "height": 32,
+        "angle": -0.105676204
+       },
+       "utf8_string": "ി",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 265,
+      "y": 50,
+      "width": 116,
+      "height": 32,
+      "angle": -0.1056762
+     },
+     "utf8_string": "കൈരളി",
+     "language": "ml",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997184,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 27,
+    "y": 51,
+    "width": 354,
+    "height": 32,
+    "angle": -0.1056762
+   },
+   "utf8_string": "കൊച്ചി കോട്ടയം കൈരളി",
+   "language": "ml",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99909085
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 38,
+        "y": 113,
+        "width": 9,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "ශ්‍රී",
+       "confidence": 0.99811137
+      }
+     ],
+     "bounding_box": {
+      "x": 38,
+      "y": 113,
+      "width": 9,
+      "height": 32,
+      "angle": -0.15837279
+     },
+     "utf8_string": "ශ්‍රී",
+     "language": "si",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99811137,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 51,
+      "y": 113,
+      "width": 11,
+      "height": 32,
+      "angle": -0.1583728
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 58,
+        "y": 113,
+        "width": 25,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "ලං",
+       "confidence": 0.99209255
+      },
+      {
+       "bounding_box": {
+        "x": 92,
+        "y": 113,
+        "width": 20,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "කා",
+       "confidence": 0.996458
+      },
+      {
+       "bounding_box": {
+        "x": 122,
+        "y": 113,
+        "width": 16,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "ව",
+       "confidence": 0.99977666
+      }
+     ],
+     "bounding_box": {
+      "x": 58,
+      "y": 113,
+      "width": 80,
+      "height": 32,
+      "angle": -0.15837279
+     },
+     "utf8_string": "ලංකාව",
+     "language": "si",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 5,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 84215040,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99610907,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 140,
+      "y": 113,
+      "width": 23,
+      "height": 32,
+      "angle": -0.1583728
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 161,
+        "y": 113,
+        "width": 23,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "කො",
+       "confidence": 0.9935865
+      },
+      {
+       "bounding_box": {
+        "x": 193,
+        "y": 113,
+        "width": 16,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "ළ",
+       "confidence": 0.995993
+      },
+      {
+       "bounding_box": {
+        "x": 215,
+        "y": 112,
+        "width": 12,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "ඹ",
+       "confidence": 0.99980325
+      }
+     ],
+     "bounding_box": {
+      "x": 161,
+      "y": 112,
+      "width": 66,
+      "height": 33,
+      "angle": -0.15837279
+     },
+     "utf8_string": "කොළඹ",
+     "language": "si",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 1,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 16843008,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9964609,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 227,
+      "y": 112,
+      "width": 15,
+      "height": 32,
+      "angle": -0.1583728
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 242,
+        "y": 112,
+        "width": 13,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "න",
+       "confidence": 0.9993881
+      },
+      {
+       "bounding_box": {
+        "x": 258,
+        "y": 112,
+        "width": 13,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "ග",
+       "confidence": 0.9981602
+      },
+      {
+       "bounding_box": {
+        "x": 277,
+        "y": 112,
+        "width": 13,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "ර",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 294,
+        "y": 112,
+        "width": 12,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "ය",
+       "confidence": 0.9975793
+      },
+      {
+       "bounding_box": {
+        "x": 311,
+        "y": 112,
+        "width": 10,
+        "height": 32,
+        "angle": -0.1583728
+       },
+       "utf8_string": "|",
+       "confidence": 0.64305514
+      }
+     ],
+     "bounding_box": {
+      "x": 242,
+      "y": 112,
+      "width": 79,
+      "height": 32,
+      "angle": -0.15837279
+     },
+     "utf8_string": "නගරය|",
+     "language": "si",
+     "estimate_color_success": true,
+     "foreground_gray_value": 1,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 16843008,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9275988,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 38,
+    "y": 112,
+    "width": 283,
+    "height": 33,
+    "angle": -0.15837279
+   },
+   "utf8_string": "ශ්‍රී ලංකාව කොළඹ නගරය|",
+   "language": "si",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.96781796
+  }
+ ]
+}

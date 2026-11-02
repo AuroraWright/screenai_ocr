@@ -1,0 +1,872 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 51,
+        "y": 34,
+        "width": 27,
+        "height": 27,
+        "angle": -0.10901561
+       },
+       "utf8_string": "ロ",
+       "confidence": 0.99874794
+      },
+      {
+       "bounding_box": {
+        "x": 85,
+        "y": 29,
+        "width": 32,
+        "height": 32,
+        "angle": -0.10901561
+       },
+       "utf8_string": "グ",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 115,
+        "y": 34,
+        "width": 27,
+        "height": 27,
+        "angle": -0.10901561
+       },
+       "utf8_string": "イ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 154,
+        "y": 34,
+        "width": 23,
+        "height": 23,
+        "angle": -0.10901561
+       },
+       "utf8_string": "ン",
+       "confidence": 0.9997886
+      }
+     ],
+     "bounding_box": {
+      "x": 51,
+      "y": 29,
+      "width": 126,
+      "height": 32,
+      "angle": -0.10901561
+     },
+     "utf8_string": "ログイン",
+     "estimate_color_success": true,
+     "foreground_gray_value": 4,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 67372032,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995388,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 51,
+    "y": 29,
+    "width": 126,
+    "height": 32,
+    "angle": -0.10901561
+   },
+   "utf8_string": "ログイン",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9995388
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 52,
+        "y": 119,
+        "width": 22,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "メ",
+       "confidence": 0.99972874
+      },
+      {
+       "bounding_box": {
+        "x": 79,
+        "y": 126,
+        "width": 18,
+        "height": 4,
+        "angle": 0.008530858
+       },
+       "utf8_string": "ー",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 102,
+        "y": 119,
+        "width": 22,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "ル",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 129,
+        "y": 119,
+        "width": 18,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "ア",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 159,
+        "y": 115,
+        "width": 14,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "ド",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 183,
+        "y": 119,
+        "width": 14,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "レ",
+       "confidence": 0.99964285
+      },
+      {
+       "bounding_box": {
+        "x": 203,
+        "y": 119,
+        "width": 22,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "ス",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 230,
+        "y": 119,
+        "width": 18,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "ま",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 257,
+        "y": 119,
+        "width": 18,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "た",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 280,
+        "y": 119,
+        "width": 22,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "は",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 307,
+        "y": 119,
+        "width": 22,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "電",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 330,
+        "y": 115,
+        "width": 25,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "話",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 357,
+        "y": 119,
+        "width": 22,
+        "height": 22,
+        "angle": 0.008530858
+       },
+       "utf8_string": "番",
+       "confidence": 0.99936014
+      },
+      {
+       "bounding_box": {
+        "x": 380,
+        "y": 115,
+        "width": 25,
+        "height": 25,
+        "angle": 0.008530858
+       },
+       "utf8_string": "号",
+       "confidence": 0.9995421
+      }
+     ],
+     "bounding_box": {
+      "x": 52,
+      "y": 115,
+      "width": 353,
+      "height": 26,
+      "angle": 0.008530857
+     },
+     "utf8_string": "メールアドレスまたは電話番号",
+     "language": "ja",
+     "estimate_color_success": true,
+     "foreground_gray_value": 35,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 589505280,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99973625,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 52,
+    "y": 115,
+    "width": 353,
+    "height": 26,
+    "angle": 0.008530857
+   },
+   "utf8_string": "メールアドレスまたは電話番号",
+   "language": "ja",
+   "block_id": 1,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99973625
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 51,
+        "y": 200,
+        "width": 25,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "パ",
+       "confidence": 0.99977666
+      },
+      {
+       "bounding_box": {
+        "x": 78,
+        "y": 204,
+        "width": 22,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "ス",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 105,
+        "y": 204,
+        "width": 18,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "ワ",
+       "confidence": 0.9997054
+      },
+      {
+       "bounding_box": {
+        "x": 129,
+        "y": 211,
+        "width": 22,
+        "height": 4,
+        "angle": -0.005262012
+       },
+       "utf8_string": "ー",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 159,
+        "y": 200,
+        "width": 18,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "ド",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 183,
+        "y": 200,
+        "width": 18,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "を",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 206,
+        "y": 204,
+        "width": 22,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "お",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 233,
+        "y": 200,
+        "width": 22,
+        "height": 25,
+        "angle": -0.005262012
+       },
+       "utf8_string": "忘",
+       "confidence": 0.9995561
+      },
+      {
+       "bounding_box": {
+        "x": 257,
+        "y": 200,
+        "width": 25,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "れ",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 284,
+        "y": 204,
+        "width": 25,
+        "height": 18,
+        "angle": -0.005262012
+       },
+       "utf8_string": "で",
+       "confidence": 0.9997465
+      },
+      {
+       "bounding_box": {
+        "x": 307,
+        "y": 200,
+        "width": 25,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "す",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 338,
+        "y": 204,
+        "width": 22,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "か",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 365,
+        "y": 204,
+        "width": 14,
+        "height": 22,
+        "angle": -0.005262012
+       },
+       "utf8_string": "?",
+       "confidence": 0.99977916
+      }
+     ],
+     "bounding_box": {
+      "x": 51,
+      "y": 200,
+      "width": 328,
+      "height": 26,
+      "angle": -0.0052620117
+     },
+     "utf8_string": "パスワードをお忘れですか?",
+     "language": "ja",
+     "estimate_color_success": true,
+     "foreground_gray_value": 99,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 1667457792,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999768,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 51,
+    "y": 200,
+    "width": 328,
+    "height": 26,
+    "angle": -0.0052620117
+   },
+   "utf8_string": "パスワードをお忘れですか?",
+   "language": "ja",
+   "block_id": 2,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.999768
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 51,
+        "y": 288,
+        "width": 23,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": "新",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 76,
+        "y": 288,
+        "width": 23,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": "規",
+       "confidence": 0.9995932
+      },
+      {
+       "bounding_box": {
+        "x": 102,
+        "y": 288,
+        "width": 27,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": "登",
+       "confidence": 0.99951017
+      },
+      {
+       "bounding_box": {
+        "x": 131,
+        "y": 288,
+        "width": 23,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": "録",
+       "confidence": 0.99700636
+      },
+      {
+       "bounding_box": {
+        "x": 171,
+        "y": 284,
+        "width": 8,
+        "height": 27,
+        "angle": -0.014004071
+       },
+       "utf8_string": "(",
+       "confidence": 0.9996039
+      },
+      {
+       "bounding_box": {
+        "x": 181,
+        "y": 288,
+        "width": 23,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": "無",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 206,
+        "y": 288,
+        "width": 23,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": "料",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 232,
+        "y": 288,
+        "width": 8,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": ")",
+       "confidence": 0.99957174
+      },
+      {
+       "bounding_box": {
+        "x": 257,
+        "y": 288,
+        "width": 23,
+        "height": 19,
+        "angle": -0.014004071
+       },
+       "utf8_string": "は",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 286,
+        "y": 288,
+        "width": 15,
+        "height": 19,
+        "angle": -0.014004071
+       },
+       "utf8_string": "こ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 311,
+        "y": 288,
+        "width": 19,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": "ち",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 340,
+        "y": 288,
+        "width": 15,
+        "height": 23,
+        "angle": -0.014004071
+       },
+       "utf8_string": "ら",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 51,
+      "y": 284,
+      "width": 304,
+      "height": 27,
+      "angle": -0.014004069
+     },
+     "utf8_string": "新規登録(無料)はこちら",
+     "language": "ja",
+     "estimate_color_success": true,
+     "foreground_gray_value": 24,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 404232192,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9994912,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 51,
+    "y": 284,
+    "width": 304,
+    "height": 27,
+    "angle": -0.014004069
+   },
+   "utf8_string": "新規登録(無料)はこちら",
+   "language": "ja",
+   "block_id": 3,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9994912
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 50,
+        "y": 376,
+        "width": 13,
+        "height": 14,
+        "angle": 0.08225791
+       },
+       "utf8_string": "C",
+       "confidence": 0.93336296
+      }
+     ],
+     "bounding_box": {
+      "x": 50,
+      "y": 376,
+      "width": 13,
+      "height": 14,
+      "angle": 0.082257904
+     },
+     "utf8_string": "C",
+     "estimate_color_success": true,
+     "foreground_gray_value": 77,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 1296911616,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.93336296,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 50,
+    "y": 376,
+    "width": 13,
+    "height": 14,
+    "angle": 0.082257904
+   },
+   "utf8_string": "C",
+   "block_id": 4,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.93336296
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 73,
+        "y": 373,
+        "width": 15,
+        "height": 19,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "2",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 90,
+        "y": 373,
+        "width": 15,
+        "height": 19,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "0",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 108,
+        "y": 373,
+        "width": 15,
+        "height": 19,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "2",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 125,
+        "y": 373,
+        "width": 15,
+        "height": 19,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "6",
+       "confidence": 0.99977916
+      }
+     ],
+     "bounding_box": {
+      "x": 73,
+      "y": 373,
+      "width": 67,
+      "height": 19,
+      "angle": 0.0017588162
+     },
+     "utf8_string": "2026",
+     "language": "ja",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 17,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 286331136,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997705,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 140,
+      "y": 373,
+      "width": 13,
+      "height": 19,
+      "angle": 0.0017588162
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 153,
+        "y": 373,
+        "width": 19,
+        "height": 22,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "サ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 177,
+        "y": 376,
+        "width": 19,
+        "height": 19,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "ン",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 205,
+        "y": 369,
+        "width": 22,
+        "height": 22,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "プ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 225,
+        "y": 373,
+        "width": 22,
+        "height": 22,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "ル",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 253,
+        "y": 373,
+        "width": 22,
+        "height": 22,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "株",
+       "confidence": 0.99976283
+      },
+      {
+       "bounding_box": {
+        "x": 277,
+        "y": 373,
+        "width": 22,
+        "height": 22,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "式",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 301,
+        "y": 373,
+        "width": 26,
+        "height": 24,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "会",
+       "confidence": 0.9992855
+      },
+      {
+       "bounding_box": {
+        "x": 329,
+        "y": 373,
+        "width": 22,
+        "height": 22,
+        "angle": 0.0017588162
+       },
+       "utf8_string": "社",
+       "confidence": 0.99970883
+      }
+     ],
+     "bounding_box": {
+      "x": 153,
+      "y": 369,
+      "width": 198,
+      "height": 28,
+      "angle": 0.0017588162
+     },
+     "utf8_string": "サンプル株式会社",
+     "language": "ja",
+     "estimate_color_success": true,
+     "foreground_gray_value": 2,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 33686016,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99972665,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 73,
+    "y": 369,
+    "width": 278,
+    "height": 28,
+    "angle": 0.0017588162
+   },
+   "utf8_string": "2026 サンプル株式会社",
+   "language": "ja",
+   "block_id": 5,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99974126
+  }
+ ]
+}

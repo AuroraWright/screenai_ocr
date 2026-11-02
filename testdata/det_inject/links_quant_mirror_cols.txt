@@ -1,0 +1,8 @@
+# image: testdata/extra_ties/mirror_cols.png
+# all level-1 horizontal boxes 16x16 axis-aligned
+set 0 2 0 0 0 0 1 0
+set 0 2 0 0 0 0 2 0
+set 0 2 0 0 0 0 3 0
+set 0 2 0 0 0 0 4 0
+set 0 2 0 0 0 0 5 1
+set 0 2 0 0 0 0 6 0

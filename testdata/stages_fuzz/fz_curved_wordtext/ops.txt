@@ -1,0 +1,7 @@
+base testdata/stages_extra_rot/scripts_175
+del_symbol 23
+jitter 34 2,-1,1,-1
+jitter 23 -3,1,-1,2
+dup_word 49 -38
+overlap 32 onto 3 -66,-143
+del_symbol 31

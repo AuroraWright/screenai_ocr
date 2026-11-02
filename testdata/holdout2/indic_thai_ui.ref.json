@@ -1,0 +1,1295 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 32,
+        "y": 49,
+        "width": 18,
+        "height": 27,
+        "angle": -0.07859527
+       },
+       "utf8_string": "कृ",
+       "confidence": 0.9995602
+      },
+      {
+       "bounding_box": {
+        "x": 56,
+        "y": 49,
+        "width": 18,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "प",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 70,
+        "y": 49,
+        "width": 23,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "य",
+       "confidence": 0.9996929
+      },
+      {
+       "bounding_box": {
+        "x": 66,
+        "y": 49,
+        "width": 32,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "ा",
+       "confidence": 0.99980325
+      }
+     ],
+     "bounding_box": {
+      "x": 32,
+      "y": 49,
+      "width": 66,
+      "height": 27,
+      "angle": -0.078595266
+     },
+     "utf8_string": "कृपया",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997169,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 98,
+      "y": 49,
+      "width": 10,
+      "height": 27,
+      "angle": -0.07859527
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 108,
+        "y": 49,
+        "width": 18,
+        "height": 23,
+        "angle": -0.07859527
+       },
+       "utf8_string": "अ",
+       "confidence": 0.9996111
+      },
+      {
+       "bounding_box": {
+        "x": 127,
+        "y": 49,
+        "width": 23,
+        "height": 23,
+        "angle": -0.07859527
+       },
+       "utf8_string": "प",
+       "confidence": 0.9996823
+      },
+      {
+       "bounding_box": {
+        "x": 142,
+        "y": 49,
+        "width": 23,
+        "height": 23,
+        "angle": -0.07859527
+       },
+       "utf8_string": "न",
+       "confidence": 0.99957174
+      },
+      {
+       "bounding_box": {
+        "x": 137,
+        "y": 49,
+        "width": 32,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "ा",
+       "confidence": 0.9997938
+      }
+     ],
+     "bounding_box": {
+      "x": 108,
+      "y": 49,
+      "width": 61,
+      "height": 23,
+      "angle": -0.078595266
+     },
+     "utf8_string": "अपना",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996647,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 169,
+      "y": 49,
+      "width": 6,
+      "height": 27,
+      "angle": -0.07859527
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 175,
+        "y": 49,
+        "width": 27,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "प",
+       "confidence": 0.9997205
+      },
+      {
+       "bounding_box": {
+        "x": 175,
+        "y": 49,
+        "width": 27,
+        "height": 23,
+        "angle": -0.07859527
+       },
+       "utf8_string": "ा",
+       "confidence": 0.9997054
+      },
+      {
+       "bounding_box": {
+        "x": 199,
+        "y": 49,
+        "width": 23,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "स",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 222,
+        "y": 49,
+        "width": 14,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "व",
+       "confidence": 0.9994579
+      },
+      {
+       "bounding_box": {
+        "x": 237,
+        "y": 45,
+        "width": 18,
+        "height": 32,
+        "angle": -0.07859527
+       },
+       "utf8_string": "र्ड",
+       "confidence": 0.9988864
+      }
+     ],
+     "bounding_box": {
+      "x": 175,
+      "y": 45,
+      "width": 80,
+      "height": 32,
+      "angle": -0.078595266
+     },
+     "utf8_string": "पासवर्ड",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 10,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 168430080,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995163,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 255,
+      "y": 49,
+      "width": 5,
+      "height": 27,
+      "angle": -0.07859527
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 260,
+        "y": 49,
+        "width": 18,
+        "height": 23,
+        "angle": -0.07859527
+       },
+       "utf8_string": "द",
+       "confidence": 0.9995771
+      },
+      {
+       "bounding_box": {
+        "x": 279,
+        "y": 45,
+        "width": 23,
+        "height": 27,
+        "angle": -0.07859527
+       },
+       "utf8_string": "र्ज",
+       "confidence": 0.99935883
+      }
+     ],
+     "bounding_box": {
+      "x": 260,
+      "y": 45,
+      "width": 42,
+      "height": 27,
+      "angle": -0.078595266
+     },
+     "utf8_string": "दर्ज",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99946797,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 302,
+      "y": 49,
+      "width": 6,
+      "height": 27,
+      "angle": -0.07859527
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 308,
+        "y": 45,
+        "width": 23,
+        "height": 23,
+        "angle": -0.07859527
+       },
+       "utf8_string": "क",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 331,
+        "y": 40,
+        "width": 14,
+        "height": 27,
+        "angle": -0.07859527
+       },
+       "utf8_string": "रें",
+       "confidence": 0.9991117
+      }
+     ],
+     "bounding_box": {
+      "x": 308,
+      "y": 40,
+      "width": 37,
+      "height": 28,
+      "angle": -0.078595266
+     },
+     "utf8_string": "करें",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 100,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 1684300800,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9994615,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 345,
+      "y": 49,
+      "width": 10,
+      "height": 27,
+      "angle": -0.07859527
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 355,
+        "y": 45,
+        "width": 9,
+        "height": 32,
+        "angle": -0.07859527
+       },
+       "utf8_string": "(",
+       "confidence": 0.9985998
+      },
+      {
+       "bounding_box": {
+        "x": 364,
+        "y": 49,
+        "width": 14,
+        "height": 23,
+        "angle": -0.07859527
+       },
+       "utf8_string": "P",
+       "confidence": 0.9987219
+      },
+      {
+       "bounding_box": {
+        "x": 379,
+        "y": 54,
+        "width": 14,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "a",
+       "confidence": 0.9996642
+      },
+      {
+       "bounding_box": {
+        "x": 397,
+        "y": 53,
+        "width": 9,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "s",
+       "confidence": 0.9988275
+      },
+      {
+       "bounding_box": {
+        "x": 412,
+        "y": 53,
+        "width": 9,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "s",
+       "confidence": 0.99942917
+      },
+      {
+       "bounding_box": {
+        "x": 422,
+        "y": 53,
+        "width": 23,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "w",
+       "confidence": 0.9971095
+      },
+      {
+       "bounding_box": {
+        "x": 445,
+        "y": 53,
+        "width": 14,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "o",
+       "confidence": 0.99952006
+      },
+      {
+       "bounding_box": {
+        "x": 464,
+        "y": 48,
+        "width": 9,
+        "height": 18,
+        "angle": -0.07859527
+       },
+       "utf8_string": "r",
+       "confidence": 0.9996929
+      },
+      {
+       "bounding_box": {
+        "x": 474,
+        "y": 44,
+        "width": 14,
+        "height": 23,
+        "angle": -0.07859527
+       },
+       "utf8_string": "d",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 488,
+        "y": 44,
+        "width": 9,
+        "height": 27,
+        "angle": -0.07859527
+       },
+       "utf8_string": ")",
+       "confidence": 0.99957174
+      }
+     ],
+     "bounding_box": {
+      "x": 355,
+      "y": 44,
+      "width": 142,
+      "height": 33,
+      "angle": -0.078595266
+     },
+     "utf8_string": "(Password)",
+     "language": "hi",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99909306,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 32,
+    "y": 40,
+    "width": 465,
+    "height": 37,
+    "angle": -0.078595266
+   },
+   "utf8_string": "कृपया अपना पासवर्ड दर्ज करें (Password)",
+   "language": "hi",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9994036
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 27,
+        "y": 106,
+        "width": 22,
+        "height": 22,
+        "angle": -0.07115691
+       },
+       "utf8_string": "कु",
+       "confidence": 0.99972755
+      },
+      {
+       "bounding_box": {
+        "x": 49,
+        "y": 110,
+        "width": 18,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "ल",
+       "confidence": 0.9996568
+      }
+     ],
+     "bounding_box": {
+      "x": 27,
+      "y": 106,
+      "width": 40,
+      "height": 22,
+      "angle": -0.071156904
+     },
+     "utf8_string": "कुल",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996922,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 67,
+      "y": 106,
+      "width": 5,
+      "height": 22,
+      "angle": -0.07115691
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 72,
+        "y": 106,
+        "width": 22,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "रा",
+       "confidence": 0.9997483
+      },
+      {
+       "bounding_box": {
+        "x": 91,
+        "y": 101,
+        "width": 27,
+        "height": 27,
+        "angle": -0.07115691
+       },
+       "utf8_string": "शि",
+       "confidence": 0.99743396
+      },
+      {
+       "bounding_box": {
+        "x": 109,
+        "y": 110,
+        "width": 13,
+        "height": 13,
+        "angle": -0.07115691
+       },
+       "utf8_string": "ः",
+       "confidence": 0.1720426
+      }
+     ],
+     "bounding_box": {
+      "x": 72,
+      "y": 101,
+      "width": 50,
+      "height": 27,
+      "angle": -0.071156904
+     },
+     "utf8_string": "राशिः",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.723075,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 122,
+      "y": 106,
+      "width": 10,
+      "height": 22,
+      "angle": -0.07115691
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 132,
+        "y": 110,
+        "width": 13,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "₹",
+       "confidence": 0.9995757
+      },
+      {
+       "bounding_box": {
+        "x": 150,
+        "y": 115,
+        "width": 9,
+        "height": 9,
+        "angle": -0.07115691
+       },
+       "utf8_string": "1",
+       "confidence": 0.9991671
+      },
+      {
+       "bounding_box": {
+        "x": 155,
+        "y": 115,
+        "width": 4,
+        "height": 9,
+        "angle": -0.07115691
+       },
+       "utf8_string": ",",
+       "confidence": 0.9996111
+      },
+      {
+       "bounding_box": {
+        "x": 164,
+        "y": 110,
+        "width": 9,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "2",
+       "confidence": 0.99972445
+      },
+      {
+       "bounding_box": {
+        "x": 178,
+        "y": 106,
+        "width": 9,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "5",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 191,
+        "y": 106,
+        "width": 9,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "0",
+       "confidence": 0.99970394
+      },
+      {
+       "bounding_box": {
+        "x": 201,
+        "y": 124,
+        "width": 4,
+        "height": 1,
+        "angle": -0.07115691
+       },
+       "utf8_string": ".",
+       "confidence": 0.9971252
+      },
+      {
+       "bounding_box": {
+        "x": 210,
+        "y": 110,
+        "width": 9,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "0",
+       "confidence": 0.99960774
+      },
+      {
+       "bounding_box": {
+        "x": 224,
+        "y": 106,
+        "width": 13,
+        "height": 22,
+        "angle": -0.07115691
+       },
+       "utf8_string": "0",
+       "confidence": 0.99849904
+      }
+     ],
+     "bounding_box": {
+      "x": 132,
+      "y": 106,
+      "width": 105,
+      "height": 22,
+      "angle": -0.071156904
+     },
+     "utf8_string": "₹1,250.00",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9992003,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 237,
+      "y": 106,
+      "width": 10,
+      "height": 22,
+      "angle": -0.07115691
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 247,
+        "y": 115,
+        "width": 18,
+        "height": 9,
+        "angle": -0.07115691
+       },
+       "utf8_string": "-",
+       "confidence": 0.45523706
+      }
+     ],
+     "bounding_box": {
+      "x": 247,
+      "y": 115,
+      "width": 18,
+      "height": 9,
+      "angle": -0.071156904
+     },
+     "utf8_string": "-",
+     "language": "hi",
+     "has_space_after": true,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.45523706,
+     "whitespace_bounding_box": {
+      "x": 265,
+      "y": 106,
+      "width": 9,
+      "height": 22,
+      "angle": -0.07115691
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 274,
+        "y": 106,
+        "width": 18,
+        "height": 22,
+        "angle": -0.07115691
+       },
+       "utf8_string": "भु",
+       "confidence": 0.9978326
+      },
+      {
+       "bounding_box": {
+        "x": 288,
+        "y": 110,
+        "width": 18,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "ग",
+       "confidence": 0.9992015
+      },
+      {
+       "bounding_box": {
+        "x": 297,
+        "y": 106,
+        "width": 22,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "त",
+       "confidence": 0.99973744
+      },
+      {
+       "bounding_box": {
+        "x": 315,
+        "y": 106,
+        "width": 18,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "ा",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 320,
+        "y": 110,
+        "width": 13,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "न",
+       "confidence": 0.9996799
+      }
+     ],
+     "bounding_box": {
+      "x": 274,
+      "y": 106,
+      "width": 59,
+      "height": 22,
+      "angle": -0.071156904
+     },
+     "utf8_string": "भुगतान",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99924904,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 333,
+      "y": 106,
+      "width": 10,
+      "height": 22,
+      "angle": -0.07115691
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 343,
+        "y": 110,
+        "width": 18,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "स",
+       "confidence": 0.999759
+      },
+      {
+       "bounding_box": {
+        "x": 357,
+        "y": 106,
+        "width": 22,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "फ",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 380,
+        "y": 106,
+        "width": 18,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "ल",
+       "confidence": 0.99946624
+      }
+     ],
+     "bounding_box": {
+      "x": 343,
+      "y": 106,
+      "width": 55,
+      "height": 22,
+      "angle": -0.071156904
+     },
+     "utf8_string": "सफल",
+     "language": "hi",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99967754,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 398,
+      "y": 106,
+      "width": 14,
+      "height": 22,
+      "angle": -0.07115691
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 412,
+        "y": 106,
+        "width": 18,
+        "height": 18,
+        "angle": -0.07115691
+       },
+       "utf8_string": "र",
+       "confidence": 0.9996302
+      },
+      {
+       "bounding_box": {
+        "x": 417,
+        "y": 110,
+        "width": 18,
+        "height": 22,
+        "angle": -0.07115691
+       },
+       "utf8_string": "ह",
+       "confidence": 0.9996463
+      },
+      {
+       "bounding_box": {
+        "x": 417,
+        "y": 106,
+        "width": 18,
+        "height": 22,
+        "angle": -0.07115691
+       },
+       "utf8_string": "ा",
+       "confidence": 0.99965537
+      }
+     ],
+     "bounding_box": {
+      "x": 412,
+      "y": 106,
+      "width": 23,
+      "height": 26,
+      "angle": -0.071156904
+     },
+     "utf8_string": "रहा",
+     "language": "hi",
+     "estimate_color_success": true,
+     "foreground_gray_value": 39,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 656877312,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999644,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 27,
+    "y": 101,
+    "width": 408,
+    "height": 31,
+    "angle": -0.071156904
+   },
+   "utf8_string": "कुल राशिः ₹1,250.00 - भुगतान सफल रहा",
+   "language": "hi",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.94657147
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 48,
+        "y": 159,
+        "width": 11,
+        "height": 22,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ยิ",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 44,
+        "y": 163,
+        "width": 18,
+        "height": 15,
+        "angle": 0.06570791
+       },
+       "utf8_string": "น",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 86,
+        "y": 156,
+        "width": 18,
+        "height": 25,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ดี",
+       "confidence": 0.99972755
+      },
+      {
+       "bounding_box": {
+        "x": 101,
+        "y": 159,
+        "width": 15,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ต้",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 105,
+        "y": 163,
+        "width": 11,
+        "height": 15,
+        "angle": 0.06570791
+       },
+       "utf8_string": "อ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 124,
+        "y": 159,
+        "width": 15,
+        "height": 22,
+        "angle": 0.06570791
+       },
+       "utf8_string": "น",
+       "confidence": 0.9995863
+      },
+      {
+       "bounding_box": {
+        "x": 153,
+        "y": 163,
+        "width": 15,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "รั",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 153,
+        "y": 163,
+        "width": 15,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "บ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 176,
+        "y": 156,
+        "width": 11,
+        "height": 29,
+        "angle": 0.06570791
+       },
+       "utf8_string": "สู่",
+       "confidence": 0.99885976
+      },
+      {
+       "bounding_box": {
+        "x": 190,
+        "y": 163,
+        "width": 15,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ร",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 211,
+        "y": 163,
+        "width": 15,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ะ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 218,
+        "y": 163,
+        "width": 15,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "บ",
+       "confidence": 0.9996948
+      },
+      {
+       "bounding_box": {
+        "x": 237,
+        "y": 163,
+        "width": 15,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "บ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 44,
+      "y": 156,
+      "width": 208,
+      "height": 29,
+      "angle": 0.06570791
+     },
+     "utf8_string": "ยินดีต้อนรับสู่ระบบ",
+     "language": "th",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999698,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 252,
+      "y": 159,
+      "width": 29,
+      "height": 22,
+      "angle": 0.06570791
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 281,
+        "y": 163,
+        "width": 11,
+        "height": 22,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ก",
+       "confidence": 0.9995863
+      },
+      {
+       "bounding_box": {
+        "x": 285,
+        "y": 163,
+        "width": 11,
+        "height": 22,
+        "angle": 0.06570791
+       },
+       "utf8_string": "รุ",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 297,
+        "y": 163,
+        "width": 22,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ณ",
+       "confidence": 0.9993218
+      },
+      {
+       "bounding_box": {
+        "x": 322,
+        "y": 163,
+        "width": 11,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "า",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 339,
+        "y": 163,
+        "width": 11,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "เ",
+       "confidence": 0.84873265
+      },
+      {
+       "bounding_box": {
+        "x": 362,
+        "y": 156,
+        "width": 11,
+        "height": 25,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ข้",
+       "confidence": 0.9995407
+      },
+      {
+       "bounding_box": {
+        "x": 365,
+        "y": 159,
+        "width": 11,
+        "height": 22,
+        "angle": 0.06570791
+       },
+       "utf8_string": "า",
+       "confidence": 0.99961144
+      },
+      {
+       "bounding_box": {
+        "x": 391,
+        "y": 156,
+        "width": 11,
+        "height": 25,
+        "angle": 0.06570791
+       },
+       "utf8_string": "สู่",
+       "confidence": 0.9996911
+      },
+      {
+       "bounding_box": {
+        "x": 398,
+        "y": 163,
+        "width": 15,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ร",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 423,
+        "y": 167,
+        "width": 11,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "ะ",
+       "confidence": 0.99977
+      },
+      {
+       "bounding_box": {
+        "x": 423,
+        "y": 163,
+        "width": 18,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "บ",
+       "confidence": 0.99968696
+      },
+      {
+       "bounding_box": {
+        "x": 442,
+        "y": 163,
+        "width": 18,
+        "height": 18,
+        "angle": 0.06570791
+       },
+       "utf8_string": "บ",
+       "confidence": 0.9997938
+      }
+     ],
+     "bounding_box": {
+      "x": 281,
+      "y": 156,
+      "width": 179,
+      "height": 29,
+      "angle": 0.06570791
+     },
+     "utf8_string": "กรุณาเข้าสู่ระบบ",
+     "language": "th",
+     "estimate_color_success": true,
+     "foreground_gray_value": 9,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 151587072,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9870963,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 44,
+    "y": 156,
+    "width": 416,
+    "height": 29,
+    "angle": 0.06570791
+   },
+   "utf8_string": "ยินดีต้อนรับสู่ระบบ กรุณาเข้าสู่ระบบ",
+   "language": "th",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9936492
+  }
+ ]
+}

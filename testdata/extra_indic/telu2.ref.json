@@ -1,0 +1,397 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 40,
+        "y": 44,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "క్రి",
+       "confidence": 0.9865259
+      },
+      {
+       "bounding_box": {
+        "x": 55,
+        "y": 44,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "కె",
+       "confidence": 0.9954716
+      },
+      {
+       "bounding_box": {
+        "x": 84,
+        "y": 44,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "ట్",
+       "confidence": 0.9987274
+      }
+     ],
+     "bounding_box": {
+      "x": 40,
+      "y": 44,
+      "width": 49,
+      "height": 39,
+      "angle": 0.37250128
+     },
+     "utf8_string": "క్రికెట్",
+     "language": "te",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.993575,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 89,
+      "y": 44,
+      "width": 29,
+      "height": 39,
+      "angle": 0.37250128
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 118,
+        "y": 45,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "ప్ర",
+       "confidence": 0.99958926
+      },
+      {
+       "bounding_box": {
+        "x": 143,
+        "y": 45,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "ప",
+       "confidence": 0.99852705
+      },
+      {
+       "bounding_box": {
+        "x": 167,
+        "y": 45,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "ం",
+       "confidence": 0.9986091
+      },
+      {
+       "bounding_box": {
+        "x": 191,
+        "y": 45,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "చ",
+       "confidence": 0.99874264
+      },
+      {
+       "bounding_box": {
+        "x": 211,
+        "y": 45,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "ం",
+       "confidence": 0.9987072
+      }
+     ],
+     "bounding_box": {
+      "x": 118,
+      "y": 44,
+      "width": 98,
+      "height": 40,
+      "angle": 0.37250128
+     },
+     "utf8_string": "ప్రపంచం",
+     "language": "te",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.998835,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 216,
+      "y": 45,
+      "width": 29,
+      "height": 39,
+      "angle": 0.37250128
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 245,
+        "y": 45,
+        "width": 5,
+        "height": 39,
+        "angle": 0.37250128
+       },
+       "utf8_string": "శ్రీ",
+       "confidence": 0.9969795
+      }
+     ],
+     "bounding_box": {
+      "x": 245,
+      "y": 45,
+      "width": 5,
+      "height": 39,
+      "angle": 0.37250128
+     },
+     "utf8_string": "శ్రీ",
+     "language": "te",
+     "estimate_color_success": true,
+     "foreground_gray_value": 6,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 101058048,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9969795,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 40,
+    "y": 44,
+    "width": 210,
+    "height": 39,
+    "angle": 0.37250128
+   },
+   "utf8_string": "క్రికెట్ ప్రపంచం శ్రీ",
+   "language": "te",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9968755
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 45,
+        "y": 109,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "వి",
+       "confidence": 0.99953485
+      },
+      {
+       "bounding_box": {
+        "x": 68,
+        "y": 110,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "జ",
+       "confidence": 0.99971503
+      },
+      {
+       "bounding_box": {
+        "x": 101,
+        "y": 111,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "య",
+       "confidence": 0.99958545
+      },
+      {
+       "bounding_box": {
+        "x": 134,
+        "y": 111,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "వా",
+       "confidence": 0.99945503
+      },
+      {
+       "bounding_box": {
+        "x": 167,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "డ",
+       "confidence": 0.9996903
+      }
+     ],
+     "bounding_box": {
+      "x": 45,
+      "y": 109,
+      "width": 127,
+      "height": 39,
+      "angle": 1.1424773
+     },
+     "utf8_string": "విజయవాడ",
+     "language": "te",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 15,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 252645120,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995961,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 172,
+      "y": 112,
+      "width": 28,
+      "height": 38,
+      "angle": 1.1424773
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 200,
+        "y": 113,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "క",
+       "confidence": 0.99961936
+      },
+      {
+       "bounding_box": {
+        "x": 205,
+        "y": 113,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "ృ",
+       "confidence": 0.4999646
+      },
+      {
+       "bounding_box": {
+        "x": 233,
+        "y": 113,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "ష్ణా",
+       "confidence": 0.99811316
+      }
+     ],
+     "bounding_box": {
+      "x": 200,
+      "y": 112,
+      "width": 38,
+      "height": 39,
+      "angle": 1.1424773
+     },
+     "utf8_string": "కృష్ణా",
+     "language": "te",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 20,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 336860160,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.8325657,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 238,
+      "y": 113,
+      "width": 37,
+      "height": 38,
+      "angle": 1.1424773
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 275,
+        "y": 114,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "జి",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 299,
+        "y": 115,
+        "width": 5,
+        "height": 38,
+        "angle": 1.1424773
+       },
+       "utf8_string": "ల్లా",
+       "confidence": 0.9997416
+      }
+     ],
+     "bounding_box": {
+      "x": 275,
+      "y": 114,
+      "width": 29,
+      "height": 39,
+      "angle": 1.1424773
+     },
+     "utf8_string": "జిల్లా",
+     "language": "te",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997764,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 45,
+    "y": 109,
+    "width": 259,
+    "height": 39,
+    "angle": 1.1424773
+   },
+   "utf8_string": "విజయవాడ కృష్ణా జిల్లా",
+   "language": "te",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9495231
+  }
+ ]
+}

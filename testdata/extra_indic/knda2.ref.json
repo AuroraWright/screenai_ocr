@@ -1,0 +1,495 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 40,
+        "y": 46,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ಕ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 64,
+        "y": 46,
+        "width": 34,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ರ್ನಾ",
+       "confidence": 0.99853796
+      },
+      {
+       "bounding_box": {
+        "x": 122,
+        "y": 46,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ಟ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 142,
+        "y": 46,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ಕ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 40,
+      "y": 46,
+      "width": 107,
+      "height": 39,
+      "angle": 0.15918726
+     },
+     "utf8_string": "ಕರ್ನಾಟಕ",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9994929,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 147,
+      "y": 46,
+      "width": 33,
+      "height": 39,
+      "angle": 0.15918726
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 180,
+        "y": 46,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ಸ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 200,
+        "y": 46,
+        "width": 34,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ರ್ಕಾ",
+       "confidence": 0.99912
+      },
+      {
+       "bounding_box": {
+        "x": 253,
+        "y": 47,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ರ",
+       "confidence": 0.999747
+      }
+     ],
+     "bounding_box": {
+      "x": 180,
+      "y": 46,
+      "width": 78,
+      "height": 40,
+      "angle": 0.15918726
+     },
+     "utf8_string": "ಸರ್ಕಾರ",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995594,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 258,
+      "y": 47,
+      "width": 24,
+      "height": 39,
+      "angle": 0.15918726
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 282,
+        "y": 47,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ಕ್ರಿ",
+       "confidence": 0.99813205
+      },
+      {
+       "bounding_box": {
+        "x": 306,
+        "y": 47,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ಕೆ",
+       "confidence": 0.99951875
+      },
+      {
+       "bounding_box": {
+        "x": 330,
+        "y": 47,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "ಟ್",
+       "confidence": 0.9125542
+      }
+     ],
+     "bounding_box": {
+      "x": 282,
+      "y": 47,
+      "width": 53,
+      "height": 39,
+      "angle": 0.15918726
+     },
+     "utf8_string": "ಕ್ರಿಕೆಟ್",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.97006834,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 335,
+      "y": 47,
+      "width": 24,
+      "height": 39,
+      "angle": 0.15918726
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 359,
+        "y": 47,
+        "width": 5,
+        "height": 39,
+        "angle": 0.15918726
+       },
+       "utf8_string": "।",
+       "confidence": 0.06060363
+      }
+     ],
+     "bounding_box": {
+      "x": 359,
+      "y": 47,
+      "width": 5,
+      "height": 39,
+      "angle": 0.15918726
+     },
+     "utf8_string": "।",
+     "language": "kn",
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.06060363,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 40,
+    "y": 46,
+    "width": 324,
+    "height": 40,
+    "angle": 0.15918726
+   },
+   "utf8_string": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಕ್ರಿಕೆಟ್ ।",
+   "language": "kn",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9061326
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 45,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಬೆ",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 64,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಂ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 83,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಗ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 106,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಳೂ",
+       "confidence": 0.9996648
+      },
+      {
+       "bounding_box": {
+        "x": 144,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ರ",
+       "confidence": 0.99977666
+      },
+      {
+       "bounding_box": {
+        "x": 149,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ು",
+       "confidence": 0.99959344
+      }
+     ],
+     "bounding_box": {
+      "x": 45,
+      "y": 112,
+      "width": 109,
+      "height": 38,
+      "angle": 0.08911623
+     },
+     "utf8_string": "ಬೆಂಗಳೂರು",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997441,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 154,
+      "y": 112,
+      "width": 33,
+      "height": 38,
+      "angle": 0.08911623
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 187,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ವಿ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 206,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಶ್ವ",
+       "confidence": 0.9972294
+      },
+      {
+       "bounding_box": {
+        "x": 234,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ವಿ",
+       "confidence": 0.9997402
+      },
+      {
+       "bounding_box": {
+        "x": 258,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ದ್ಯ",
+       "confidence": 0.99956566
+      },
+      {
+       "bounding_box": {
+        "x": 268,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಾ",
+       "confidence": 0.99892956
+      },
+      {
+       "bounding_box": {
+        "x": 296,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಲ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 329,
+        "y": 112,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಯ",
+       "confidence": 0.9996606
+      }
+     ],
+     "bounding_box": {
+      "x": 187,
+      "y": 112,
+      "width": 147,
+      "height": 38,
+      "angle": 0.08911623
+     },
+     "utf8_string": "ವಿಶ್ವವಿದ್ಯಾಲಯ",
+     "language": "kn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 22,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 370546176,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9992497,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 334,
+      "y": 112,
+      "width": 43,
+      "height": 38,
+      "angle": 0.08911623
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 377,
+        "y": 113,
+        "width": 5,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ಸೂ",
+       "confidence": 0.99618834
+      },
+      {
+       "bounding_box": {
+        "x": 424,
+        "y": 113,
+        "width": 24,
+        "height": 38,
+        "angle": 0.08911623
+       },
+       "utf8_string": "ರ್ಯ",
+       "confidence": 0.99857014
+      }
+     ],
+     "bounding_box": {
+      "x": 377,
+      "y": 113,
+      "width": 71,
+      "height": 38,
+      "angle": 0.08911623
+     },
+     "utf8_string": "ಸೂರ್ಯ",
+     "language": "kn",
+     "estimate_color_success": true,
+     "foreground_gray_value": 19,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 320017152,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99737924,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 45,
+    "y": 112,
+    "width": 403,
+    "height": 38,
+    "angle": 0.08911623
+   },
+   "utf8_string": "ಬೆಂಗಳೂರು ವಿಶ್ವವಿದ್ಯಾಲಯ ಸೂರ್ಯ",
+   "language": "kn",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9991981
+  }
+ ]
+}

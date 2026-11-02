@@ -1,0 +1,2 @@
+base strip_text
+A, B cut to 1 word, B angle = A angle + 3.01

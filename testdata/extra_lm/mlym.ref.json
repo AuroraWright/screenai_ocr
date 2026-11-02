@@ -1,0 +1,579 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 32,
+        "y": 58,
+        "width": 14,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "മ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 49,
+        "y": 58,
+        "width": 23,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ല",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 75,
+        "y": 58,
+        "width": 41,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "യ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 74,
+        "y": 58,
+        "width": 41,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ാ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 119,
+        "y": 54,
+        "width": 37,
+        "height": 27,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ള",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 123,
+        "y": 58,
+        "width": 32,
+        "height": 23,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ം",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 32,
+      "y": 54,
+      "width": 124,
+      "height": 27,
+      "angle": -0.04341065
+     },
+     "utf8_string": "മലയാളം",
+     "language": "ml",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 49,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 825307392,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 156,
+      "y": 58,
+      "width": 8,
+      "height": 18,
+      "angle": -0.043410655
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 163,
+        "y": 58,
+        "width": 32,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ഭ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 162,
+        "y": 58,
+        "width": 32,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ാ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 198,
+        "y": 58,
+        "width": 46,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ഷ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 201,
+        "y": 58,
+        "width": 41,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ാ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 162,
+      "y": 58,
+      "width": 82,
+      "height": 18,
+      "angle": -0.04341065
+     },
+     "utf8_string": "ഭാഷാ",
+     "language": "ml",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 244,
+      "y": 58,
+      "width": 17,
+      "height": 18,
+      "angle": -0.043410655
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 259,
+        "y": 58,
+        "width": 18,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "പ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 281,
+        "y": 49,
+        "width": 27,
+        "height": 27,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ര",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 280,
+        "y": 49,
+        "width": 27,
+        "height": 27,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ീ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 311,
+        "y": 58,
+        "width": 41,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ക്ഷ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 359,
+        "y": 58,
+        "width": 50,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ണ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 358,
+        "y": 58,
+        "width": 50,
+        "height": 18,
+        "angle": -0.043410655
+       },
+       "utf8_string": "ം",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 259,
+      "y": 49,
+      "width": 150,
+      "height": 27,
+      "angle": -0.04341065
+     },
+     "utf8_string": "പരീക്ഷണം",
+     "language": "ml",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 32,
+    "y": 49,
+    "width": 377,
+    "height": 32,
+    "angle": -0.04341065
+   },
+   "utf8_string": "മലയാളം ഭാഷാ പരീക്ഷണം",
+   "language": "ml",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99981123
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 30,
+        "y": 118,
+        "width": 39,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "കേ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 68,
+        "y": 118,
+        "width": 17,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ര",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 84,
+        "y": 118,
+        "width": 26,
+        "height": 22,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ള",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 84,
+        "y": 118,
+        "width": 30,
+        "height": 22,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ം",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 30,
+      "y": 118,
+      "width": 84,
+      "height": 22,
+      "angle": 0.0010109405
+     },
+     "utf8_string": "കേരളം",
+     "language": "ml",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 114,
+      "y": 118,
+      "width": 11,
+      "height": 17,
+      "angle": 0.0010109405
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 125,
+        "y": 118,
+        "width": 17,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ഇ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 146,
+        "y": 123,
+        "width": 39,
+        "height": 22,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ന്ത",
+       "confidence": 0.99972755
+      },
+      {
+       "bounding_box": {
+        "x": 145,
+        "y": 123,
+        "width": 43,
+        "height": 22,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "്യ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 187,
+        "y": 118,
+        "width": 35,
+        "height": 22,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "യു",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 220,
+        "y": 118,
+        "width": 30,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ടെ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 125,
+      "y": 118,
+      "width": 125,
+      "height": 27,
+      "angle": 0.0010109405
+     },
+     "utf8_string": "ഇന്ത്യയുടെ",
+     "language": "ml",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997945,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 250,
+      "y": 118,
+      "width": 6,
+      "height": 17,
+      "angle": 0.0010109405
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 256,
+        "y": 123,
+        "width": 39,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "തെ",
+       "confidence": 0.9997205
+      },
+      {
+       "bounding_box": {
+        "x": 297,
+        "y": 123,
+        "width": 43,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ക്കേ",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 256,
+      "y": 123,
+      "width": 84,
+      "height": 17,
+      "angle": 0.0010109405
+     },
+     "utf8_string": "തെക്കേ",
+     "language": "ml",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 1,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 16843008,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997659,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 340,
+      "y": 118,
+      "width": 11,
+      "height": 17,
+      "angle": 0.0010109405
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 351,
+        "y": 123,
+        "width": 30,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "അ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 385,
+        "y": 118,
+        "width": 13,
+        "height": 26,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "റ്റ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 400,
+        "y": 123,
+        "width": 52,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ത്ത",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 412,
+        "y": 118,
+        "width": 39,
+        "height": 17,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ാ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 450,
+        "y": 114,
+        "width": 39,
+        "height": 22,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "ണ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 454,
+        "y": 114,
+        "width": 35,
+        "height": 22,
+        "angle": 0.0010109405
+       },
+       "utf8_string": "്",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 351,
+      "y": 114,
+      "width": 138,
+      "height": 30,
+      "angle": 0.0010109405
+     },
+     "utf8_string": "അറ്റത്താണ്",
+     "language": "ml",
+     "estimate_color_success": true,
+     "foreground_gray_value": 23,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 387389184,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99981123,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 30,
+    "y": 114,
+    "width": 459,
+    "height": 31,
+    "angle": 0.0010109405
+   },
+   "utf8_string": "കേരളം ഇന്ത്യയുടെ തെക്കേ അറ്റത്താണ്",
+   "language": "ml",
+   "block_id": 1,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.999801
+  }
+ ]
+}

@@ -1,0 +1,463 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 32,
+        "y": 60,
+        "width": 17,
+        "height": 24,
+        "angle": 0.18117616
+       },
+       "utf8_string": "த",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 55,
+        "y": 51,
+        "width": 26,
+        "height": 26,
+        "angle": 0.18117616
+       },
+       "utf8_string": "மி",
+       "confidence": 0.99978286
+      },
+      {
+       "bounding_box": {
+        "x": 82,
+        "y": 47,
+        "width": 17,
+        "height": 34,
+        "angle": 0.18117616
+       },
+       "utf8_string": "ழ்",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 32,
+      "y": 47,
+      "width": 67,
+      "height": 37,
+      "angle": 0.18117614
+     },
+     "utf8_string": "தமிழ்",
+     "language": "ta",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99980175,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 99,
+      "y": 60,
+      "width": 11,
+      "height": 24,
+      "angle": 0.18117616
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 110,
+        "y": 47,
+        "width": 63,
+        "height": 30,
+        "angle": 0.18117616
+       },
+       "utf8_string": "மொ",
+       "confidence": 0.9994338
+      },
+      {
+       "bounding_box": {
+        "x": 175,
+        "y": 51,
+        "width": 26,
+        "height": 33,
+        "angle": 0.18117616
+       },
+       "utf8_string": "ழி",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 110,
+      "y": 47,
+      "width": 91,
+      "height": 37,
+      "angle": 0.18117614
+     },
+     "utf8_string": "மொழி",
+     "language": "ta",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996225,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 201,
+      "y": 61,
+      "width": 10,
+      "height": 24,
+      "angle": 0.18117616
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 211,
+        "y": 52,
+        "width": 57,
+        "height": 31,
+        "angle": 0.18117616
+       },
+       "utf8_string": "சோ",
+       "confidence": 0.9994338
+      },
+      {
+       "bounding_box": {
+        "x": 271,
+        "y": 57,
+        "width": 17,
+        "height": 26,
+        "angle": 0.18117616
+       },
+       "utf8_string": "த",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 290,
+        "y": 57,
+        "width": 61,
+        "height": 17,
+        "angle": 0.18117616
+       },
+       "utf8_string": "னை",
+       "confidence": 0.9996225
+      }
+     ],
+     "bounding_box": {
+      "x": 211,
+      "y": 52,
+      "width": 140,
+      "height": 31,
+      "angle": 0.18117614
+     },
+     "utf8_string": "சோதனை",
+     "language": "ta",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996225,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 32,
+    "y": 47,
+    "width": 319,
+    "height": 38,
+    "angle": 0.18117614
+   },
+   "utf8_string": "தமிழ் மொழி சோதனை",
+   "language": "ta",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99968976
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 29,
+        "y": 116,
+        "width": 38,
+        "height": 25,
+        "angle": 0.16229448
+       },
+       "utf8_string": "செ",
+       "confidence": 0.99957246
+      },
+      {
+       "bounding_box": {
+        "x": 68,
+        "y": 116,
+        "width": 71,
+        "height": 21,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ன்",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 70,
+        "y": 112,
+        "width": 73,
+        "height": 25,
+        "angle": 0.16229448
+       },
+       "utf8_string": "னை",
+       "confidence": 0.99960715
+      }
+     ],
+     "bounding_box": {
+      "x": 29,
+      "y": 112,
+      "width": 114,
+      "height": 29,
+      "angle": 0.16229446
+     },
+     "utf8_string": "சென்னை",
+     "language": "ta",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 30,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 505290240,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996636,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 143,
+      "y": 116,
+      "width": 10,
+      "height": 25,
+      "angle": 0.16229448
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 153,
+        "y": 119,
+        "width": 14,
+        "height": 21,
+        "angle": 0.16229448
+       },
+       "utf8_string": "த",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 168,
+        "y": 112,
+        "width": 25,
+        "height": 21,
+        "angle": 0.16229448
+       },
+       "utf8_string": "மி",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 195,
+        "y": 112,
+        "width": 50,
+        "height": 29,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ழ்",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 192,
+        "y": 112,
+        "width": 50,
+        "height": 29,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ந",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 190,
+        "y": 112,
+        "width": 50,
+        "height": 29,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ா",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 245,
+        "y": 113,
+        "width": 39,
+        "height": 29,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ட்",
+       "confidence": 0.99977916
+      },
+      {
+       "bounding_box": {
+        "x": 243,
+        "y": 113,
+        "width": 39,
+        "height": 29,
+        "angle": 0.16229448
+       },
+       "utf8_string": "டி",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 284,
+        "y": 117,
+        "width": 25,
+        "height": 21,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ன்",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 153,
+      "y": 112,
+      "width": 156,
+      "height": 30,
+      "angle": 0.16229446
+     },
+     "utf8_string": "தமிழ்நாட்டின்",
+     "language": "ta",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 15,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 252645120,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99977887,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 309,
+      "y": 117,
+      "width": 9,
+      "height": 25,
+      "angle": 0.16229448
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 318,
+        "y": 120,
+        "width": 14,
+        "height": 18,
+        "angle": 0.16229448
+       },
+       "utf8_string": "த",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 334,
+        "y": 120,
+        "width": 48,
+        "height": 14,
+        "angle": 0.16229448
+       },
+       "utf8_string": "லை",
+       "confidence": 0.9996225
+      },
+      {
+       "bounding_box": {
+        "x": 383,
+        "y": 120,
+        "width": 14,
+        "height": 21,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ந",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 403,
+        "y": 120,
+        "width": 18,
+        "height": 14,
+        "angle": 0.16229448
+       },
+       "utf8_string": "க",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 422,
+        "y": 120,
+        "width": 11,
+        "height": 18,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ர",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 434,
+        "y": 113,
+        "width": 18,
+        "height": 25,
+        "angle": 0.16229448
+       },
+       "utf8_string": "ம்",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 318,
+      "y": 113,
+      "width": 134,
+      "height": 28,
+      "angle": 0.16229446
+     },
+     "utf8_string": "தலைநகரம்",
+     "language": "ta",
+     "estimate_color_success": true,
+     "foreground_gray_value": 22,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 370546176,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99977976,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 29,
+    "y": 112,
+    "width": 423,
+    "height": 30,
+    "angle": 0.16229446
+   },
+   "utf8_string": "சென்னை தமிழ்நாட்டின் தலைநகரம்",
+   "language": "ta",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99975884
+  }
+ ]
+}

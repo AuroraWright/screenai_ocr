@@ -1,0 +1,32 @@
+# Allow-list: only the reimplementation, its tests and tooling are tracked.
+/*
+!/.gitignore
+!/cpp/
+!/tools/
+!/trace/
+!/tests/
+!/ref/
+!/screenai/
+!/testdata/
+!/third_party/
+
+# C++: sources only (build trees are local)
+/cpp/build*/
+
+# third_party: only the vendored Eigen subset, stb and the generated VisualAnnotation bindings; TensorFlow Lite,
+# XNNPACK and their builds are fetched/built locally (see cpp/README.md)
+/third_party/*
+!/third_party/eigen/
+!/third_party/stb/
+!/third_party/chrome_screen_ai_pb2.py
+
+# Never track the original library, its models, IDA databases or decompiled output
+*.so
+*.dylib
+*.tflite
+*.i64
+*.binarypb
+
+__pycache__/
+*.pyc
+.DS_Store

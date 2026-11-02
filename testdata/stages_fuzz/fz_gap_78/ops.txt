@@ -1,0 +1,2 @@
+base strip_text
+B moved by dx 78

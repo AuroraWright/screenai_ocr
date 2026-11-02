@@ -1,0 +1,195 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 285,
+        "y": 346,
+        "width": 25,
+        "height": 42,
+        "angle": 24.890848
+       },
+       "utf8_string": "か",
+       "confidence": 0.36031774
+      },
+      {
+       "bounding_box": {
+        "x": 312,
+        "y": 358,
+        "width": 42,
+        "height": 34,
+        "angle": 24.93455
+       },
+       "utf8_string": "心",
+       "confidence": 0.9426834
+      },
+      {
+       "bounding_box": {
+        "x": 352,
+        "y": 386,
+        "width": 34,
+        "height": 25,
+        "angle": 23.663841
+       },
+       "utf8_string": "く",
+       "confidence": 0.77090025
+      },
+      {
+       "bounding_box": {
+        "x": 391,
+        "y": 394,
+        "width": 34,
+        "height": 34,
+        "angle": 21.18015
+       },
+       "utf8_string": "ト",
+       "confidence": 0.62787116
+      },
+      {
+       "bounding_box": {
+        "x": 426,
+        "y": 407,
+        "width": 34,
+        "height": 34,
+        "angle": 15.86308
+       },
+       "utf8_string": "女",
+       "confidence": 0.39202002
+      },
+      {
+       "bounding_box": {
+        "x": 454,
+        "y": 415,
+        "width": 42,
+        "height": 42,
+        "angle": 11.449477
+       },
+       "utf8_string": "テ",
+       "confidence": 0.79790545
+      },
+      {
+       "bounding_box": {
+        "x": 500,
+        "y": 424,
+        "width": 34,
+        "height": 34,
+        "angle": 8.343629
+       },
+       "utf8_string": "の",
+       "confidence": 0.9997168
+      },
+      {
+       "bounding_box": {
+        "x": 538,
+        "y": 421,
+        "width": 42,
+        "height": 42,
+        "angle": 5.63458
+       },
+       "utf8_string": "語",
+       "confidence": 0.9954033
+      },
+      {
+       "bounding_box": {
+        "x": 576,
+        "y": 425,
+        "width": 34,
+        "height": 42,
+        "angle": 1.8913416
+       },
+       "utf8_string": "本",
+       "confidence": 0.9997148
+      },
+      {
+       "bounding_box": {
+        "x": 614,
+        "y": 426,
+        "width": 34,
+        "height": 34,
+        "angle": -1.5006288
+       },
+       "utf8_string": "日",
+       "confidence": 0.99902225
+      },
+      {
+       "bounding_box": {
+        "x": 652,
+        "y": 434,
+        "width": 42,
+        "height": 42,
+        "angle": -6.7734747
+       },
+       "utf8_string": "た",
+       "confidence": 0.9684216
+      },
+      {
+       "bounding_box": {
+        "x": 697,
+        "y": 428,
+        "width": 25,
+        "height": 34,
+        "angle": -13.273873
+       },
+       "utf8_string": "っ",
+       "confidence": 0.9823033
+      },
+      {
+       "bounding_box": {
+        "x": 723,
+        "y": 412,
+        "width": 34,
+        "height": 42,
+        "angle": -16.617125
+       },
+       "utf8_string": "※",
+       "confidence": 0.4974801
+      },
+      {
+       "bounding_box": {
+        "x": 751,
+        "y": 404,
+        "width": 59,
+        "height": 34,
+        "angle": -19.77762
+       },
+       "utf8_string": "へ",
+       "confidence": 0.6680827
+      }
+     ],
+     "bounding_box": {
+      "x": 275,
+      "y": 319,
+      "width": 551,
+      "height": 119,
+      "angle": 6.989104
+     },
+     "utf8_string": "か心くト女テの語本日たっ※へ",
+     "language": "ja",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+     "confidence": 0.78584594,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 275,
+    "y": 319,
+    "width": 551,
+    "height": 119,
+    "angle": 6.989104
+   },
+   "utf8_string": "か心くト女テの語本日たっ※へ",
+   "language": "ja",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+   "confidence": 0.78584594
+  }
+ ]
+}

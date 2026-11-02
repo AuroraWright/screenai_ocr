@@ -1,0 +1,284 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 398,
+        "y": 45,
+        "width": 38,
+        "height": 32,
+        "angle": -0.07040405
+       },
+       "utf8_string": "縦",
+       "confidence": 0.9984446
+      },
+      {
+       "bounding_box": {
+        "x": 398,
+        "y": 86,
+        "width": 38,
+        "height": 38,
+        "angle": -0.07040405
+       },
+       "utf8_string": "書",
+       "confidence": 0.9996793
+      },
+      {
+       "bounding_box": {
+        "x": 397,
+        "y": 140,
+        "width": 32,
+        "height": 32,
+        "angle": -0.07040405
+       },
+       "utf8_string": "き",
+       "confidence": 0.99979585
+      },
+      {
+       "bounding_box": {
+        "x": 404,
+        "y": 188,
+        "width": 32,
+        "height": 32,
+        "angle": -0.07040405
+       },
+       "utf8_string": "の",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 404,
+        "y": 236,
+        "width": 32,
+        "height": 32,
+        "angle": -0.07040405
+       },
+       "utf8_string": "日",
+       "confidence": 0.99882025
+      },
+      {
+       "bounding_box": {
+        "x": 398,
+        "y": 277,
+        "width": 38,
+        "height": 38,
+        "angle": -0.07040405
+       },
+       "utf8_string": "本",
+       "confidence": 0.9997205
+      },
+      {
+       "bounding_box": {
+        "x": 398,
+        "y": 324,
+        "width": 38,
+        "height": 38,
+        "angle": -0.07040405
+       },
+       "utf8_string": "語",
+       "confidence": 0.9996489
+      },
+      {
+       "bounding_box": {
+        "x": 404,
+        "y": 378,
+        "width": 32,
+        "height": 32,
+        "angle": -0.07040405
+       },
+       "utf8_string": "テ",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 404,
+        "y": 420,
+        "width": 32,
+        "height": 38,
+        "angle": -0.07040405
+       },
+       "utf8_string": "キ",
+       "confidence": 0.99972945
+      },
+      {
+       "bounding_box": {
+        "x": 405,
+        "y": 474,
+        "width": 32,
+        "height": 26,
+        "angle": -0.07040405
+       },
+       "utf8_string": "ス",
+       "confidence": 0.9996086
+      },
+      {
+       "bounding_box": {
+        "x": 411,
+        "y": 521,
+        "width": 19,
+        "height": 32,
+        "angle": -0.07040405
+       },
+       "utf8_string": "ト",
+       "confidence": 0.99972755
+      }
+     ],
+     "bounding_box": {
+      "x": 397,
+      "y": 45,
+      "width": 39,
+      "height": 508,
+      "angle": -0.070404045
+     },
+     "utf8_string": "縦書きの日本語テキスト",
+     "language": "ja",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_TOP_TO_BOTTOM",
+     "confidence": 0.9995234,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 397,
+    "y": 45,
+    "width": 39,
+    "height": 508,
+    "angle": -0.070404045
+   },
+   "utf8_string": "縦書きの日本語テキスト",
+   "language": "ja",
+   "direction": "DIRECTION_TOP_TO_BOTTOM",
+   "confidence": 0.9995234
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 333,
+        "y": 46,
+        "width": 31,
+        "height": 31,
+        "angle": -0.058929443
+       },
+       "utf8_string": "こ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 327,
+        "y": 91,
+        "width": 37,
+        "height": 37,
+        "angle": -0.058929443
+       },
+       "utf8_string": "れ",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 333,
+        "y": 137,
+        "width": 31,
+        "height": 37,
+        "angle": -0.058929443
+       },
+       "utf8_string": "は",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 333,
+        "y": 189,
+        "width": 31,
+        "height": 25,
+        "angle": -0.058929443
+       },
+       "utf8_string": "二",
+       "confidence": 0.9976762
+      },
+      {
+       "bounding_box": {
+        "x": 327,
+        "y": 234,
+        "width": 37,
+        "height": 37,
+        "angle": -0.058929443
+       },
+       "utf8_string": "列",
+       "confidence": 0.99932337
+      },
+      {
+       "bounding_box": {
+        "x": 333,
+        "y": 286,
+        "width": 31,
+        "height": 31,
+        "angle": -0.058929443
+       },
+       "utf8_string": "目",
+       "confidence": 0.99905556
+      },
+      {
+       "bounding_box": {
+        "x": 333,
+        "y": 332,
+        "width": 31,
+        "height": 31,
+        "angle": -0.058929443
+       },
+       "utf8_string": "で",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 333,
+        "y": 378,
+        "width": 31,
+        "height": 31,
+        "angle": -0.058929443
+       },
+       "utf8_string": "す",
+       "confidence": 0.9997309
+      }
+     ],
+     "bounding_box": {
+      "x": 327,
+      "y": 46,
+      "width": 37,
+      "height": 363,
+      "angle": -0.058929443
+     },
+     "utf8_string": "これは二列目です",
+     "language": "ja",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_TOP_TO_BOTTOM",
+     "confidence": 0.99937016,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 327,
+    "y": 46,
+    "width": 37,
+    "height": 363,
+    "angle": -0.058929443
+   },
+   "utf8_string": "これは二列目です",
+   "language": "ja",
+   "block_id": 1,
+   "direction": "DIRECTION_TOP_TO_BOTTOM",
+   "confidence": 0.99937016
+  }
+ ]
+}

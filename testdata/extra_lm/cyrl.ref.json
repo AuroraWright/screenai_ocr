@@ -1,0 +1,924 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 32,
+        "y": 52,
+        "width": 23,
+        "height": 26,
+        "angle": 0.037046984
+       },
+       "utf8_string": "М",
+       "confidence": 0.99916244
+      },
+      {
+       "bounding_box": {
+        "x": 58,
+        "y": 56,
+        "width": 19,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "о",
+       "confidence": 0.9996699
+      },
+      {
+       "bounding_box": {
+        "x": 78,
+        "y": 56,
+        "width": 15,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "с",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 95,
+        "y": 56,
+        "width": 15,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "к",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 108,
+        "y": 56,
+        "width": 19,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "в",
+       "confidence": 0.99977916
+      },
+      {
+       "bounding_box": {
+        "x": 125,
+        "y": 56,
+        "width": 19,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "а",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 155,
+        "y": 67,
+        "width": 30,
+        "height": 4,
+        "angle": 0.037046984
+       },
+       "utf8_string": "-",
+       "confidence": 0.6657295
+      }
+     ],
+     "bounding_box": {
+      "x": 32,
+      "y": 52,
+      "width": 153,
+      "height": 26,
+      "angle": 0.03704698
+     },
+     "utf8_string": "Москва-",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.95196784,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 185,
+      "y": 52,
+      "width": 12,
+      "height": 26,
+      "angle": 0.037046984
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 197,
+        "y": 59,
+        "width": 15,
+        "height": 15,
+        "angle": 0.037046984
+       },
+       "utf8_string": "с",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 214,
+        "y": 56,
+        "width": 15,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "т",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 231,
+        "y": 56,
+        "width": 15,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "о",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 248,
+        "y": 56,
+        "width": 15,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "л",
+       "confidence": 0.99977916
+      },
+      {
+       "bounding_box": {
+        "x": 269,
+        "y": 56,
+        "width": 15,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "и",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 290,
+        "y": 56,
+        "width": 15,
+        "height": 23,
+        "angle": 0.037046984
+       },
+       "utf8_string": "ц",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 307,
+        "y": 59,
+        "width": 15,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "а",
+       "confidence": 0.9998074
+      }
+     ],
+     "bounding_box": {
+      "x": 197,
+      "y": 56,
+      "width": 125,
+      "height": 23,
+      "angle": 0.03704698
+     },
+     "utf8_string": "столица",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999789,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 322,
+      "y": 52,
+      "width": 15,
+      "height": 26,
+      "angle": 0.037046984
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 337,
+        "y": 52,
+        "width": 19,
+        "height": 26,
+        "angle": 0.037046984
+       },
+       "utf8_string": "Р",
+       "confidence": 0.99955255
+      },
+      {
+       "bounding_box": {
+        "x": 354,
+        "y": 56,
+        "width": 19,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "о",
+       "confidence": 0.9997465
+      },
+      {
+       "bounding_box": {
+        "x": 368,
+        "y": 56,
+        "width": 19,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "с",
+       "confidence": 0.9997917
+      },
+      {
+       "bounding_box": {
+        "x": 381,
+        "y": 56,
+        "width": 19,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "с",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 394,
+        "y": 56,
+        "width": 19,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "и",
+       "confidence": 0.99977916
+      },
+      {
+       "bounding_box": {
+        "x": 430,
+        "y": 56,
+        "width": 15,
+        "height": 19,
+        "angle": 0.037046984
+       },
+       "utf8_string": "и",
+       "confidence": 0.9996126
+      },
+      {
+       "bounding_box": {
+        "x": 436,
+        "y": 59,
+        "width": 15,
+        "height": 15,
+        "angle": 0.037046984
+       },
+       "utf8_string": ".",
+       "confidence": 0.9993061
+      }
+     ],
+     "bounding_box": {
+      "x": 337,
+      "y": 52,
+      "width": 114,
+      "height": 26,
+      "angle": 0.03704698
+     },
+     "utf8_string": "России.",
+     "language": "ru",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996472,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 32,
+    "y": 52,
+    "width": 419,
+    "height": 27,
+    "angle": 0.03704698
+   },
+   "utf8_string": "Москва- столица России.",
+   "language": "ru",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.9838013
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 32,
+        "y": 116,
+        "width": 17,
+        "height": 20,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "С",
+       "confidence": 0.99977916
+      },
+      {
+       "bounding_box": {
+        "x": 51,
+        "y": 120,
+        "width": 13,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "ъ",
+       "confidence": 0.99973243
+      },
+      {
+       "bounding_box": {
+        "x": 66,
+        "y": 120,
+        "width": 17,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "е",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 85,
+        "y": 120,
+        "width": 17,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "ш",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 107,
+        "y": 120,
+        "width": 10,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "ь",
+       "confidence": 0.99979585
+      }
+     ],
+     "bounding_box": {
+      "x": 32,
+      "y": 116,
+      "width": 85,
+      "height": 21,
+      "angle": 0.0008228252
+     },
+     "utf8_string": "Съешь",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 1,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 16843008,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99976254,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 117,
+      "y": 116,
+      "width": 9,
+      "height": 20,
+      "angle": 0.00082282524
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 126,
+        "y": 120,
+        "width": 20,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "ж",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 145,
+        "y": 120,
+        "width": 17,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "е",
+       "confidence": 0.9996463
+      }
+     ],
+     "bounding_box": {
+      "x": 126,
+      "y": 120,
+      "width": 36,
+      "height": 17,
+      "angle": 0.0008228252
+     },
+     "utf8_string": "же",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 5,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 84215040,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997269,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 162,
+      "y": 116,
+      "width": 8,
+      "height": 20,
+      "angle": 0.00082282524
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 170,
+        "y": 120,
+        "width": 13,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "е",
+       "confidence": 0.9996176
+      },
+      {
+       "bounding_box": {
+        "x": 186,
+        "y": 120,
+        "width": 20,
+        "height": 20,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "щ",
+       "confidence": 0.9990644
+      },
+      {
+       "bounding_box": {
+        "x": 208,
+        "y": 116,
+        "width": 17,
+        "height": 23,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "ё",
+       "confidence": 0.9994342
+      }
+     ],
+     "bounding_box": {
+      "x": 170,
+      "y": 116,
+      "width": 55,
+      "height": 24,
+      "angle": 0.0008228252
+     },
+     "utf8_string": "ещё",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99937207,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 225,
+      "y": 116,
+      "width": 5,
+      "height": 20,
+      "angle": 0.00082282524
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 230,
+        "y": 120,
+        "width": 13,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "э",
+       "confidence": 0.99951625
+      },
+      {
+       "bounding_box": {
+        "x": 245,
+        "y": 120,
+        "width": 13,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "т",
+       "confidence": 0.99977916
+      },
+      {
+       "bounding_box": {
+        "x": 260,
+        "y": 120,
+        "width": 13,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "и",
+       "confidence": 0.9997416
+      },
+      {
+       "bounding_box": {
+        "x": 271,
+        "y": 123,
+        "width": 17,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "х",
+       "confidence": 0.9997205
+      }
+     ],
+     "bounding_box": {
+      "x": 230,
+      "y": 120,
+      "width": 58,
+      "height": 20,
+      "angle": 0.0008228252
+     },
+     "utf8_string": "этих",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9996894,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 288,
+      "y": 116,
+      "width": 9,
+      "height": 20,
+      "angle": 0.00082282524
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 297,
+        "y": 120,
+        "width": 13,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "м",
+       "confidence": 0.9996463
+      },
+      {
+       "bounding_box": {
+        "x": 313,
+        "y": 120,
+        "width": 13,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "я",
+       "confidence": 0.99931
+      },
+      {
+       "bounding_box": {
+        "x": 331,
+        "y": 120,
+        "width": 7,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "г",
+       "confidence": 0.9984327
+      },
+      {
+       "bounding_box": {
+        "x": 342,
+        "y": 120,
+        "width": 10,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "к",
+       "confidence": 0.99976116
+      },
+      {
+       "bounding_box": {
+        "x": 353,
+        "y": 120,
+        "width": 13,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "и",
+       "confidence": 0.99980325
+      },
+      {
+       "bounding_box": {
+        "x": 365,
+        "y": 120,
+        "width": 17,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "х",
+       "confidence": 0.99977666
+      }
+     ],
+     "bounding_box": {
+      "x": 297,
+      "y": 120,
+      "width": 85,
+      "height": 17,
+      "angle": 0.0008228252
+     },
+     "utf8_string": "мягких",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99945503,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 382,
+      "y": 116,
+      "width": 6,
+      "height": 20,
+      "angle": 0.00082282524
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 388,
+        "y": 116,
+        "width": 20,
+        "height": 27,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "ф",
+       "confidence": 0.9993492
+      },
+      {
+       "bounding_box": {
+        "x": 413,
+        "y": 120,
+        "width": 13,
+        "height": 20,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "р",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 428,
+        "y": 120,
+        "width": 13,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "а",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 436,
+        "y": 120,
+        "width": 13,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "н",
+       "confidence": 0.9995863
+      },
+      {
+       "bounding_box": {
+        "x": 461,
+        "y": 123,
+        "width": 10,
+        "height": 20,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "ц",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 473,
+        "y": 120,
+        "width": 13,
+        "height": 20,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "у",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 488,
+        "y": 120,
+        "width": 13,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "з",
+       "confidence": 0.9994634
+      },
+      {
+       "bounding_box": {
+        "x": 499,
+        "y": 120,
+        "width": 17,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "с",
+       "confidence": 0.9996489
+      },
+      {
+       "bounding_box": {
+        "x": 500,
+        "y": 120,
+        "width": 13,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "к",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 528,
+        "y": 120,
+        "width": 13,
+        "height": 13,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "и",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 540,
+        "y": 120,
+        "width": 17,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "х",
+       "confidence": 0.9992387
+      }
+     ],
+     "bounding_box": {
+      "x": 388,
+      "y": 116,
+      "width": 169,
+      "height": 27,
+      "angle": 0.0008228252
+     },
+     "utf8_string": "французских",
+     "language": "ru",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99964774,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 557,
+      "y": 116,
+      "width": 9,
+      "height": 20,
+      "angle": 0.00082282524
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 566,
+        "y": 116,
+        "width": 13,
+        "height": 20,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "б",
+       "confidence": 0.99971336
+      },
+      {
+       "bounding_box": {
+        "x": 577,
+        "y": 120,
+        "width": 13,
+        "height": 20,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "у",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 592,
+        "y": 120,
+        "width": 13,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "л",
+       "confidence": 0.99972755
+      },
+      {
+       "bounding_box": {
+        "x": 611,
+        "y": 120,
+        "width": 13,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "о",
+       "confidence": 0.9997054
+      },
+      {
+       "bounding_box": {
+        "x": 625,
+        "y": 120,
+        "width": 10,
+        "height": 17,
+        "angle": 0.00082282524
+       },
+       "utf8_string": "к",
+       "confidence": 0.9995896
+      }
+     ],
+     "bounding_box": {
+      "x": 566,
+      "y": 116,
+      "width": 69,
+      "height": 24,
+      "angle": 0.0008228252
+     },
+     "utf8_string": "булок",
+     "language": "ru",
+     "estimate_color_success": true,
+     "foreground_gray_value": 1,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 16843008,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9997094,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 32,
+    "y": 116,
+    "width": 603,
+    "height": 27,
+    "angle": 0.0008228252
+   },
+   "utf8_string": "Съешь же ещё этих мягких французских булок",
+   "language": "ru",
+   "block_id": 1,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99962616
+  }
+ ]
+}

@@ -1,0 +1,834 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 357,
+        "y": 32,
+        "width": 29,
+        "height": 27,
+        "angle": -0.1395874
+       },
+       "utf8_string": "縦",
+       "confidence": 0.99930227
+      },
+      {
+       "bounding_box": {
+        "x": 359,
+        "y": 66,
+        "width": 27,
+        "height": 27,
+        "angle": -0.1395874
+       },
+       "utf8_string": "書",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 363,
+        "y": 100,
+        "width": 23,
+        "height": 27,
+        "angle": -0.1395874
+       },
+       "utf8_string": "き",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 363,
+        "y": 138,
+        "width": 23,
+        "height": 18,
+        "angle": -0.1395874
+       },
+       "utf8_string": "の",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 359,
+        "y": 168,
+        "width": 23,
+        "height": 27,
+        "angle": -0.1395874
+       },
+       "utf8_string": "日",
+       "confidence": 0.99968493
+      },
+      {
+       "bounding_box": {
+        "x": 359,
+        "y": 202,
+        "width": 27,
+        "height": 27,
+        "angle": -0.1395874
+       },
+       "utf8_string": "本",
+       "confidence": 0.99977
+      },
+      {
+       "bounding_box": {
+        "x": 360,
+        "y": 236,
+        "width": 27,
+        "height": 27,
+        "angle": -0.1395874
+       },
+       "utf8_string": "語",
+       "confidence": 0.99902046
+      },
+      {
+       "bounding_box": {
+        "x": 364,
+        "y": 274,
+        "width": 23,
+        "height": 23,
+        "angle": -0.1395874
+       },
+       "utf8_string": "テ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 364,
+        "y": 304,
+        "width": 23,
+        "height": 27,
+        "angle": -0.1395874
+       },
+       "utf8_string": "キ",
+       "confidence": 0.99955255
+      },
+      {
+       "bounding_box": {
+        "x": 364,
+        "y": 343,
+        "width": 23,
+        "height": 23,
+        "angle": -0.1395874
+       },
+       "utf8_string": "ス",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 369,
+        "y": 372,
+        "width": 14,
+        "height": 27,
+        "angle": -0.1395874
+       },
+       "utf8_string": "ト",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 357,
+      "y": 32,
+      "width": 30,
+      "height": 367,
+      "angle": -0.13958739
+     },
+     "utf8_string": "縦書きの日本語テキスト",
+     "language": "ja",
+     "estimate_color_success": true,
+     "foreground_gray_value": 22,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 370546176,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_TOP_TO_BOTTOM",
+     "confidence": 0.99964285,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 357,
+    "y": 32,
+    "width": 30,
+    "height": 367,
+    "angle": -0.13958739
+   },
+   "utf8_string": "縦書きの日本語テキスト",
+   "language": "ja",
+   "direction": "DIRECTION_TOP_TO_BOTTOM",
+   "confidence": 0.99964285
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 298,
+        "y": 33,
+        "width": 28,
+        "height": 28,
+        "angle": -0.10635376
+       },
+       "utf8_string": "東",
+       "confidence": 0.9990351
+      },
+      {
+       "bounding_box": {
+        "x": 298,
+        "y": 68,
+        "width": 28,
+        "height": 23,
+        "angle": -0.10635376
+       },
+       "utf8_string": "京",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 298,
+        "y": 98,
+        "width": 28,
+        "height": 28,
+        "angle": -0.10635376
+       },
+       "utf8_string": "都",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 298,
+        "y": 133,
+        "width": 28,
+        "height": 28,
+        "angle": -0.10635376
+       },
+       "utf8_string": "渋",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 298,
+        "y": 168,
+        "width": 28,
+        "height": 28,
+        "angle": -0.10635376
+       },
+       "utf8_string": "谷",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 298,
+        "y": 203,
+        "width": 28,
+        "height": 28,
+        "angle": -0.10635376
+       },
+       "utf8_string": "区",
+       "confidence": 0.9996619
+      },
+      {
+       "bounding_box": {
+        "x": 298,
+        "y": 233,
+        "width": 28,
+        "height": 28,
+        "angle": -0.10635376
+       },
+       "utf8_string": "神",
+       "confidence": 0.99973744
+      },
+      {
+       "bounding_box": {
+        "x": 298,
+        "y": 268,
+        "width": 28,
+        "height": 28,
+        "angle": -0.10635376
+       },
+       "utf8_string": "南",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 299,
+        "y": 312,
+        "width": 28,
+        "height": 9,
+        "angle": -0.10635376
+       },
+       "utf8_string": "一",
+       "confidence": 0.99297404
+      },
+      {
+       "bounding_box": {
+        "x": 299,
+        "y": 338,
+        "width": 28,
+        "height": 23,
+        "angle": -0.10635376
+       },
+       "utf8_string": "丁",
+       "confidence": 0.99970657
+      },
+      {
+       "bounding_box": {
+        "x": 304,
+        "y": 372,
+        "width": 23,
+        "height": 23,
+        "angle": -0.10635376
+       },
+       "utf8_string": "目",
+       "confidence": 0.99893636
+      }
+     ],
+     "bounding_box": {
+      "x": 298,
+      "y": 33,
+      "width": 28,
+      "height": 362,
+      "angle": -0.10635375
+     },
+     "utf8_string": "東京都渋谷区神南一丁目",
+     "language": "zh",
+     "estimate_color_success": true,
+     "foreground_gray_value": 51,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 858993408,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_TOP_TO_BOTTOM",
+     "confidence": 0.99899834,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 298,
+    "y": 33,
+    "width": 28,
+    "height": 362,
+    "angle": -0.10635375
+   },
+   "utf8_string": "東京都渋谷区神南一丁目",
+   "language": "zh",
+   "block_id": 1,
+   "direction": "DIRECTION_TOP_TO_BOTTOM",
+   "confidence": 0.99899834
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 241,
+        "y": 32,
+        "width": 26,
+        "height": 26,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "十",
+       "confidence": 0.99937075
+      },
+      {
+       "bounding_box": {
+        "x": 241,
+        "y": 78,
+        "width": 26,
+        "height": 4,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "一",
+       "confidence": 0.99778914
+      },
+      {
+       "bounding_box": {
+        "x": 241,
+        "y": 102,
+        "width": 26,
+        "height": 22,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "口",
+       "confidence": 0.9993218
+      },
+      {
+       "bounding_box": {
+        "x": 245,
+        "y": 135,
+        "width": 22,
+        "height": 22,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "田",
+       "confidence": 0.9978714
+      },
+      {
+       "bounding_box": {
+        "x": 241,
+        "y": 172,
+        "width": 26,
+        "height": 18,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "工",
+       "confidence": 0.9994572
+      },
+      {
+       "bounding_box": {
+        "x": 241,
+        "y": 205,
+        "width": 26,
+        "height": 18,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "三",
+       "confidence": 0.9993327
+      },
+      {
+       "bounding_box": {
+        "x": 241,
+        "y": 233,
+        "width": 26,
+        "height": 26,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "王",
+       "confidence": 0.99955183
+      },
+      {
+       "bounding_box": {
+        "x": 241,
+        "y": 270,
+        "width": 26,
+        "height": 22,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "中",
+       "confidence": 0.9997168
+      },
+      {
+       "bounding_box": {
+        "x": 245,
+        "y": 302,
+        "width": 22,
+        "height": 26,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "日",
+       "confidence": 0.9973236
+      },
+      {
+       "bounding_box": {
+        "x": 245,
+        "y": 335,
+        "width": 22,
+        "height": 26,
+        "angle": -0.0026550293
+       },
+       "utf8_string": "目",
+       "confidence": 0.9978746
+      }
+     ],
+     "bounding_box": {
+      "x": 241,
+      "y": 32,
+      "width": 26,
+      "height": 329,
+      "angle": -0.002655029
+     },
+     "utf8_string": "十一口田工三王中日目",
+     "language": "zh",
+     "estimate_color_success": true,
+     "foreground_gray_value": 48,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 808464384,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_TOP_TO_BOTTOM",
+     "confidence": 0.998761,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 241,
+    "y": 32,
+    "width": 26,
+    "height": 329,
+    "angle": -0.002655029
+   },
+   "utf8_string": "十一口田工三王中日目",
+   "language": "zh",
+   "block_id": 2,
+   "direction": "DIRECTION_TOP_TO_BOTTOM",
+   "confidence": 0.998761
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 180,
+        "y": 33,
+        "width": 20,
+        "height": 25,
+        "angle": 0.14309692
+       },
+       "utf8_string": "H",
+       "confidence": 0.99971503
+      },
+      {
+       "bounding_box": {
+        "x": 177,
+        "y": 66,
+        "width": 23,
+        "height": 25,
+        "angle": 0.14309692
+       },
+       "utf8_string": "O",
+       "confidence": 0.99957377
+      },
+      {
+       "bounding_box": {
+        "x": 180,
+        "y": 102,
+        "width": 18,
+        "height": 20,
+        "angle": 0.14309692
+       },
+       "utf8_string": "T",
+       "confidence": 0.9998074
+      },
+      {
+       "bounding_box": {
+        "x": 180,
+        "y": 130,
+        "width": 18,
+        "height": 28,
+        "angle": 0.14309692
+       },
+       "utf8_string": "E",
+       "confidence": 0.99519265
+      },
+      {
+       "bounding_box": {
+        "x": 180,
+        "y": 170,
+        "width": 18,
+        "height": 23,
+        "angle": 0.14309692
+       },
+       "utf8_string": "L",
+       "confidence": 0.9672218
+      }
+     ],
+     "bounding_box": {
+      "x": 177,
+      "y": 33,
+      "width": 23,
+      "height": 160,
+      "angle": 0.14309691
+     },
+     "utf8_string": "HOTEL",
+     "language": "en",
+     "estimate_color_success": true,
+     "foreground_gray_value": 24,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 404232192,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_TOP_TO_BOTTOM",
+     "confidence": 0.9923021,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 177,
+    "y": 33,
+    "width": 23,
+    "height": 160,
+    "angle": 0.14309691
+   },
+   "utf8_string": "HOTEL",
+   "language": "en",
+   "block_id": 3,
+   "direction": "DIRECTION_TOP_TO_BOTTOM",
+   "confidence": 0.9923021
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 118,
+        "y": 66,
+        "width": 27,
+        "height": 24,
+        "angle": 0.5950845
+       },
+       "utf8_string": "A",
+       "confidence": 0.99244636
+      }
+     ],
+     "bounding_box": {
+      "x": 118,
+      "y": 66,
+      "width": 27,
+      "height": 24,
+      "angle": 0.5950845
+     },
+     "utf8_string": "A",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+     "confidence": 0.99244636,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 118,
+    "y": 66,
+    "width": 27,
+    "height": 24,
+    "angle": 0.5950845
+   },
+   "utf8_string": "A",
+   "block_id": 4,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "content_type": "CONTENT_TYPE_HANDWRITTEN_TEXT",
+   "confidence": 0.99244636
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 120,
+        "y": 34,
+        "width": 19,
+        "height": 22,
+        "angle": -0.0029907227
+       },
+       "utf8_string": "T",
+       "confidence": 0.997493
+      },
+      {
+       "bounding_box": {
+        "x": 120,
+        "y": 71,
+        "width": 22,
+        "height": 22,
+        "angle": -0.0029907227
+       },
+       "utf8_string": "A",
+       "confidence": 0.9992976
+      },
+      {
+       "bounding_box": {
+        "x": 117,
+        "y": 100,
+        "width": 22,
+        "height": 25,
+        "angle": -0.0029907227
+       },
+       "utf8_string": "X",
+       "confidence": 0.9615816
+      }
+     ],
+     "bounding_box": {
+      "x": 117,
+      "y": 34,
+      "width": 25,
+      "height": 91,
+      "angle": -0.0029907224
+     },
+     "utf8_string": "TAX",
+     "direction": "DIRECTION_TOP_TO_BOTTOM",
+     "confidence": 0.9861241,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 117,
+    "y": 34,
+    "width": 25,
+    "height": 91,
+    "angle": -0.0029907224
+   },
+   "utf8_string": "TAX",
+   "block_id": 5,
+   "direction": "DIRECTION_TOP_TO_BOTTOM",
+   "confidence": 0.9861241
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 119,
+        "y": 135,
+        "width": 9,
+        "height": 22,
+        "angle": 0.09719043
+       },
+       "utf8_string": "I",
+       "confidence": 0.6076851
+      }
+     ],
+     "bounding_box": {
+      "x": 119,
+      "y": 135,
+      "width": 9,
+      "height": 22,
+      "angle": 0.097190425
+     },
+     "utf8_string": "I",
+     "estimate_color_success": true,
+     "foreground_gray_value": 32,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 538976256,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.6076851,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 119,
+    "y": 135,
+    "width": 9,
+    "height": 22,
+    "angle": 0.097190425
+   },
+   "utf8_string": "I",
+   "block_id": 6,
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.6076851
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 60,
+        "y": 35,
+        "width": 8,
+        "height": 21,
+        "angle": -4.649353
+       },
+       "utf8_string": "1",
+       "confidence": 0.9262938
+      },
+      {
+       "bounding_box": {
+        "x": 62,
+        "y": 70,
+        "width": 16,
+        "height": 21,
+        "angle": -2.7335205
+       },
+       "utf8_string": "2",
+       "confidence": 0.9997793
+      },
+      {
+       "bounding_box": {
+        "x": 62,
+        "y": 100,
+        "width": 16,
+        "height": 24,
+        "angle": 0.45028687
+       },
+       "utf8_string": "3",
+       "confidence": 0.99947673
+      },
+      {
+       "bounding_box": {
+        "x": 60,
+        "y": 138,
+        "width": 19,
+        "height": 19,
+        "angle": 0.40023804
+       },
+       "utf8_string": "4",
+       "confidence": 0.9997886
+      },
+      {
+       "bounding_box": {
+        "x": 63,
+        "y": 168,
+        "width": 16,
+        "height": 24,
+        "angle": -0.24084473
+       },
+       "utf8_string": "5",
+       "confidence": 0.9995484
+      },
+      {
+       "bounding_box": {
+        "x": 59,
+        "y": 198,
+        "width": 19,
+        "height": 30,
+        "angle": 0.4454956
+       },
+       "utf8_string": "6",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 58,
+        "y": 237,
+        "width": 21,
+        "height": 21,
+        "angle": -1.4942017
+       },
+       "utf8_string": "7",
+       "confidence": 0.99981123
+      }
+     ],
+     "bounding_box": {
+      "x": 57,
+      "y": 34,
+      "width": 22,
+      "height": 224,
+      "angle": -0.24084468
+     },
+     "utf8_string": "1234567",
+     "language": "am",
+     "estimate_color_success": true,
+     "foreground_gray_value": 39,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 656877312,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_TOP_TO_BOTTOM",
+     "confidence": 0.9892156,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 57,
+    "y": 34,
+    "width": 22,
+    "height": 224,
+    "angle": -0.24084468
+   },
+   "utf8_string": "1234567",
+   "language": "am",
+   "block_id": 7,
+   "direction": "DIRECTION_TOP_TO_BOTTOM",
+   "confidence": 0.9892156
+  }
+ ]
+}

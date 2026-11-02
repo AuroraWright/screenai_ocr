@@ -1,0 +1,844 @@
+{
+ "lines": [
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 28,
+        "y": 50,
+        "width": 43,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "আ",
+       "confidence": 0.99975747
+      },
+      {
+       "bounding_box": {
+        "x": 68,
+        "y": 41,
+        "width": 30,
+        "height": 34,
+        "angle": -0.055298217
+       },
+       "utf8_string": "মি",
+       "confidence": 0.9995362
+      }
+     ],
+     "bounding_box": {
+      "x": 28,
+      "y": 41,
+      "width": 70,
+      "height": 35,
+      "angle": -0.055298213
+     },
+     "utf8_string": "আমি",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99964684,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 98,
+      "y": 50,
+      "width": 11,
+      "height": 26,
+      "angle": -0.055298217
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 109,
+        "y": 50,
+        "width": 34,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "ব",
+       "confidence": 0.9989373
+      },
+      {
+       "bounding_box": {
+        "x": 109,
+        "y": 50,
+        "width": 39,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "া",
+       "confidence": 0.9997987
+      },
+      {
+       "bounding_box": {
+        "x": 118,
+        "y": 50,
+        "width": 39,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "ং",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 154,
+        "y": 50,
+        "width": 30,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "ল",
+       "confidence": 0.9997465
+      },
+      {
+       "bounding_box": {
+        "x": 150,
+        "y": 50,
+        "width": 34,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "া",
+       "confidence": 0.9937156
+      },
+      {
+       "bounding_box": {
+        "x": 181,
+        "y": 54,
+        "width": 26,
+        "height": 21,
+        "angle": -0.055298217
+       },
+       "utf8_string": "য়",
+       "confidence": 0.73409265
+      }
+     ],
+     "bounding_box": {
+      "x": 109,
+      "y": 50,
+      "width": 98,
+      "height": 26,
+      "angle": -0.055298213
+     },
+     "utf8_string": "বাংলায়",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.95435035,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 207,
+      "y": 50,
+      "width": 10,
+      "height": 26,
+      "angle": -0.055298217
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 217,
+        "y": 50,
+        "width": 26,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "গ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 226,
+        "y": 50,
+        "width": 26,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "া",
+       "confidence": 0.9997454
+      },
+      {
+       "bounding_box": {
+        "x": 244,
+        "y": 54,
+        "width": 21,
+        "height": 21,
+        "angle": -0.055298217
+       },
+       "utf8_string": "ন",
+       "confidence": 0.9998074
+      }
+     ],
+     "bounding_box": {
+      "x": 217,
+      "y": 50,
+      "width": 48,
+      "height": 26,
+      "angle": -0.055298213
+     },
+     "utf8_string": "গান",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99978805,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 265,
+      "y": 50,
+      "width": 15,
+      "height": 26,
+      "angle": -0.055298217
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 280,
+        "y": 50,
+        "width": 26,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "গ",
+       "confidence": 0.99976987
+      },
+      {
+       "bounding_box": {
+        "x": 280,
+        "y": 50,
+        "width": 26,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "া",
+       "confidence": 0.9997938
+      },
+      {
+       "bounding_box": {
+        "x": 303,
+        "y": 41,
+        "width": 21,
+        "height": 34,
+        "angle": -0.055298217
+       },
+       "utf8_string": "ই",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 329,
+        "y": 50,
+        "width": 4,
+        "height": 26,
+        "angle": -0.055298217
+       },
+       "utf8_string": "।",
+       "confidence": 0.99964905
+      }
+     ],
+     "bounding_box": {
+      "x": 280,
+      "y": 41,
+      "width": 53,
+      "height": 35,
+      "angle": -0.055298213
+     },
+     "utf8_string": "গাই।",
+     "language": "bn",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.999756,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 28,
+    "y": 41,
+    "width": 305,
+    "height": 35,
+    "angle": -0.055298213
+   },
+   "utf8_string": "আমি বাংলায় গান গাই।",
+   "language": "bn",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.98158556
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 29,
+        "y": 116,
+        "width": 39,
+        "height": 23,
+        "angle": -0.2583889
+       },
+       "utf8_string": "কো",
+       "confidence": 0.99915546
+      },
+      {
+       "bounding_box": {
+        "x": 68,
+        "y": 116,
+        "width": 23,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "ল",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 88,
+        "y": 116,
+        "width": 27,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "ক",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 96,
+        "y": 116,
+        "width": 31,
+        "height": 23,
+        "angle": -0.2583889
+       },
+       "utf8_string": "া",
+       "confidence": 0.999206
+      },
+      {
+       "bounding_box": {
+        "x": 116,
+        "y": 116,
+        "width": 31,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "ত",
+       "confidence": 0.9996978
+      },
+      {
+       "bounding_box": {
+        "x": 116,
+        "y": 116,
+        "width": 31,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "া",
+       "confidence": 0.9998074
+      }
+     ],
+     "bounding_box": {
+      "x": 29,
+      "y": 116,
+      "width": 118,
+      "height": 23,
+      "angle": -0.2583889
+     },
+     "utf8_string": "কোলকাতা",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 2,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 33686016,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9995815,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 147,
+      "y": 115,
+      "width": 4,
+      "height": 23,
+      "angle": -0.2583889
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 151,
+        "y": 115,
+        "width": 19,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "শ",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 171,
+        "y": 118,
+        "width": 19,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "হ",
+       "confidence": 0.99977475
+      },
+      {
+       "bounding_box": {
+        "x": 183,
+        "y": 118,
+        "width": 31,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "রে",
+       "confidence": 0.9996225
+      },
+      {
+       "bounding_box": {
+        "x": 211,
+        "y": 118,
+        "width": 15,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "র",
+       "confidence": 0.9998074
+      }
+     ],
+     "bounding_box": {
+      "x": 151,
+      "y": 115,
+      "width": 75,
+      "height": 22,
+      "angle": -0.2583889
+     },
+     "utf8_string": "শহরের",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99975395,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 226,
+      "y": 115,
+      "width": 8,
+      "height": 23,
+      "angle": -0.2583889
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 234,
+        "y": 111,
+        "width": 43,
+        "height": 27,
+        "angle": -0.2583889
+       },
+       "utf8_string": "বৌ",
+       "confidence": 0.99639595
+      },
+      {
+       "bounding_box": {
+        "x": 266,
+        "y": 115,
+        "width": 23,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "দ্ধ",
+       "confidence": 0.99768174
+      }
+     ],
+     "bounding_box": {
+      "x": 234,
+      "y": 111,
+      "width": 55,
+      "height": 27,
+      "angle": -0.2583889
+     },
+     "utf8_string": "বৌদ্ধ",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99703884,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 289,
+      "y": 115,
+      "width": 5,
+      "height": 23,
+      "angle": -0.2583889
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 294,
+        "y": 115,
+        "width": 23,
+        "height": 23,
+        "angle": -0.2583889
+       },
+       "utf8_string": "ম",
+       "confidence": 0.9996439
+      },
+      {
+       "bounding_box": {
+        "x": 314,
+        "y": 111,
+        "width": 34,
+        "height": 27,
+        "angle": -0.2583889
+       },
+       "utf8_string": "ন্দি",
+       "confidence": 0.96364003
+      },
+      {
+       "bounding_box": {
+        "x": 346,
+        "y": 118,
+        "width": 15,
+        "height": 19,
+        "angle": -0.2583889
+       },
+       "utf8_string": "র",
+       "confidence": 0.9995877
+      }
+     ],
+     "bounding_box": {
+      "x": 294,
+      "y": 111,
+      "width": 67,
+      "height": 27,
+      "angle": -0.2583889
+     },
+     "utf8_string": "মন্দির",
+     "language": "bn",
+     "estimate_color_success": true,
+     "foreground_gray_value": 56,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 943208448,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9876239,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 29,
+    "y": 112,
+    "width": 332,
+    "height": 28,
+    "angle": -0.2583889
+   },
+   "utf8_string": "কোলকাতা শহরের বৌদ্ধ মন্দির",
+   "language": "bn",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.996897
+  },
+  {
+   "words": [
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 31,
+        "y": 180,
+        "width": 35,
+        "height": 20,
+        "angle": -0.108628586
+       },
+       "utf8_string": "ক",
+       "confidence": 0.9994481
+      },
+      {
+       "bounding_box": {
+        "x": 31,
+        "y": 176,
+        "width": 35,
+        "height": 24,
+        "angle": -0.108628586
+       },
+       "utf8_string": "্য",
+       "confidence": 0.99936956
+      },
+      {
+       "bounding_box": {
+        "x": 35,
+        "y": 176,
+        "width": 35,
+        "height": 20,
+        "angle": -0.108628586
+       },
+       "utf8_string": "া",
+       "confidence": 0.9996648
+      },
+      {
+       "bounding_box": {
+        "x": 67,
+        "y": 176,
+        "width": 29,
+        "height": 24,
+        "angle": -0.108628586
+       },
+       "utf8_string": "মে",
+       "confidence": 0.998977
+      },
+      {
+       "bounding_box": {
+        "x": 92,
+        "y": 172,
+        "width": 24,
+        "height": 24,
+        "angle": -0.108628586
+       },
+       "utf8_string": "র",
+       "confidence": 0.9996668
+      },
+      {
+       "bounding_box": {
+        "x": 88,
+        "y": 172,
+        "width": 28,
+        "height": 24,
+        "angle": -0.108628586
+       },
+       "utf8_string": "া",
+       "confidence": 0.9996648
+      }
+     ],
+     "bounding_box": {
+      "x": 31,
+      "y": 172,
+      "width": 85,
+      "height": 28,
+      "angle": -0.10862858
+     },
+     "utf8_string": "ক্যামেরা",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99946517,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 116,
+      "y": 180,
+      "width": 9,
+      "height": 20,
+      "angle": -0.108628586
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 125,
+        "y": 176,
+        "width": 16,
+        "height": 20,
+        "angle": -0.108628586
+       },
+       "utf8_string": "ও",
+       "confidence": 0.9955917
+      }
+     ],
+     "bounding_box": {
+      "x": 125,
+      "y": 176,
+      "width": 16,
+      "height": 20,
+      "angle": -0.10862858
+     },
+     "utf8_string": "ও",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 3,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 50529024,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9955917,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 141,
+      "y": 180,
+      "width": 8,
+      "height": 20,
+      "angle": -0.108628586
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 149,
+        "y": 168,
+        "width": 32,
+        "height": 32,
+        "angle": -0.108628586
+       },
+       "utf8_string": "প্রি",
+       "confidence": 0.99887997
+      },
+      {
+       "bounding_box": {
+        "x": 178,
+        "y": 172,
+        "width": 32,
+        "height": 28,
+        "angle": -0.108628586
+       },
+       "utf8_string": "ন্ট",
+       "confidence": 0.99981123
+      },
+      {
+       "bounding_box": {
+        "x": 183,
+        "y": 172,
+        "width": 28,
+        "height": 28,
+        "angle": -0.108628586
+       },
+       "utf8_string": "া",
+       "confidence": 0.99968183
+      },
+      {
+       "bounding_box": {
+        "x": 207,
+        "y": 180,
+        "width": 20,
+        "height": 20,
+        "angle": -0.108628586
+       },
+       "utf8_string": "র",
+       "confidence": 0.99979526
+      }
+     ],
+     "bounding_box": {
+      "x": 149,
+      "y": 168,
+      "width": 78,
+      "height": 32,
+      "angle": -0.10862858
+     },
+     "utf8_string": "প্রিন্টার",
+     "language": "bn",
+     "has_space_after": true,
+     "estimate_color_success": true,
+     "foreground_gray_value": 87,
+     "background_gray_value": 255,
+     "foreground_rgb_value": 1465341696,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.99954206,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {
+      "x": 227,
+      "y": 180,
+      "width": 8,
+      "height": 20,
+      "angle": -0.108628586
+     }
+    },
+    {
+     "symbols": [
+      {
+       "bounding_box": {
+        "x": 235,
+        "y": 168,
+        "width": 33,
+        "height": 32,
+        "angle": -0.108628586
+       },
+       "utf8_string": "কি",
+       "confidence": 0.9986655
+      },
+      {
+       "bounding_box": {
+        "x": 264,
+        "y": 176,
+        "width": 28,
+        "height": 24,
+        "angle": -0.108628586
+       },
+       "utf8_string": "নে",
+       "confidence": 0.9988766
+      },
+      {
+       "bounding_box": {
+        "x": 288,
+        "y": 167,
+        "width": 33,
+        "height": 32,
+        "angle": -0.108628586
+       },
+       "utf8_string": "ছি",
+       "confidence": 0.9978262
+      }
+     ],
+     "bounding_box": {
+      "x": 235,
+      "y": 167,
+      "width": 86,
+      "height": 33,
+      "angle": -0.10862858
+     },
+     "utf8_string": "কিনেছি",
+     "language": "bn",
+     "estimate_color_success": true,
+     "background_gray_value": 255,
+     "background_rgb_value": -256,
+     "direction": "DIRECTION_LEFT_TO_RIGHT",
+     "confidence": 0.9984561,
+     "estimate_gray_success": true,
+     "whitespace_bounding_box": {}
+    }
+   ],
+   "bounding_box": {
+    "x": 31,
+    "y": 167,
+    "width": 290,
+    "height": 33,
+    "angle": -0.10862858
+   },
+   "utf8_string": "ক্যামেরা ও প্রিন্টার কিনেছি",
+   "language": "bn",
+   "direction": "DIRECTION_LEFT_TO_RIGHT",
+   "confidence": 0.99899423
+  }
+ ]
+}
