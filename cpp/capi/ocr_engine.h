@@ -20,6 +20,8 @@ class OcrEngine {
 
   // Serialized chrome_screen_ai.VisualAnnotation; false if a stage failed.
   bool Run(const RgbaImage& rgba, std::string* visual_annotation);
+  // Light pipeline: one line recognition pass (see LineRecognizer::SetLightMode).
+  void SetLightMode(bool light);
   // Same, stopping before the VisualAnnotation conversion.
   bool RunLayout(const RgbaImage& rgba, PageLayout* layout);
 

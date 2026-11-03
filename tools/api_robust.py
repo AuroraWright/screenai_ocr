@@ -4,7 +4,7 @@ usage: api_robust.py <lib> <model_dir> <check> [args]
   fuzz <n> [seed] [text]  random bitmaps (sizes, row bytes, color types, contents; `text`: only distorted real pages
                       with tight rows and plausible sizes); prints one line per case:
                       "<case> <result>" with result = sha1 prefix + length, EMPTY, NULL or CRASH(<signal>)
-  lifecycle           PerformOCR before init, double init, uninit/reinit, missing callbacks
+  lifecycle           PerformOCR before init, double init, uninit/reinit, missing callbacks, light mode switching
   faults [files_lib]  model-file faults (missing / truncated / garbage / bit flips) per file the library reads (or
                       the files `files_lib` reads, so two libraries are tested on the same list)
   threads <k> <imgs>  k threads calling PerformOCR concurrently on the images; compares with sequential output
@@ -12,7 +12,8 @@ usage: api_robust.py <lib> <model_dir> <check> [args]
 Each fuzz/faults case runs in a worker subprocess that is restarted after a crash, so a crash is a result, not an
 abort. Run with python -I. For a sanitizer build set API_ROBUST_INSERT to the asan runtime dylib (`clang
 -print-file-name=libclang_rt.asan_osx_dynamic.dylib`): it is inserted into every worker process (the runtime strips
-DYLD_INSERT_LIBRARIES from the environment, so it cannot simply be inherited)."""
+DYLD_INSERT_LIBRARIES from the environment, so it cannot simply be inherited). API_ROBUST_LIGHT=1 runs the fuzz
+workers in light mode."""
 import ctypes, hashlib, json, os, random, resource, subprocess, sys, threading
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -72,10 +73,10 @@ class Lib:
     def set_callbacks(self):
         self.S.SetFileContentFunctions(ctypes.cast(self._size, ctypes.c_void_p), ctypes.cast(self._content, ctypes.c_void_p))
 
-    def init(self):
+    def init(self, light=False):  # as owocr does: set the mode after init
         self.set_callbacks()
         ok = self.S.InitOCRUsingCallback()
-        self.S.SetOCRLightMode(False)
+        self.S.SetOCRLightMode(light)
         return ok
 
     def ocr(self, pixels, w, h, ct, row_bytes=None):
@@ -188,7 +189,8 @@ def build_case(c):
 # ---- worker / supervisor ----------------------------------------------------------------------------------------
 def worker(lib, model_dir, cases_file):
     L = Lib(lib, model_dir)
-    L.init()
+    light = os.environ.get('API_ROBUST_LIGHT') == '1'
+    L.init(light)
     for line in open(cases_file):
         c = json.loads(line)
         if c.get('skip'): continue
@@ -197,7 +199,7 @@ def worker(lib, model_dir, cases_file):
         res = L.ocr(px, c['w'], c['h'], c['ct'], rb)
         print('RESULT', c['id'], res, flush=True)
         if res == 'NULL':  # the original stays failed after a failed call until it is re-initialized
-            L.S.UninitializeOCR(); L.init()
+            L.S.UninitializeOCR(); L.init(light)
 
 
 def child_env():
@@ -259,7 +261,8 @@ def check_lifecycle(lib, model_dir):
         out = p.stdout.strip().splitlines()
         print('%-28s %s' % (name, ' '.join(out) if p.returncode == 0 else 'CRASH(%d) %s' % (-p.returncode, ' '.join(out))))
     for name in ['perform_before_init', 'perform_no_callbacks', 'init_no_callbacks', 'double_init', 'uninit_perform',
-                 'uninit_reinit', 'uninit_twice', 'maxdim_before_init', 'maxdim_after_uninit', 'light_mode_true', 'light_before_init']:
+                 'uninit_reinit', 'uninit_twice', 'maxdim_before_init', 'maxdim_after_uninit', 'light_mode_true', 'light_before_init',
+                 'light_toggle', 'light_after_uninit']:
         run_case(name, None)
 
 
@@ -279,6 +282,13 @@ def life(lib, model_dir, name):
     elif name == 'light_mode_true': L.init(); S.SetOCRLightMode(True); print(L.ocr(px, w, h, 4))
     elif name == 'light_before_init':
         L.set_callbacks(); S.SetOCRLightMode(True); print(S.InitOCRUsingCallback(), L.ocr(px, w, h, 4))
+    elif name in ('light_toggle', 'light_after_uninit'):  # a page whose result depends on the mode
+        mx, mw, mh = load_rgba(os.path.join(ROOT, 'testdata', 'multiscript.png'))
+        if name == 'light_toggle':
+            L.init(); a = L.ocr(mx, mw, mh, 4); S.SetOCRLightMode(True); b = L.ocr(mx, mw, mh, 4)
+            S.SetOCRLightMode(False); print(a, b, L.ocr(mx, mw, mh, 4))
+        else:  # the setting survives UninitializeOCR
+            L.init(); S.SetOCRLightMode(True); S.UninitializeOCR(); print(S.InitOCRUsingCallback(), L.ocr(mx, mw, mh, 4))
 
 
 def check_faults(lib, model_dir, files_lib=None):

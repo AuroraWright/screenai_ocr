@@ -28,6 +28,7 @@ screenai::Resources::SizeFn g_size_fn = nullptr;
 screenai::Resources::ContentFn g_content_fn = nullptr;
 std::unique_ptr<screenai::OcrEngine> g_engine;
 int g_max_image_dimension = 0;
+bool g_light_mode = false;
 
 char* CopyOut(const std::string& s, uint32_t* length) {
   *length = static_cast<uint32_t>(s.size());
@@ -56,12 +57,17 @@ SCREENAI_EXPORT bool InitOCRUsingCallback() {
   }
   g_engine = screenai::OcrEngine::Create(std::move(resources));
   if (!g_engine) return false;
+  g_engine->SetLightMode(g_light_mode);
   g_max_image_dimension = 2048;
   return true;
 }
 
-// The light pipeline swaps in a different line recognizer; only the default pipeline is reimplemented.
-SCREENAI_EXPORT void SetOCRLightMode(bool) {}
+// The original rebuilds its pipeline with the light runtime option (on the next call); the models it loads do not
+// change, so here the setting is switched in place. It persists across UninitializeOCR, like the original's.
+SCREENAI_EXPORT void SetOCRLightMode(bool light) {
+  g_light_mode = light;
+  if (g_engine) g_engine->SetLightMode(light);
+}
 
 SCREENAI_EXPORT uint32_t GetMaxImageDimension() { return g_max_image_dimension; }
 

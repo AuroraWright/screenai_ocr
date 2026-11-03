@@ -67,10 +67,10 @@ recognizer outputs), with XNNPACK at the version the original ships.
   loads `~/.config/screen_ai/resources/libchromescreenai.so`. To avoid touching your model directory, make a
   directory of symlinks to its contents and replace only the `.so` link (what `tools/compare_owocr.py` does).
   Without file callbacks, `InitOCRUsingCallback` also accepts `SCREEN_AI_MODEL_DIR=<dir>`.
-- `SetOCRLightMode(true)` is accepted but ignored: only the default (non-light) pipeline is reimplemented, which is
-  what owocr uses (it calls `SetOCRLightMode(false)`). Set before init, the original's light mode changes results on
-  pages with non-Latin text (43 of the 92 test images); Latin-only pages are unchanged. Main-content extraction is
-  not implemented.
+- `SetOCRLightMode(true)` selects the light pipeline: one line recognition pass, without the script-specific second
+  pass, so it changes results on pages with non-Latin text (43 of the 92 test images) and not on Latin-only pages.
+  It takes effect from the next `PerformOCR`, set before or after init, and survives `UninitializeOCR`, like the
+  original's. owocr calls `SetOCRLightMode(false)`. Main-content extraction is not implemented.
 
 ## Verification
 
@@ -136,5 +136,5 @@ owocr results vs the original library. Injection tests: recognizer selection 44,
 on ~3.07M tags), layout 1618/1621 (the 3 differences need a soft-hyphen word break without a box, which the recognizer
 never produces), box overlap 125,500 pairs + 3,000 box sets bit-identical, detector forced ties 13/13 with every sort tying. Total time on the test images is within a few
 percent of the original. Known unmodelled inputs: weighted multi-language mixes in recognizer selection, math
-content types (6/7) in word text joins; none occur in the pipeline. Light mode and main-content extraction are not
-implemented.
+content types (6/7) in word text joins; none occur in the pipeline. Light mode: 92/92 test images and 600 text fuzz cases
+identical to the original's light mode. Main-content extraction is not implemented.

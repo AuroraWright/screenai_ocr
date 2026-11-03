@@ -225,6 +225,14 @@ extra_rot/scripts_175 match 002_lay_in.
   extra_fuzz/curve_2pass); rounding the curve of every re-recognized curved line is wrong (fuzz regressions).
   testdata/extra_paths_rec/curve_flip (d=2), vert_cols / vert_cols_180 (top_to_bottom curved columns).
 
+## Light mode (chrome_screen_ai::OCR::SetLightPipeline 0x100348500, OCR::Initialize 0x100347e20)
+- SetOCRLightMode stores the flag (OCR+0) and, if it changed and a pipeline exists, destroys the pipeline; the next
+  PerformOCR re-initializes. Uninitialize does not clear the flag.
+- Initialize with the flag set adds OcrOptions.runtime_options.page_layout_mutator_context_options map entry
+  "taser_line_recognition_mutator" -> Any(MultiPassLineRecognitionMutatorRuntimeOptions{maximum_iterations: 1})
+  (has-bit 1, field 2), merged over the packed default. Nothing else changes: same models, same first-pass
+  recognizer ("und"), no second pass, so no script-specific re-recognition (and no second-pass reordering of lines).
+
 ## Second-pass recognizer selection (LanguageBasedLineRecognizerConfigSelector::Select 0x100148160)
 - recognizer_script_id is used as the key when set and content type is CUSTOM (101); never the case here.
 - Else languages of language_mix (stable-sorted by weight; one per line here). Key suffixes, most specific

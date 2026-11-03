@@ -1095,7 +1095,7 @@ bool LineRecognizer::Recognize(const RgbaImage& rgba, const GrayImage& gray, Pag
   };
   std::stable_sort(order.begin(), order.end(), [&](int a, int b) { return parent_rank(a) < parent_rank(b); });
   if (!run_pass(default_key_, order)) return false;
-  if (maximum_iterations_ > 1) {
+  if ((light_ ? 1 : maximum_iterations_) > 1) {
     // Second pass: lines whose language selects another recognizer are re-recognized by it; the multi-pass
     // mutator moves them behind the others, grouped by recognizer key.
     std::map<std::string, std::vector<int>> second;

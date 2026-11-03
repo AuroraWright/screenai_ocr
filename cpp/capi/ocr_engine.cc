@@ -19,6 +19,11 @@ std::unique_ptr<OcrEngine> OcrEngine::Create(std::shared_ptr<Resources> resource
   return engine;
 }
 
+void OcrEngine::SetLightMode(bool light) {
+  std::lock_guard<std::mutex> lock(mu_);
+  recognizer_->SetLightMode(light);
+}
+
 namespace {
 
 // SCREENAI_STAGE_DUMP=<dir>: writes each stage's output as goodoc.PageLayoutProto, named like trace/stage_dump.py

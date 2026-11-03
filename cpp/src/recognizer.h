@@ -35,6 +35,10 @@ class LineRecognizer {
   // nullopt where the original fails (malformed "-t-i0-handwrit" language tag).
   std::optional<std::string> SelectKey(const Entity& line) const;
 
+  // Light pipeline (chrome_screen_ai::OCR::SetLightPipeline): MultiPassLineRecognitionMutatorRuntimeOptions
+  // maximum_iterations = 1 for "taser_line_recognition_mutator", i.e. no second, script-specific pass.
+  void SetLightMode(bool light) { light_ = light; }
+
  private:
   LineRecognizer() = default;
   rec::ScriptRecognizer* Get(const std::string& key);  // lazily loads the recognizer of a multi-pass key
@@ -44,6 +48,7 @@ class LineRecognizer {
   std::map<std::string, std::string> config_files_;  // multi-pass key -> recognizer config file
   std::string default_key_ = "und";
   int maximum_iterations_ = 2;
+  bool light_ = false;
   std::map<std::string, std::unique_ptr<rec::ScriptRecognizer>> recognizers_;
 };
 
