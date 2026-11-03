@@ -54,6 +54,14 @@ recognizer outputs), with XNNPACK at the version the original ships.
    Every `src/*.cc` goes into `screenai_core`, and every `tools/*.cc` becomes a stage tool (`run_detector`,
    `run_recognizer`, `run_layout`, `run_visual_annotation`, `run_ctc_decoder`, `tfl_check`, ...).
 
+**x86-64 targets.** The original's x86-64 build (the Windows `chrome_screen_ai.dll`) differs numerically from its
+arm64 build in two image kernels. In libyuv's column filter it uses `ScaleFilterCols_SSSE3`'s 7-bit fraction, and
+the rotated-line warp uses Q15 integer interior weights. `src/x86_compat.h` turns both on for x86-64 targets
+(`-DSCREENAI_X86_COMPAT=0/1` overrides it). With them, the detector's input tensors match the 153.05 DLL exactly.
+94.5% of its recognizer input chunks over our 96 test images match too, in the DLL's SSE4.2 code paths under Wine.
+End-to-end output still differs, because the detector's float model runs different XNNPACK kernels on x86. Those
+kernels vary with the CPU (SSE/AVX2/AVX-512) and are not reproduced here.
+
 ## Using it
 
 - Command line: `run_ocr <model_dir> <image> <out_visual_annotation.pb> [out_layout.pb]`.

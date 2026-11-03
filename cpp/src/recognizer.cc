@@ -22,6 +22,7 @@
 #include "recognizer_langcode.h"
 #include "recognizer_words.h"
 #include "tflite_model.h"
+#include "x86_compat.h"
 
 namespace screenai {
 namespace rec {
@@ -144,7 +145,8 @@ void Clip(int* l, int* t, int* w, int* h, int W, int H) {
   if (*t + *h > H) *h = H - *t;
 }
 
-// Inverse-affine bilinear warp with 10-bit fixed-point coordinates and 5-bit interpolation weights.
+// Inverse-affine bilinear warp with 10-bit fixed-point coordinates and 5-bit interpolation weights. Interior pixels
+// use float weights in the arm64 original and Q15 integer weights (as at the border) in the x86-64 one.
 GrayImage Warp(const GrayImage& page, int cl, int ct, int sw, int sh, const float M[6], int dw, int dh) {
   GrayImage out;
   out.width = dw, out.height = dh;
@@ -161,7 +163,7 @@ GrayImage Warp(const GrayImage& page, int cl, int ct, int sw, int sh, const floa
       const double fx = (idx & 31) / 32.0, fy = (idx >> 5) / 32.0;
       const double w[4] = {(1 - fx) * (1 - fy), fx * (1 - fy), (1 - fx) * fy, fx * fy};
       int value;
-      if ((x & 0xFFFF) < sw - 1 && (y & 0xFFFF) < sh - 1) {
+      if (!SCREENAI_X86_COMPAT && (x & 0xFFFF) < sw - 1 && (y & 0xFFFF) < sh - 1) {
         const float val = ((static_cast<float>(w[0]) * static_cast<float>(src(x, y)) +
                             static_cast<float>(w[1]) * static_cast<float>(src(x + 1, y))) +
                            static_cast<float>(w[2]) * static_cast<float>(src(x, y + 1))) +

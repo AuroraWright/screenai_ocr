@@ -36,7 +36,9 @@ Decompiles: `ida/decomp/rec/` (function address prefixes), scratch decompiles in
 - angle==0: clip box to image, crop. Else aligned bounding box of rotated rect (float corners l + (w-1)*c ...,
   i.e. pixel corners, with sinf/cosf of a*0.0174532924f; roundf; W = R-L+1, H = B-T+1), clip, warp with inverse affine [c,-s,s,c,l-cl,t-ct] (rad=(double)a*pi/180 -> float
   sin/cos), fixed point *1024 (vcvtns), +16 rounding, 5-bit fractional bilinear; interior: float weights sum,
-  rint; border: clamped coords, Q15 weights.
+  rint; border: clamped coords, Q15 weights. The x86-64 original (Windows DLL 153.05) uses Q15 weights for the
+  interior too (matched its recognizer inputs; its coordinates are the same as here, and OpenCV-style per-column
+  rounded deltas made things worse); SCREENAI_X86_COMPAT (x86_compat.h).
 - scale to height 32: sc=32.0f/h, dw=max(1,rint(sc*w)), dh=max(1,rint(sc*h)), libyuv ScalePlane kFilterBox.
 - chunks: offsets 0,136,...; each chunk 168 wide (16 left pad, 136, 16 right pad) filled from image incl.
   neighbouring context; zero elsewhere. Batches of 8 chunks, zero-padded.

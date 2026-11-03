@@ -5,6 +5,8 @@
 #include <cstring>
 #include <vector>
 
+#include "x86_compat.h"
+
 namespace screenai {
 namespace {
 
@@ -86,9 +88,19 @@ void InterpolateRow(uint8_t* dst, const uint8_t* r0, const uint8_t* r1, int w, i
   }
 }
 
-// ScaleFilterCols_C; `row` must hold src_width + 1 readable bytes (last pixel duplicated).
-void FilterCols(uint8_t* dst, const uint8_t* row, int dw, int x, int dx) {
+// ScaleFilterCols_C (ScaleFilterCols64_C for sw >= 32768); `row` must hold sw + 1 readable bytes (last pixel
+// duplicated). x86-64 builds use ScaleFilterCols_SSSE3 for sw < 32768: a 7-bit fraction (bits 9..15 of x),
+// (a * (128 - f) + b * f + 64) >> 7.
+void FilterCols(uint8_t* dst, const uint8_t* row, int sw, int dw, int x, int dx) {
   int64_t xx = x;
+  if (SCREENAI_X86_COMPAT && sw < 32768) {
+    for (int j = 0; j < dw; j++, xx += dx) {
+      const int xi = static_cast<int>(xx >> 16);
+      const int f = static_cast<int>(xx & 0xFFFF) >> 9;
+      dst[j] = static_cast<uint8_t>((row[xi] * (128 - f) + row[xi + 1] * f + 64) >> 7);
+    }
+    return;
+  }
   for (int j = 0; j < dw; j++, xx += dx) {
     const int xi = static_cast<int>(xx >> 16);
     const int a = row[xi], b = row[xi + 1];
@@ -311,13 +323,13 @@ void BilinearDown(const Plane& s, uint8_t* dst, int ds, int dw, int dh, FilterMo
     const int yi = y >> 16;
     uint8_t* d = dst + static_cast<int64_t>(j) * ds;
     if (f == kFilterLinear) {
-      FilterCols(d, PaddedRow(s.row(yi), s.w, pad), dw, x, dx);
+      FilterCols(d, PaddedRow(s.row(yi), s.w, pad), s.w, dw, x, dx);
     } else {
       const int yf = (y >> 8) & 255;
       const uint8_t* r1 = (yf && yi + 1 < s.h) ? s.row(yi + 1) : s.row(yi);
       InterpolateRow(tmp.data(), s.row(yi), r1, s.w, yf);
       tmp[s.w] = tmp[s.w - 1];
-      FilterCols(d, tmp.data(), dw, x, dx);
+      FilterCols(d, tmp.data(), s.w, dw, x, dx);
     }
     y = Wrap(static_cast<int64_t>(y) + dy);
     if (y >= max_y) y = max_y;
@@ -333,16 +345,16 @@ void BilinearUp(const Plane& s, uint8_t* dst, int ds, int dw, int dh, FilterMode
   // emulate libyuv's two-row ring buffer, including the source pointer that stops advancing
   int sp = yi;
   std::vector<uint8_t> bufs[2] = {std::vector<uint8_t>(dw), std::vector<uint8_t>(dw)}, pad;
-  FilterCols(bufs[0].data(), PaddedRow(s.row(sp), s.w, pad), dw, x, dx);
+  FilterCols(bufs[0].data(), PaddedRow(s.row(sp), s.w, pad), s.w, dw, x, dx);
   if (s.h > 1) sp++;
-  FilterCols(bufs[1].data(), PaddedRow(s.row(sp), s.w, pad), dw, x, dx);
+  FilterCols(bufs[1].data(), PaddedRow(s.row(sp), s.w, pad), s.w, dw, x, dx);
   if (s.h > 2) sp++;
   int cur = 0, lasty = yi;
   for (int j = 0; j < dh; j++) {
     if (y > max_y) y = max_y;
     yi = y >> 16;
     if (yi != lasty) {
-      FilterCols(bufs[cur].data(), PaddedRow(s.row(sp), s.w, pad), dw, x, dx);
+      FilterCols(bufs[cur].data(), PaddedRow(s.row(sp), s.w, pad), s.w, dw, x, dx);
       cur ^= 1;
       if (y + 0x10000 < max_y) sp++;
       lasty = yi;
