@@ -1,3 +1,4 @@
+#include <climits>
 #include "lm_char_model.h"
 
 #include <cmath>
@@ -92,15 +93,28 @@ std::unique_ptr<FstCharLanguageModel> FstCharLanguageModel::Create(
   auto lm = std::unique_ptr<FstCharLanguageModel>(new FstCharLanguageModel());
   lm->fst_ = CompactLmFst::Read(fst_file, error);
   if (!lm->fst_) return nullptr;
+  // fst::SymbolTable::ReadText: fields split on tabs/spaces (empty fields skipped); a line must have no fields or
+  // exactly "symbol key" with a non-negative integer key, otherwise the table (and the recognizer) fails to load.
   for (size_t i = 0; i < syms_file.size();) {
     size_t e = syms_file.find('\n', i);
     if (e == std::string_view::npos) e = syms_file.size();
     std::string_view line = syms_file.substr(i, e - i);
     i = e + 1;
-    if (!line.empty() && line.back() == '\r') line.remove_suffix(1);
-    const size_t tab = line.find_last_of("\t ");
-    if (line.empty() || tab == std::string_view::npos) continue;
-    lm->symbols_.emplace(std::string(line.substr(0, tab)), std::atoi(std::string(line.substr(tab + 1)).c_str()));
+    std::vector<std::string_view> cols;
+    for (size_t a = 0; a < line.size();) {
+      const size_t b = std::min(line.find_first_of("\t ", a), line.size());
+      if (b > a) cols.push_back(line.substr(a, b - a));
+      a = b + 1;
+    }
+    if (cols.empty()) continue;
+    const std::string key(cols.size() == 2 ? cols[1] : std::string_view());
+    char* end = nullptr;
+    const long long id = key.empty() ? -1 : std::strtoll(key.c_str(), &end, 10);
+    if (cols.size() != 2 || *end != '\0' || id < 0 || id > INT32_MAX) {
+      if (error) *error = "bad LM symbol table line: " + std::string(line.substr(0, 80));
+      return nullptr;
+    }
+    lm->symbols_.emplace(std::string(cols[0]), static_cast<int>(id));
   }
   // OcrLanguageModel::Init(min_prob = 1e-6) / InitOpticalTokens
   lm->max_cost_ = -std::log(1e-6);

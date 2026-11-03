@@ -288,7 +288,7 @@ std::vector<RecWord> BuildWords(const std::vector<RecSymbol>& symbols, const std
   return words;
 }
 
-void RecomputeSpaceWordBreakBoxes(const std::vector<RecSymbol>& symbols, std::vector<RecWord>* words) {
+void RecomputeSpaceWordBreakBoxes(const std::vector<RecSymbol>& symbols, bool vertical, std::vector<RecWord>* words) {
   for (size_t i = 0; i + 1 < words->size(); i++) {
     RecWord& a = (*words)[i];
     const RecWord& b = (*words)[i + 1];
@@ -299,9 +299,17 @@ void RecomputeSpaceWordBreakBoxes(const std::vector<RecSymbol>& symbols, std::ve
     RotatedBox u = UnionStart(la);
     ExpandBoxToContainBox(la, &u);
     ExpandBoxToContainBox(fb, &u);
-    const float gap = std::max(0.0f, static_cast<float>(u.width - la.width - fb.width));
-    a.brk->box->left = a.box.left + a.box.width;
-    a.brk->box->width = std::max(1, static_cast<int>(std::ceil(gap)));
+    // LineLength along the writing direction of the line (top-to-bottom lines measure heights, although their
+    // line-relative boxes are horizontal here).
+    const int gap = vertical ? u.height - la.height - fb.height : u.width - la.width - fb.width;
+    const int len = std::max(1, std::max(0, gap));
+    if (vertical) {
+      a.brk->box->top = a.box.top + a.box.height;
+      a.brk->box->height = len;
+    } else {
+      a.brk->box->left = a.box.left + a.box.width;
+      a.brk->box->width = len;
+    }
   }
 }
 

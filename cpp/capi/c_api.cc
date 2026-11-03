@@ -65,16 +65,15 @@ SCREENAI_EXPORT void SetOCRLightMode(bool) {}
 
 SCREENAI_EXPORT uint32_t GetMaxImageDimension() { return g_max_image_dimension; }
 
-SCREENAI_EXPORT void UninitializeOCR() {
-  g_engine.reset();
-  g_max_image_dimension = 0;
-}
+// The original keeps reporting the max image dimension after uninitialization.
+SCREENAI_EXPORT void UninitializeOCR() { g_engine.reset(); }
 
 SCREENAI_EXPORT char* PerformOCR(const SkBitmap* bitmap, uint32_t* length) {
   *length = 0;
   if (!g_engine && !InitOCRUsingCallback()) return nullptr;
   const int w = bitmap->width, h = bitmap->height;
-  if (w == 0 || h == 0 || w > 32768 || h > 32768) return new char[0];  // "Unsupported image size."
+  // "Unsupported image size." (the original aborts on negative sizes; here they are rejected the same way)
+  if (w <= 0 || h <= 0 || w > 32768 || h > 32768) return new char[0];
   screenai::RgbaImage rgba;
   rgba.width = w;
   rgba.height = h;

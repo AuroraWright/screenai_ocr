@@ -68,7 +68,9 @@ recognizer outputs), with XNNPACK at the version the original ships.
   directory of symlinks to its contents and replace only the `.so` link (what `tools/compare_owocr.py` does).
   Without file callbacks, `InitOCRUsingCallback` also accepts `SCREEN_AI_MODEL_DIR=<dir>`.
 - `SetOCRLightMode(true)` is accepted but ignored: only the default (non-light) pipeline is reimplemented, which is
-  what owocr uses. Main-content extraction is not implemented.
+  what owocr uses (it calls `SetOCRLightMode(false)`). Set before init, the original's light mode changes results on
+  pages with non-Latin text (43 of the 92 test images); Latin-only pages are unchanged. Main-content extraction is
+  not implemented.
 
 ## Verification
 
@@ -86,7 +88,8 @@ The Python tools decode protos with descriptors pulled from your copy of the ori
   (`extra_curve/`, 5 curved-text pages), and targeted path coverage: `make_extra_paths.py` (`extra_paths/`, 2,
   curved-line overlap pruning), `extra_paths_rec/gen.sh` (6: flipped curves, language-to-script recognizer selection,
   RTL bidi mixes, upside-down vertical text), `make_extra_ties.py` (`extra_ties/`, 8, tie-heavy layouts),
-  `make_extra_det.py` (`extra_det/`, 12: drop caps, tiny/huge/strip pages, large text cropped from pyramid levels).
+  `make_extra_det.py` (`extra_det/`, 12: drop caps, tiny/huge/strip pages, large text cropped from pyramid levels),
+  `extra_fuzz/` (4 fuzz pages that differed from the original before their fixes; provenance in its README).
 - Rarely taken paths were checked for reachability against the shipped configs before writing tests; paths the
   configs make unreachable (detection nuggets, vertical word expansion, `heuristic_blocks`, accumulated support,
   `fallback_upscaling`, the legacy pyramid path) are documented with evidence in `notes/` instead.
@@ -102,6 +105,31 @@ The Python tools decode protos with descriptors pulled from your copy of the ori
     `OverlapComputer` on generated boxes, `tools/overlap_check` replays them through `src/box_overlap.cc`.
   - detector: `SCREENAI_DET_INJECT` / `trace/det_dump.py DD_INJECT` edit the model outputs to force exact ties in all
     sorts; cases in `testdata/det_inject/`, run with `trace/det_inject_check.py`.
+
+## Robustness
+
+`tools/api_robust.py <lib> <model_dir> <check>` runs the same C API checks on the original and on ours (release, or
+the AddressSanitizer + UBSan build: `cmake -S cpp -B cpp/build_asan -DCMAKE_BUILD_TYPE=None
+-DCMAKE_CXX_FLAGS="-fsanitize=address,undefined -fno-omit-frame-pointer -g -O1" ...` with the same linker flags, and
+`API_ROBUST_INSERT=$(clang -print-file-name=libclang_rt.asan_osx_dynamic.dylib)`). Checks: `fuzz` (random bitmaps;
+`text` for distorted real pages), `lifecycle`, `faults` (missing / truncated / garbage / bit-flipped model files),
+`threads`, `soak`. Results (2026-11-02, sanitizer build): no sanitizer reports or crashes on the 92 test images,
+1,200 fuzz cases or 160 model-file faults; 8 concurrent threads give identical output; memory is flat over 800 runs.
+Intentional differences from the original:
+- Negative bitmap sizes return an empty result (the original aborts); initializing twice is a no-op (the original
+  aborts); a missing or corrupt layout model fails init (the original crashes).
+- After a failed `PerformOCR` (e.g. a side of exactly 32768), the original returns NULL for every later call until
+  it is re-initialized; ours keeps working.
+- Script recognizers load on first use, so a broken script config only fails pages that need that script; the
+  original reads all script configs at init and fails init. The engine config file is not read.
+- Matched on purpose: a truncated/corrupt model or label map or LM symbol table fails like the original (init, or
+  the OCR call that needs it), and a missing language-ID model runs without language ID, byte-identical to the
+  original.
+The text fuzz found four recognizer bugs (geometry only: vertical-line space boxes, flipped curved lines, the
+angles of vertical and curved vertical lines re-recognized in the second pass); they are fixed and kept as
+`testdata/extra_fuzz/`. The one remaining difference is not a bug: the original runs its Indic symbol manipulators
+in hash-map order seeded per process, so on lines mixing Bengali and Devanagari marks separate runs of the original
+disagree with each other (`testdata/extra_fuzz/README`); ours gives the result of the original with ASLR off.
 
 Status (2026-11-01): all 92 test images give byte-identical `PerformOCR` output at full resolution and identical
 owocr results vs the original library. Injection tests: recognizer selection 44,445/44,445 (plus `MostLikelyScript`

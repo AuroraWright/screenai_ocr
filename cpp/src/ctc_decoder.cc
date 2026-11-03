@@ -317,6 +317,12 @@ std::unique_ptr<CtcBeamDecoder> CtcBeamDecoder::Create(const Resources& res, con
     }
     label_map.emplace(id, std::move(name));
   }
+  // ids must be 0..n-1 (n entries): anything else is a corrupt file (and would size labels_ by an arbitrary id).
+  if (!lr.ok() || label_map.empty() || label_map.begin()->first != 0 ||
+      label_map.rbegin()->first != static_cast<int>(label_map.size()) - 1) {
+    if (error) *error = "corrupt label map " + cfg.label_map_path;
+    return nullptr;
+  }
   d->blank_ = static_cast<int>(label_map.size());
   std::vector<std::pair<int, std::string>> labels(label_map.begin(), label_map.end());
   for (const auto& [id, name] : labels) {

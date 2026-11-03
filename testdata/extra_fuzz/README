@@ -1,0 +1,21 @@
+Pages from `tools/api_robust.py <lib> <model_dir> fuzz 600 11 text` where ours differed from the original
+(case descriptions: id, size, color type, source image, distortion, seed):
+  vert_space.png        case 38  {"w": 1457, "h": 363, "ct": 14, "src": "testdata/extra_paths_rec/vert_cols.png",
+                                  "mode": "resize", "seed": 895829541}
+      vertical line with a recognized space: the recognizer's RecomputeSpaceWordBreakBoxes measures the gap along
+      the line's writing direction (heights for top-to-bottom lines)
+  curve_flip_float.png  case 388 {"w": 2137, "h": 2409, "ct": 4, "src": "testdata/extra_rot/latin_cjk_175.png",
+                                  "mode": "lowcontrast", "seed": 307010521}
+      curved lines flipped by the direction head: RotateOrientationClockwise<Box<float>> rounds the curve to float
+  vert_tile_180.png     `fuzz 600 23 text` case 209 {"w": 2634, "h": 1960, "ct": 4,
+                                  "src": "testdata/extra_paths_rec/vert_cols_180.png", "mode": "tile", "seed": 236994653}
+      vertical lines kept from the first pass map their symbols without the angle round trip of re-recognized ones
+  curve_2pass.png       `fuzz 600 37 text` case 128 {"w": 1028, "h": 1652, "ct": 4,
+                                  "src": "testdata/extra_paths_rec/vert_cols_180.png", "mode": "resize", "seed": 441497745}
+      curved vertical lines re-recognized in the second pass: the box round trip rounds their curve to float
+Not kept: `fuzz 600 37 text` case 3 (extra_indic/deva2.png, lowcontrast) has no single right answer: the original
+runs its symbol manipulators in absl flat_hash_map order (FunctionRegistry::GetAll), which is seeded per process,
+and on that line Bengali and Devanagari marks make the order matter, so separate runs of the original give either
+of two outputs. Ours gives the one the original gives with ASLR off (e.g. under lldb).
+Stage dumps of the original: ../stages_extra_fuzz/. Excluded from the fuzz source images, so seeds stay
+reproducible.

@@ -34,8 +34,9 @@ struct RecWord {
 
 // WordBuilder over the line's symbols (in logical order); `line_text` is their concatenation.
 std::vector<RecWord> BuildWords(const std::vector<RecSymbol>& symbols, const std::string& line_text);
-// RecomputeSpaceWordBreakBoxes for horizontal (angle 0, line-relative) words.
-void RecomputeSpaceWordBreakBoxes(const std::vector<RecSymbol>& symbols, std::vector<RecWord>* words);
+// RecomputeSpaceWordBreakBoxes(words, layout, true) for angle-0 line-relative words; `vertical`: the line is
+// written top-to-bottom.
+void RecomputeSpaceWordBreakBoxes(const std::vector<RecSymbol>& symbols, bool vertical, std::vector<RecWord>* words);
 // EstimateWordColorsSymbolAware on the (unscaled) gray line image.
 void EstimateWordColors(const GrayImage& line, const std::vector<RecSymbol>& symbols, std::vector<RecWord>* words);
 

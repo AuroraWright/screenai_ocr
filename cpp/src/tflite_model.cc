@@ -10,7 +10,9 @@ std::unique_ptr<TfliteModel> TfliteModel::Create(std::string model_bytes, int nu
                                                  bool use_xnnpack) {
   std::unique_ptr<TfliteModel> m(new TfliteModel());
   m->bytes_ = std::move(model_bytes);
-  m->model_ = tflite::FlatBufferModel::BuildFromBuffer(m->bytes_.data(), m->bytes_.size());
+  // Verified like the original, which rejects truncated or malformed model files at init instead of reading
+  // past the buffer.
+  m->model_ = tflite::FlatBufferModel::VerifyAndBuildFromBuffer(m->bytes_.data(), m->bytes_.size());
   if (!m->model_) return nullptr;
   tflite::ops::builtin::BuiltinOpResolverWithoutDefaultDelegates resolver;
   if (custom_ops) custom_ops(&resolver);

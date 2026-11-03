@@ -91,8 +91,12 @@ logits reversed too.
 - WordBuilder: whitespace symbol -> break type SPACE (2) (or 3 if already 2), break box expands to contain symbol
   box; non-ws -> start word if none; finalize at SplitBySpace token ends: break NONE(1) default, writing dir,
   text concat, box union, conf=(float)(sum/n).
-- RecomputeSpaceWordBreakBoxes: gap=max(0,unionW(last_i,first_i+1)-wA-wB); angle 0: break.left=word.left+word.width,
-  width=max(1,ceil(gap)).
+- RecomputeSpaceWordBreakBoxes(words, layout, true) (0x100ab2c08, the layout analyzer's with the angle-0 shortcut):
+  gap = DepthGapBetweenEntities(last_i, first_i+1) = max(0, LineLength(union) - LineLength(a) - LineLength(b)),
+  LineLength along the word's writing direction (PageLayout::Orientation: the line's, TOP_TO_BOTTOM for vertical
+  lines although their line-relative boxes are horizontal at this point). Angle-0 word box: horizontal
+  break.left = word.left+word.width, width = max(1, ceil(gap)); top-to-bottom break.top = word.top+word.height,
+  height = max(1, ceil(gap)). Other angles: ResizeBox along that direction (not reached by line-relative words).
 - Colors: EstimateWordColorsSymbolAware (0x100a79ac0) — Otsu over bg regions (above/below/right/left of word,
   margin 0.3*h) + fg symbol boxes; full algorithm in the session summary / colors.c.
 - Page transform: P=(line.x+box.left, line.y+box.top) rotated about line origin by line angle (double),
@@ -140,8 +144,11 @@ aksara result {text, language, confidence, predicted_script (und pass only), rig
   (tools/gen_bidi_tables.py: classes, BidiMirroring.txt, BidiBrackets.txt).
 
 ## Symbol manipulators (StandardTextReorderer::JoinAtomsToSymbols 0x100229160; recognizer_indic.cc)
-- Every registered manipulator (registry order = alphabetical: Bengali, Devanagari, Gujarati, Kannada, Mirroring,
-  Tamil, Telugu) runs on every line, last to first, before SymbolsToResult. One symbol per CTC label (atom) first;
+- Every registered manipulator (registry order: FunctionRegistry::GetAll 0x1002275a0 iterates an absl
+  flat_hash_map, so the order depends on absl's per-process hash seed; with ASLR off (lldb) it is alphabetical:
+  Bengali, Devanagari, Gujarati, Kannada, Mirroring, Tamil, Telugu, which ours uses) runs on every line, last to
+  first, before SymbolsToResult. The order only matters when two manipulators both change a line (e.g. Bengali and
+  Devanagari marks in one line: `fuzz 600 37 text` case 3 gives two outputs across runs of the original). One symbol per CTC label (atom) first;
   if a manipulator fails, symbols stay one per atom.
 - Splitting manipulators (Indic): JoinAndReorderStrings(symbol texts) -> logical string; JoinSymbols groups
   consecutive symbols greedily until AlignTextToPieces succeeds and no normalization decomposed sequence
@@ -208,7 +215,14 @@ extra_rot/scripts_175 match 002_lay_in.
   top-left, angle = float(atan2(dy, dx) * 180/pi), size kept. Line polygon stays the curved_box.
 - Turned curved boxes (direction flip d=1/2, upright of vertical lines): RotateOrientationClockwise<Box<float>>
   0x100212304 keeps the curve; per quadrant (only with >= 2 points) top_to_bottom is cleared if set, else the
-  mid-line points are reversed and it is set; the rotated_bounding_box turns like a straight box.
+  mid-line points are reversed and it is set; the rotated_bounding_box turns like a straight box. The Box<float>
+  round trip rounds the mid-line points and thickness to float (doubles otherwise), which the symbol mapping of a
+  flipped curved line sees (1-ulp symbol angles; testdata/extra_fuzz/curve_flip_float).
+- Vertical lines: page mapping from the line box as recognized for lines kept from the first pass; lines
+  re-recognized in a later pass map from the upright box turned back by one quadrant (an angle round trip that can
+  move every symbol angle by an ulp; testdata/extra_fuzz/vert_tile_180 has both kinds). Curved vertical lines
+  take the same round trip, which rounds their curve to float (RotateOrientationClockwise<Box<float>>,
+  extra_fuzz/curve_2pass); rounding the curve of every re-recognized curved line is wrong (fuzz regressions).
   testdata/extra_paths_rec/curve_flip (d=2), vert_cols / vert_cols_180 (top_to_bottom curved columns).
 
 ## Second-pass recognizer selection (LanguageBasedLineRecognizerConfigSelector::Select 0x100148160)

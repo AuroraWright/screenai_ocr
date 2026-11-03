@@ -305,6 +305,19 @@ std::unique_ptr<ScriptRecognizer> ScriptRecognizer::Create(const Resources& res,
     }
     r->labels_.emplace(id, std::move(name));
   }
+  // Every shipped model has labels 0..C-2 plus the CTC blank (C = decode_logits classes). A label map that does
+  // not (truncated / corrupt file) is rejected, which fails the OCR call like the original does, instead of
+  // decoding to labels that do not exist.
+  int classes = -1;
+  if (auto it = r->out_tensor_.find("decode_logits"); it != r->out_tensor_.end()) {
+    const TfLiteTensor* t = r->models_[0]->interpreter()->tensor(it->second);
+    classes = t->dims->data[t->dims->size - 1];
+  }
+  if (!lr.ok() || classes < 2 || static_cast<int>(r->labels_.size()) != classes - 1 ||
+      r->labels_.begin()->first != 0 || r->labels_.rbegin()->first != classes - 2) {
+    *error = "label map " + r->cfg_.label_map_path + " does not match the model";
+    return nullptr;
+  }
   if (r->cfg_.has_ctc_decoder) {
     const std::string file = config_file.substr(config_file.find('/') + 1);
     r->decoder_ = CtcBeamDecoder::Create(res, "gocr/gocr_models/line_recognition_mobile_convnext320_omni", file, error);
@@ -609,8 +622,9 @@ int Argmax(const std::vector<float>& v, int n) {
   return best;
 }
 
-// RotateOrientationClockwise<Box<float>> + BoundingBoxToBoundingPolygon (rounded). A curved box keeps its curve:
-// each quadrant clears top_to_bottom if set, else reverses the mid-line points and sets it.
+// RotateOrientationClockwise<Box<float>> + BoundingBoxToBoundingPolygon (rounded). A curved box keeps its curve,
+// with points and thickness rounded to float by the Box<float> round trip: each quadrant clears top_to_bottom if
+// set, else reverses the mid-line points and sets it.
 RotatedBox RotateClockwise(const RotatedBox& b, int quadrants) {
   const int q = quadrants & 3;
   if (q == 0) return b;
@@ -635,6 +649,9 @@ RotatedBox RotateClockwise(const RotatedBox& b, int quadrants) {
   out.angle = a;
   if (b.curve) {
     out.curve = b.curve;
+    for (auto& p : out.curve->points)
+      p = {static_cast<double>(static_cast<float>(p.first)), static_cast<double>(static_cast<float>(p.second))};
+    out.curve->thickness = static_cast<double>(static_cast<float>(out.curve->thickness));
     if (out.curve->points.size() >= 2) {
       bool ttb = out.curve->top_to_bottom.value_or(false);
       for (int i = 0; i < q; i++) {
@@ -786,8 +803,9 @@ std::unique_ptr<LineRecognizer> LineRecognizer::Create(const Resources& res) {
     }
   }
   if (!r->config_files_.count(r->default_key_)) return nullptr;
+  // Language ID is optional, as in the original: without a loadable model, lines get no language from it.
   r->langid_ = LanguageIdentifier::Create(res);
-  if (!r->langid_ || !r->Get(r->default_key_)) return nullptr;
+  if (!r->Get(r->default_key_)) return nullptr;
   return r;
 }
 
@@ -1039,11 +1057,11 @@ bool LineRecognizer::Recognize(const RgbaImage& rgba, const GrayImage& gray, Pag
         predicted_script = name;
         if (std::find(cfg.supported_scripts.begin(), cfg.supported_scripts.end(), name) !=
             cfg.supported_scripts.end())
-          language = langid_->Identify(st.decode.text);
+          language = langid_ ? langid_->Identify(st.decode.text) : "";
         else
           language = name;
       } else {
-        language = langid_->Identify(st.decode.text);
+        language = langid_ ? langid_->Identify(st.decode.text) : "";
       }
       e.confidence = st.decode.confidence;
       e.languages = {language};
@@ -1059,7 +1077,7 @@ bool LineRecognizer::Recognize(const RgbaImage& rgba, const GrayImage& gray, Pag
       e.aksara = a;
       st.words = rec::BuildWords(st.decode.symbols, st.decode.text);
       if (!rtl) {
-        rec::RecomputeSpaceWordBreakBoxes(st.decode.symbols, &st.words);
+        rec::RecomputeSpaceWordBreakBoxes(st.decode.symbols, e.writing_direction == 2, &st.words);
         rec::EstimateWordColors(images[k], st.decode.symbols, &st.words);
       }
       if (st.box_scale != 1.0f) ScaleLineBoxes(st.box_scale, &st.decode.symbols, &st.words);
@@ -1149,11 +1167,14 @@ bool LineRecognizer::Recognize(const RgbaImage& rgba, const GrayImage& gray, Pag
     // the line and its descendants are turned upright again (RotateOrientationClockwise by 3 quadrants).
     const bool vertical = line.writing_direction == 2;
     auto upright = [&](const RotatedBox& b) { return vertical ? rec::RotateClockwise(b, 3) : b; };
-    // Vertical lines map their boxes from the upright line box turned back by one quadrant: the angle round trip
-    // moves the page angle of every symbol by an ulp, which shows in the averaged word angles (lldb on
-    // FindContainingBoxWithAverageAngle, ja_vertical turned by 180 degrees).
+    // Vertical lines re-recognized in a later pass map their boxes from the upright line box of the first pass
+    // turned back by one quadrant: the angle round trip moves the page angle of every symbol by an ulp, which shows
+    // in the averaged word angles (lldb on FindContainingBoxWithAverageAngle, ja_vertical turned by 180 degrees).
+    // Lines kept from the first pass map from their box as recognized. For curved lines the round trip rounds the
+    // curve to float (testdata/extra_fuzz/curve_2pass).
     RotatedBox lb = line.box ? *line.box : RotatedBox();
-    if (vertical && !lb.curve) lb = rec::RotateClockwise(rec::RotateClockwise(lb, 3), 1);
+    if (vertical && state[k].key != default_key_)
+      lb = rec::RotateClockwise(rec::RotateClockwise(lb, 3), 1);
     // Curved lines: line-image boxes follow the mid-line curve back onto the page.
     std::optional<rec::CurveMapper> mapper;
     if (lb.curve) mapper.emplace(*lb.curve);
