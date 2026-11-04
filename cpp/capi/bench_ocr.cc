@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // bench_ocr <model_dir> <runs> <images...>: median wall time of OcrEngine::Run per image after one warm-up run.
 #include <algorithm>
 #include <chrono>

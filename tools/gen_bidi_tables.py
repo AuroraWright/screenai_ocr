@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Generates cpp/src/recognizer_bidi.inc: UAX #9 bidi classes (Python unicodedata), Bidi_Mirroring_Glyph
 (BidiMirroring.txt) and Bidi_Paired_Bracket(_Type) (BidiBrackets.txt) of the same Unicode version.
 

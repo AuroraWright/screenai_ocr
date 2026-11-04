@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: at entry of a function in libchromescreenai.so, serialize proto messages passed in registers.
 
 Env: PD_FUNC (demangled name, e.g. 'google_ocr::GroupRpnDetectorV2'), PD_REGS (e.g. 'x1,x2'), PD_OUT (dir), PD_MAX (hits).

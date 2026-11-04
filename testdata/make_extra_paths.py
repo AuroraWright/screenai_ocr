@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Layout-path test images (testdata/extra_paths/): inputs that drive analyzer branches the other sets never reach.
 Gray straight text printed over a curved (arc) line makes RemoveOverlappingWithCurvedBoxes act."""
 import os, math

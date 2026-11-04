@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 import glob, sys
 from google.protobuf import descriptor_pb2, descriptor_pool, text_format, message_factory
 from google.protobuf.internal import decoder

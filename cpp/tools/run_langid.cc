@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // run_langid <model_dir> [--hex] [--topk K]
 // Reads one text per stdin line (hex-encoded UTF-8 with --hex) and prints, per line:
 //   <language> <confidence> <confidence bits> <softmax bits, comma-separated> <logit bits, comma-separated>

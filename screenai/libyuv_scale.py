@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Bit-exact port of libyuv ScalePlane (8-bit, single channel) as compiled into libchromescreenai.
 
 Only the code paths reachable for positive widths/heights are implemented. All arithmetic follows the C

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Page layout analysis: google_ocr::PageLayoutAnalysisMutator (aksara PageLayoutAnalyzer with the
 // aksara_page_layout_analysis_rpn_gro_2024_q4 config) applied to the recognized layout. Turns recognized
 // paragraphs/lines/words/symbols into BLOCK > PARAGRAPH > LINE > WORD > SYMBOL in reading order, filters

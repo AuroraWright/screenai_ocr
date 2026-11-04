@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 from PIL import Image, ImageDraw, ImageFont
 import os
 OUT = os.path.dirname(os.path.abspath(__file__))

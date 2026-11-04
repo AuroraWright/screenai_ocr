@@ -268,3 +268,14 @@ See `testdata/extra_fuzz/README.md`.
 | `screenai/` | a Python port of libyuv's scaler, used by tests |
 | `ref/` | runs the original library to make reference outputs |
 | `third_party/` | Eigen subset, stb, and the generated `VisualAnnotation` Python bindings |
+
+## License
+
+This project is licensed under the [Mozilla Public License 2.0](https://mozilla.org/MPL/2.0/); see `LICENSE`.
+
+Bundled third-party code keeps its own licence:
+- `third_party/eigen/`: Eigen, MPL-2.0.
+- `cpp/src/boost/`: Boost.Polygon, Boost Software License 1.0 (except `cstdint.hpp`, which is ours).
+- `third_party/stb/`: stb_image, public domain or MIT, at your choice.
+
+The license covers only this project's code, not the Screen AI library or its models, which you supply yourself.

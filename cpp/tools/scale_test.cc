@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Reads cases from stdin: "sw sh dw dh mode path_in path_out" per line; writes ScalePlane output for each.
 #include <cstdio>
 #include <fstream>

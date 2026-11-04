@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // run_recognizer <model_dir> <image.png> <in_layout.pb> <out.pb>: line recognition only, from a detector layout
 // (e.g. testdata/stages/<img>/001_rec_in.pb) to the layout-analysis input (comparable with 002_lay_in.pb).
 #include <cstdio>

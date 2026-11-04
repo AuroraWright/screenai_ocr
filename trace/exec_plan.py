@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: at the first EP_MAX Subgraph::Invoke entries, print the execution plan (builtin code[:custom name] per node).
 Subgraph layout (from IDA): execution_plan_ vector<int> at +392, nodes_and_registration_ (168-byte elements: TfLiteNode
 then TfLiteRegistration at +80; builtin_code at reg+40, custom_name at reg+48) at +264."""

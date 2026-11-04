@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // overlap_check <dir>: replays the box pairs / sets trace/overlap_check.py ran through the original library's overlap
 // routines and requires bit-identical results from cpp/src/box_overlap.h:
 //   pairs.bin  Rectangle<float> OverlapArea and SafeBoxOverlapArea<Box<float>> vs overlap::RectOverlapArea /

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Runs the LM CTC beam decoder on decoder inputs dumped from the original library (trace/lm_dump.py) and
 // compares with the original outputs bit for bit.
 //

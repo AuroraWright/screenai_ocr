@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // bench_model <model.tflite> <dump_dir> <prefix> <threads> <interpreters> <invokes> [use_xnnpack=1]
 // Times Invoke on the dumped inputs (<prefix>_in.json shapes). With interpreters > 1, `invokes` invokes are spread
 // over that many interpreters on as many std::threads (the original's TfliteModelPooledRunner layout).

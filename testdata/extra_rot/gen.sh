@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: MPL-2.0
 # Upside-down / tilted pages for the recognizer's direction-flip path (direction head d=2: reversed logits, later
 # passes cut from the pass-1 box and turned by 180 degrees). Rendered with CoreText (../extra_lm/render.swift),
 # rotated with Pillow (rotate.py).

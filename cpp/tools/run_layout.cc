@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // run_layout <model_dir> <image> <in.pb> <out.pb> [--step NAME] [--features out.bin]
 // Runs the layout analysis (PageLayoutAnalysisMutator) on a goodoc.PageLayoutProto (e.g. a 002_lay_in.pb stage
 // dump) and writes the resulting layout. --step runs a single stage (see LayoutAnalyzer::RunStep). --features

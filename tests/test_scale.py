@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Randomized equivalence test: cpp ScalePlane (cpp/build/scale_test) vs the Python libyuv port."""
 import numpy as np, subprocess, sys, os, tempfile
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

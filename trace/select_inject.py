@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: overwrite the language of LINE entities at LanguageBasedLineRecognizerConfigSelector::Select entry
 (0x100148160), i.e. after the first pass and just before the second-pass recognizer is chosen, then continue.
 Combine with trace/stage_dump.py to dump the stages; ours does the same with SCREENAI_DEBUG_SELECT_LANG.

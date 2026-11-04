@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Reads a goodoc.PageLayoutProto into screenai::PageLayout and writes it back (tests reader/writer coverage).
 #include <cstdio>
 #include <fstream>

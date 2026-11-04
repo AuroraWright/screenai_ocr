@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Access to the user-provided model files (the Screen AI component directory). Paths are relative to the
 // component root, e.g. "gocr/gocr_models/detection/gocr_group_rpn_text_detection_model_2024_q4.tflite".
 #pragma once

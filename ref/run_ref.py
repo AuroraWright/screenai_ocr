@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Run the original libchromescreenai.so on images and dump VisualAnnotation as JSON (reference outputs)."""
 import ctypes, os, sys, json
 from pathlib import Path

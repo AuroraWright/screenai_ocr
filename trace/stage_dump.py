@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: serialize goodoc.PageLayoutProto between OCR pipeline stages of libchromescreenai.so.
 
 At entry of each mutator's MutateSub(ctx) the context's PageLayout (ctx+176) holds the previous stage's

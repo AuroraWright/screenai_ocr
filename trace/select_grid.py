@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Generate the recognizer-selection test grid (LanguageBasedLineRecognizerConfigSelector::Select inputs).
 
 usage: select_grid.py OUTDIR

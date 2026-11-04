@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: run the original layout analysis on injected goodoc.PageLayoutProto files (differential testing).
 
 At entry of PageLayoutAnalysisMutator::MutateSub(ctx) the context's PageLayout (ctx+176, PageLayoutProto* at +16)

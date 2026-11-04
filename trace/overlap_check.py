@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: run the original's overlap-area routines on generated box pairs and box sets, for
 cpp/tools/overlap_check.cc (which replays them through cpp/src/box_overlap.h and requires bit-identical results).
 

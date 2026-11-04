@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Bit-exact reimplementation of libyuv::ScalePlane (8-bit, single channel) as used by the OCR pipeline.
 // Only the code paths reachable for positive widths/heights are implemented; arithmetic follows libyuv's C
 // reference row kernels (which its NEON kernels match bit-for-bit); x86-64 builds use ScaleFilterCols_SSSE3's

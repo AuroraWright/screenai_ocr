@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Write testdata/det_inject/<case>.txt: detector model output edits (SCREENAI_DET_INJECT / DD_INJECT format, see
 OutputEdits in cpp/src/detector.cc) that give the detector post-processing exactly equal inputs, so that the sorts
 whose keys never tie on real model outputs (line links, curve points, line order, paragraph NMS, angle estimation)

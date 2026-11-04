@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Differential fuzzing of the layout analysis: seeded random edits of real 002_lay_in dumps, run through the original
 (trace/lay_inject.py) and cpp run_layout, compared with tools/cmp_layout.py.
 

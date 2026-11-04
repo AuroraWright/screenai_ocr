@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Visual -> logical joining of recognized Indic symbols: aksara::StandardTextReorderer::JoinAtomsToSymbols with the
 // registered SymbolAtomManipulators (Bengali, Devanagari, Gujarati, Kannada, Mirroring, Tamil, Telugu;
 // research/ocr/util/symbol_manipulators/*, applied last to first). The recognizers emit pre-base vowel signs, reph/arkavottu and split

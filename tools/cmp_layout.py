@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Diff two serialized goodoc.PageLayoutProto files (reference dump from trace/stage_dump.py vs ours).
 
 usage: cmp_layout.py REF.pb OURS.pb [--types LINE,WORD,SYMBOL] [--ftol 1e-5] [--max 40] [--ignore field,field]

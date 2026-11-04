@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: print registers at entry of functions matched by regex in libchromescreenai.so.
 
 Env: RA_RX=';'-separated regexes, RA_REGS=comma-separated registers (default x0..x7), RA_MAX=max hits per bp.

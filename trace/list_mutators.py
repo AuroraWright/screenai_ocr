@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: print every PageLayoutMutator::MutateSub / Calculator::Process invoked (name + thread)."""
 import lldb
 def cb(frame, bp_loc, d):

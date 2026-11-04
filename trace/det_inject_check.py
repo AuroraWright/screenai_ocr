@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Detector tie tests with injected model outputs (testdata/det_inject/<case>.txt, from testdata/make_det_inject.py).
 usage: det_inject_check.py OUTDIR [--ref] [case ...]
   --ref: run the original under lldb with DD_INJECT (trace/det_dump.py) and store testdata/det_inject/<case>/

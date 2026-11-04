@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // The detector's sorts in the original are libc++'s std::sort (introsort with pdqsort-style partitioning, LLVM
 // 17+ algorithm, non-branchless path for lambda comparators). Several of them sort keys that can tie (equal link
 // costs, equal projections, equal paragraph ids), where the resulting order of the tied elements changes the

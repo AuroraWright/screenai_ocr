@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Runs owocr's own ChromeScreenAI engine on images with the given model dir; prints JSON
 {image: {"raw": MessageToDict(VisualAnnotation), "generic": owocr OcrResult as dict}}."""
 import os, sys, json, types, logging, tempfile, dataclasses

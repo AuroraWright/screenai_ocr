@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: dump every TFLite Subgraph::Invoke input/output tensor of libchromescreenai.so as raw .bin + .json metadata
 (lldb's embedded Python has no numpy; load with trace/load_dump.py).
 

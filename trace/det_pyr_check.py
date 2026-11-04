@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Check detector pyramid hypotheses against a tfl dump: det_pyr_check.py img.png dumpdir"""
 import sys, numpy as np
 sys.path.insert(0, '.'); sys.path.insert(0, 'trace')

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Renders vertical text columns (one glyph per cell, top to bottom, columns right to left) with Pillow.
 usage: vcol.py out.png size col1 col2 ...  (font: Hiragino Sans GB)"""
 import sys

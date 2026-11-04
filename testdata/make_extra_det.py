@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Detector branch-coverage images (testdata/extra_det/): inputs that reach rarely taken GroupRpnDetectorV2 paths.
   drop_cap*      a line whose first word is much taller than the rest (ConstructLines splits the leading box off)
   tiny_*         very small pages (the pyramid upscales them ~30-100x)

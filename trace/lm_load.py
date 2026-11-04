@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Load dumps written by trace/lm_dump.py (python -I trace/lm_load.py DIR prints a summary)."""
 import os, struct, sys, glob
 

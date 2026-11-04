@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // detector_sort_check <dir>: replays the arrays trace/det_sort_check.py sorted with the original library's own
 // std::sort instantiations (one file per detector sort site) through detsort::Sort (cpp/src/detector_sort.h) and
 // counts cases whose resulting element order differs.

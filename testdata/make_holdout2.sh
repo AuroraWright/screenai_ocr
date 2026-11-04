@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: MPL-2.0
 # Second held-out set (testdata/holdout2/): only used for the final owocr-level check, never by stage development.
 cd "$(dirname "$0")"
 R=extra_lm/render.swift

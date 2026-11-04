@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 #include <climits>
 #include "lm_char_model.h"
 

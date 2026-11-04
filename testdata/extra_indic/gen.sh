@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: MPL-2.0
 # Indic / South-East Asian / RTL test images for the recognizer's symbol reordering (pre-base vowel signs, reph,
 # two-part vowels, conjuncts, mirrored brackets), rendered with CoreText shaping (../extra_lm/render.swift).
 cd "$(dirname "$0")"

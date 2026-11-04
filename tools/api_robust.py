@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Robustness checks for a libchromescreenai.so through its C API (original or ours, release or sanitizer build).
 
 usage: api_robust.py <lib> <model_dir> <check> [args]

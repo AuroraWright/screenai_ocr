@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Load det_dump.py outputs."""
 import struct, numpy as np
 RAW = np.dtype([('x', '<f4'), ('y', '<f4'), ('w', '<f4'), ('h', '<f4'), ('angle', '<f4'), ('pts', '<f4', (8,)),

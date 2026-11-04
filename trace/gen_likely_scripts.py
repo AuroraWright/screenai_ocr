@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Generate cpp/src/recognizer_langcode.inc from a trace/likely_script_dump.py dump of the original's
 aksara::script_util::MostLikelyScript (i18n_identifiers language-code validation and likely-script data).
 

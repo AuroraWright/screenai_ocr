@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 import re, sys, os
 from google.protobuf import descriptor_pb2
 data = open(sys.argv[1],'rb').read(); out = sys.argv[2]; os.makedirs(out, exist_ok=True)

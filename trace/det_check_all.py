@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Run cpp/build_det/run_detector on every image that has an original stage dump and compare the LINE/PARAGRAPH
 entities with <set>/<img>/001_rec_in.pb exactly.  usage: det_check_all.py OUTDIR [set ...]"""
 import glob, os, subprocess, sys

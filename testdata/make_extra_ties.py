@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Tie-heavy detector test images (testdata/extra_ties/): identical, pixel-aligned words and symmetric layouts, so
 equal link costs, equal projections and equal paragraph ids reach the detector's sorts and its R-tree queries.
 Pages are 1280 px wide so the detector's main pyramid level is the page itself (scale 1), and the pitches are

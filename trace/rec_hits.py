@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: count hits of functions (by regex on symbol names) in libchromescreenai.so.
 
 Env: RH_RX="ReduceActivationsGatesAndSoftMaxAarch64;ReduceActivationsGatesAndSoftMax\(" (';'-separated regexes).

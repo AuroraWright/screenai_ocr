@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Load tensors dumped by tfl_dump.py."""
 import json, os, glob
 import numpy as np

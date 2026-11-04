@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Visual -> logical reordering of recognized symbols: aksara::StandardTextReorderer::SymbolsToResult over
 // i18n_bidi::BiDiConverter (ICU ubidi, UBIDI_REORDER_INVERSE_LIKE_DIRECT for display -> logical, UBIDI_REORDER_DEFAULT
 // for logical -> display, UBIDI_KEEP_BASE_COMBINING, paragraph level 1 iff base_dir_rtl and the text has any RTL

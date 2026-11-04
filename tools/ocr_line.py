@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 import sys, numpy as np
 sys.path.insert(0, sys.argv[1])
 from pool import load_pool

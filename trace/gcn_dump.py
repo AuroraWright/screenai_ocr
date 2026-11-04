@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: like tfl_dump.py, but only dumps TFLite invokes of the layout cluster-sort GCN
 (gocr/layout/cluster_sort/model_v2.tflite: inputs serving_default_inputs_1/_2/inputs). Same file format.
 

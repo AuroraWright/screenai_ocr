@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: dump every language-id invocation of libchromescreenai.so (MobileLangID V2 / tflite_langid.tflite).
 
 For each Subgraph::Invoke whose first input is a string tensor (the langid model's `Placeholder`), writes

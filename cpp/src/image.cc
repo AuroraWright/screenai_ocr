@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 #include "image.h"
 
 #define STB_IMAGE_IMPLEMENTATION

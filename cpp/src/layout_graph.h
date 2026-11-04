@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Line graph construction for the layout GCN (google_ocr::box_beta_skeleton): neighbor edges between boxes from the
 // beta-skeleton (beta = 1, Gabriel graph) of points sampled on the box outlines, plus edges between overlapping and
 // contained boxes. Mirrors the original's float/int arithmetic and edge order.

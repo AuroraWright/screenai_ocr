@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // The full OCR pipeline as the original runs it: (pass-through coarse classifier) -> gray conversion -> text
 // detection -> multi-pass line recognition -> page layout analysis -> VisualAnnotation.
 #pragma once

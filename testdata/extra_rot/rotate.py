@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Rotates a rendered page by the given angle (degrees, counter-clockwise) on a white background."""
 import sys
 from PIL import Image

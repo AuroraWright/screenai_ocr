@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // CTC beam-search decoder with character n-gram LM and class prior: google_ocr::CTCDecoder (+ CTCBeamOps) as
 // configured by GocrCTCDecoderRecognizer for the scripts that ship <script>_lm.fst/.syms, <script>_fst*_config.pb
 // and a prior (arab, cyrl, deva, hani, jpan, knda, kore, mlym, taml, telu, thai). Scripts without an LM use greedy

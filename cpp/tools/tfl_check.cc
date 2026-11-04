@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Runs a .tflite model on tensors dumped by trace/tfl_dump.py and compares outputs bit-for-bit.
 // usage: tfl_check model.tflite dump_dir call_prefix [threads] [xnnpack 0/1]
 #include <cstdio>

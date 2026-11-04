@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: wall-clock timestamps at the original's stage boundaries (mutator entries + VisualAnnotation conversion).
 Breakpoints auto-continue; prints deltas per PerformOCR call. Overhead is a few ms per stop."""
 import lldb, time

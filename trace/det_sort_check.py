@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: run the original's own std::sort instantiations (the detector's six sorts) on tie-heavy arrays.
 
 Each site's std::__introsort<...> from libchromescreenai.so is called on generated arrays whose sort keys repeat

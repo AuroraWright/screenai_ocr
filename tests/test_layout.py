@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Compare cpp run_layout (layout analysis) against the original library's layout stage.
 
 Usage: .venv/bin/python tests/test_layout.py <run_layout binary> <model_dir> [<stage dir>...]

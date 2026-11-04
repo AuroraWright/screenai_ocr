@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: for each recognizer-sized Subgraph::Invoke (ntensors==HS_NT), save its input and then the input tensor of
 every HardSwishEval<optimized> call made on that thread during the invoke.  Files: <inv>_in.bin, <inv>_hs<k>.bin (+ .json)."""
 import lldb, struct, os, json

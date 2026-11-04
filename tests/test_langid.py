@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Compare cpp run_langid against language-id outputs of the original library.
 
 Usage: .venv/bin/python tests/test_langid.py <run_langid binary> <model_dir> <dir>...

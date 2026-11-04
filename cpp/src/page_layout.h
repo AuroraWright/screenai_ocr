@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // In-memory page layout passed between the OCR stages (detection -> recognition -> layout analysis -> output).
 // Field meanings follow the original engine's goodoc.PageLayoutEntity; only fields the pipeline uses are kept.
 // WriteGoodocProto() serializes into goodoc.PageLayoutProto wire format so stages can be diffed against the

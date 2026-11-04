@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Line recognition (google_ocr MultiPassLineRecognitionMutator over GocrCTCDecoderRecognizer): for every LINE of the
 // detector layout, crops/deskews the line, runs the "und" (multi-script) recognizer, and re-recognizes lines whose
 // predicted script has a dedicated model (Jpan, Arab, Thai, ...) with that model (+ its character LM when it has

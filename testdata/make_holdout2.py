@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 import os, random
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'holdout2')

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // select_check <model_dir> <dir> [<likely_dump_dir>]: replays <dir>/grid.txt (trace/select_grid.py) through
 // LineRecognizer::SelectKey and compares with the keys the original's LanguageBasedLineRecognizerConfigSelector::Select
 // returned (<dir>/orig.txt, trace/select_check.py). With a trace/likely_script_dump.py dump, also compares

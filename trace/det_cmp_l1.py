@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Compare Level1 groups: det_cmp_l1.py REF/level1_0.bin OUR/level1_0.bin"""
 import sys, os, struct, numpy as np
 sys.path.insert(0, os.path.dirname(__file__))

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // run_ocr <model_dir> <image> <out_visual_annotation.pb> [out_layout.pb]: the whole pipeline on one image file.
 #include <cstdio>
 #include <fstream>

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Runs owocr's ChromeScreenAI wrapper against two libchromescreenai builds and compares the parsed results.
 
 usage: compare_owocr.py <original model_dir> <our libchromescreenai.so> <images...>

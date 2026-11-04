@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 #include "page_layout.h"
 
 #include "proto_wire.h"

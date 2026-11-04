@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: dump aksara::script_util::MostLikelyScript (0x100b2d148) of the original for every 2/3-letter
 language code, every language x region pair, and language x script tags; script codes are named with
 i18n_identifiers::ScriptCodeConverter (as LanguageBasedLineRecognizerConfigSelector::Select does).

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Overlap areas of rotated boxes as google_ocr::box_util / google_ocr::Rectangle<float> compute them (layout
 // analysis: OverlapComputer, SafeOverlapBoxes, SafeBoxOverlapArea). Same float operations in the same order as the
 // original (no fused multiply-adds there); checked bit-exact against the library by trace/overlap_check.py +

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // PageLayout -> chrome_screen_ai.VisualAnnotation, as ConvertOCRResultsToVisualAnnotationProto in
 // chrome/accessibility/machine_intelligence/chrome_screen_ai/ocr.cc does it (the PerformOCR output format).
 #pragma once

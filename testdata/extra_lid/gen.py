@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Language-ID test set: multilingual sentences plus tokenizer/post-processing edge cases.
 
 Writes texts.hex (one hex-encoded UTF-8 string per line) and carrier.png (an image with enough text lines that the

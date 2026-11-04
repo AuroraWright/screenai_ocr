@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // run_detector <model_dir> <image.png> <out.pb>: text line detection only, written as goodoc.PageLayoutProto
 // (comparable with the original's recognizer-input stage dump, testdata/stages/<img>/001_rec_in.pb).
 #include <cstdio>

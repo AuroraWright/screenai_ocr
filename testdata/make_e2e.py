@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Held-out end-to-end corpus (testdata/e2e/): not used while developing the stages, only for the final
 owocr-level comparison. Deterministic (fixed seeds)."""
 import os, random

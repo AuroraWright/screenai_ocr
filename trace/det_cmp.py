@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Compare detector intermediate dumps: det_cmp.py REFDIR OURDIR [names...] (bit-exact, prints first diffs)."""
 import sys, os, numpy as np
 sys.path.insert(0, os.path.dirname(__file__))

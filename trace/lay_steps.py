@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: serialize the goodoc.PageLayoutProto before every aksara layout-analyzer step of libchromescreenai.so.
 
 Hooks layout_analyzer::Step<Spec>::Analyze(goodoc::PageLayout*, ImageCache*) (x1 = goodoc::PageLayout, its

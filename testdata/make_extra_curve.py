@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Curved-text test images (testdata/extra_curve/): characters placed along arcs/waves so the detector takes its
 curved-line path (CreateCurveRepresentation)."""
 import os, math

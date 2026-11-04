@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Image containers and the pixel conversions used by the original pipeline.
 #pragma once
 

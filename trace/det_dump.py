@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: dump detector intermediates of libchromescreenai.so.
 
 Usage: DD_OUT=dir lldb -b -o 'command script import trace/det_dump.py' -o run -- .venv/bin/python ref/run_ref.py img.png

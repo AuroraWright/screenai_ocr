@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Thin wrapper over a TFLite interpreter running with the XNNPACK delegate (the configuration whose outputs
 // match the original library bit-for-bit). Not thread-safe: use one TfliteModel per thread.
 #pragma once

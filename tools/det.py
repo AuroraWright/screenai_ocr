@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 import sys, time, numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from ai_edge_litert.interpreter import Interpreter

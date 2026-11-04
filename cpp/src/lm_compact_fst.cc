@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 #include "lm_compact_fst.h"
 
 #include <algorithm>

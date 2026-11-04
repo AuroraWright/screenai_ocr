@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Line language identification: MobileLangID V2 (google_ocr::MobileLangIdV2 over the expander "pod" classifier
 // gocr/gocr_models/line_recognition_mobile_convnext320_omni/tflite_langid.tflite).
 //

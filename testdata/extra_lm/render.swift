@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Renders text lines with CoreText (proper complex-script shaping) to a PNG.
 // usage: swift render.swift out.png width height  then lines on stdin: "fontName<TAB>size<TAB>text"
 import AppKit

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 #include "tflite_model.h"
 
 #include "tensorflow/lite/delegates/xnnpack/xnnpack_delegate.h"

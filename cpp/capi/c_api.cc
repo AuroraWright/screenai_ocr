@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Drop-in replacement for the OCR entry points of Chrome's libchromescreenai (chrome_screen_ai/ocr.cc and its C
 // exports), so existing callers (e.g. owocr) work unchanged. Main-content extraction is not implemented.
 #include <cstdint>

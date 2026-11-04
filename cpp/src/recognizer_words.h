@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Recognized line -> WORD/SYMBOL geometry (line-relative coordinates until ToPage()):
 //   aksara::api_internal::GenerateLineWordEntities (WordBuilder, SPACE word splitter),
 //   layout_analyzer::RecomputeSpaceWordBreakBoxes, google_ocr::EstimateWordColorsSymbolAware,

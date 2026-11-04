@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Field-level diff of two goodoc.PageLayoutProto dumps, pairing entities by index (no type grouping).
 
 usage: lay_diff.py A.pb B.pb [--max N]

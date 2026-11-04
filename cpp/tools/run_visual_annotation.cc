@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // run_visual_annotation <layout.pb> <out.pb>: goodoc.PageLayoutProto -> chrome_screen_ai.VisualAnnotation.
 #include <cstdio>
 #include <fstream>

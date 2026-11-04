@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Text line detection (google_ocr GocrGroupRpnTextDetectionMutator with GroupRpnDetectorV2): gray page image ->
 // LINE entities with rotated boxes and PhotoOcrTextDetectionInfo, in the order the original emits them.
 #pragma once

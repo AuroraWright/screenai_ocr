@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Exercises the C API of a libchromescreenai.so directly (timing + edge cases). usage: api_check.py <lib> <model_dir> <images...>
 API_CHECK_REPS=<n>: report the median of n timed runs per image (default 1)."""
 import ctypes, sys, time, os, hashlib

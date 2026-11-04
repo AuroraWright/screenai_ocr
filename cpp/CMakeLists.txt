@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 cmake_minimum_required(VERSION 3.20)
 project(screenai_ocr CXX C)
 set(CMAKE_CXX_STANDARD 20)

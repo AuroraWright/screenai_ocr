@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """Print message schemas from the extracted descriptor pool: schema.py Msg [Msg...] (recurses into goodoc/aksara types)."""
 import sys; sys.path.insert(0, 'tools')
 from pool import load_pool

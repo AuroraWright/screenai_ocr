@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: dump google_ocr::CTCDecoder::DecodeNth inputs/outputs (LM beam-search decoder).
 
 Usage: LM_OUT=dir lldb -b -o 'command script import trace/lm_dump.py' -o run -- .venv/bin/python ref/run_ref.py img.png

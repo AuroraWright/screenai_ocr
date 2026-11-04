@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MPL-2.0
 """lldb script: run the original's LanguageBasedLineRecognizerConfigSelector::Select (0x100148160) on a grid of
 synthetic LINE entities (trace/select_grid.py) and record the recognizer key it returns.
 

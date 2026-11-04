@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Minimal stand-in for <boost/cstdint.hpp> so the vendored Boost.Polygon voronoi headers build without Boost.
 #pragma once
 #include <cstdint>

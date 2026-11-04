@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: MPL-2.0
 # Recognizer paths no other test image reaches:
 #   select_mls    second-pass key via MostLikelyScript: all-caps Cyrillic/Greek homoglyph words read as Latin by the
 #                 und script head, langid says sr/ru -> Cyrl (LanguageBasedLineRecognizerConfigSelector::Select)

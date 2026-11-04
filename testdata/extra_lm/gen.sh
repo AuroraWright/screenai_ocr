@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: MPL-2.0
 # Generates the LM-decoder test images (scripts with <script>_lm.fst) with CoreText shaping.
 cd "$(dirname "$0")"
 r() { swift render.swift "$1.png" 1100 "$2"; }

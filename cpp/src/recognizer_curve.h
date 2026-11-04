@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Curved text lines (LINE polygons that are a goodoc.CurvedBoundingBox):
 //   ocr::photo::ImageUtil::ImageCropCurvedPatch (box_util::CurvedBoxCentersAndAngles + ApplyThinPlateSplineWarp:
 //   Eigen thin-plate-spline solve, then the ThinPlateSplineInterpolation / BilinearInterpolationFloat /

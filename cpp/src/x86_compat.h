@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // The original's x86-64 build (the Windows DLL) takes x86-specific integer paths in a few image kernels where its
 // arm64 build matches the portable reference: libyuv's ScaleFilterCols_SSSE3 (libyuv_scale.cc) and the Q15
 // interior of the line warp (recognizer.cc). SCREENAI_X86_COMPAT selects those paths: on for x86-64 targets, off

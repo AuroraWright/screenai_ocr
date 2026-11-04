@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // google_ocr::FstCharLanguageModel<speech::CompactLmFst>: character n-gram LM used by the CTC beam decoder.
 //
 // Each recognizer class (label map entry) maps to a sequence of LM symbols (OcrLanguageModel::InitSub):

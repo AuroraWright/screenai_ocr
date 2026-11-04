@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 // Reader for the recognizer's character n-gram language models (<script>_lm.fst): OpenFst files of type
 // "compact_lm" (speech::CompactLmFst), an fst::NGramFst (LOUDS-encoded backoff n-gram model) over 16-bit "short"
 // labels with 8-bit quantized weights, plus a label bitmap and a quantized unigram table.
