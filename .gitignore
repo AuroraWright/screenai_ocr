@@ -1,6 +1,7 @@
 # Allow-list: only the reimplementation, its tests and tooling are tracked.
 /*
 !/.gitignore
+!/README.md
 !/cpp/
 !/tools/
 !/trace/
@@ -14,7 +15,7 @@
 /cpp/build*/
 
 # third_party: only the vendored Eigen subset, stb and the generated VisualAnnotation bindings; TensorFlow Lite,
-# XNNPACK and their builds are fetched/built locally (see cpp/README.md)
+# XNNPACK and their builds are fetched/built locally (see README.md)
 /third_party/*
 !/third_party/eigen/
 !/third_party/stb/
