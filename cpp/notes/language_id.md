@@ -5,7 +5,7 @@ Reimplements google_ocr::MobileLangIdV2 over
 
 ## Validation status
 
-`tests/test_langid.py cpp/build_lay/run_langid <model_dir> <dirs>` against lldb dumps of the original
+`tests/test_langid.py cpp/build/run_langid <model_dir> <dirs>` against lldb dumps of the original
 (`trace/lid_dump.py`: every model invoke's softmax/logit tensors + every IdentifyLanguage result):
 
 - 12 stage images (all recognized line texts) + `testdata/extra_lid` (54 multilingual sentences, 25 edge cases,

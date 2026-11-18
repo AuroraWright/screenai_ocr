@@ -3,7 +3,7 @@
 usage: det_inject_check.py OUTDIR [--ref] [case ...]
   --ref: run the original under lldb with DD_INJECT (trace/det_dump.py) and store testdata/det_inject/<case>/
          (001_rec_in.pb, inject.txt = the tensors edited);
-  else:  run cpp/build_det/run_detector with SCREENAI_DET_INJECT + SCREENAI_DET_DUMP, compare the LINE/PARAGRAPH
+  else:  run cpp/build/run_detector with SCREENAI_DET_INJECT + SCREENAI_DET_DUMP, compare the LINE/PARAGRAPH
          entities with the reference exactly and print the ties.txt counters of the five sort sites."""
 import os, shutil, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
@@ -36,7 +36,7 @@ for c in cases:
     o = os.path.join(d, 'out.pb')
     if os.path.exists(o): os.remove(o)
     env = dict(os.environ, SCREENAI_DET_INJECT=edits, SCREENAI_DET_DUMP=d)
-    subprocess.run([os.path.join(ROOT, 'cpp/build_det/run_detector'), RES, img, o], env=env, capture_output=True)
+    subprocess.run([os.path.join(ROOT, 'cpp/build/run_detector'), RES, img, o], env=env, capture_output=True)
     r = g['decode'](os.path.join(DIR, c, '001_rec_in.pb'))
     ok = os.path.exists(o) and r.get('entities') == g['decode'](o).get('entities')
     ties = {}

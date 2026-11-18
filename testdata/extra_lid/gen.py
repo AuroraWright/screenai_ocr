@@ -9,7 +9,7 @@ the original with trace/lid_dump.py, which substitutes these strings into succes
       -o run -- .venv/bin/python ref/run_ref.py testdata/extra_lid/carrier.png
   .venv/bin/python testdata/extra_lid/gen.py --pack <dump>     # keeps texts + softmax/logit bits in ref.jsonl
 
-Check: .venv/bin/python tests/test_langid.py cpp/build_lay/run_langid <model_dir> testdata/extra_lid
+Check: .venv/bin/python tests/test_langid.py cpp/build/run_langid <model_dir> testdata/extra_lid
 """
 import json, os, struct, sys
 

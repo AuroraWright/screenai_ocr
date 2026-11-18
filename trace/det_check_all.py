@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: MPL-2.0
-"""Run cpp/build_det/run_detector on every image that has an original stage dump and compare the LINE/PARAGRAPH
+"""Run cpp/build/run_detector on every image that has an original stage dump and compare the LINE/PARAGRAPH
 entities with <set>/<img>/001_rec_in.pb exactly.  usage: det_check_all.py OUTDIR [set ...]"""
 import glob, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
@@ -18,7 +18,7 @@ for st in sets:
         if not os.path.isdir(os.path.join(ROOT, 'testdata', st, img)): continue
         png = os.path.join(ROOT, IMGDIR[st], img + '.png')
         o = os.path.join(out, '%s_%s.pb' % (st, img))
-        subprocess.run([os.path.join(ROOT, 'cpp/build_det/run_detector'), os.path.expanduser('~/.config/screen_ai/resources'), png, o], capture_output=True)
+        subprocess.run([os.path.join(ROOT, 'cpp/build/run_detector'), os.path.expanduser('~/.config/screen_ai/resources'), png, o], capture_output=True)
         r = g['decode'](os.path.join(ROOT, 'testdata', st, img, '001_rec_in.pb'))
         ok = os.path.exists(o) and r.get('entities') == g['decode'](o).get('entities')
         tot += 1
